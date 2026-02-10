@@ -49,9 +49,24 @@ jobs:
             echo "First run - will build"
           fi
 
+      - name: Write version tracker
+        if: steps.check_release.outputs.new_release == 'true'
+        run: |
+          echo "${{ steps.check_release.outputs.latest_version }}" > .last-openclaw-version
+
       - name: Update version tracker
         if: steps.check_release.outputs.new_release == 'true'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update OpenClaw version to ${{ steps.check_release.outputs.latest_version }}"
           file_pattern: ".last-openclaw-version"
+
+      - name: Trigger Docker Build and Publish workflow
+        if: steps.check_release.outputs.new_release == 'true'
+        run: |
+          curl -fsSL -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/docker-publish.yml/dispatches" \
+            -d '{"ref":"main"}'
