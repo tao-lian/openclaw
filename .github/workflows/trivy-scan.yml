@@ -26,7 +26,7 @@ jobs:
           template: "@docs/markdown.tpl"
           output: "docs/2_trivy-report.md"
           severity: "MEDIUM,HIGH,CRITICAL"
-          scanners: "vuln"
+          scanners: "vuln,secret,misconfig,license"
           ignore-unfixed: true
 
       - name: Update Trivy Report
