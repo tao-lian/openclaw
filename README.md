@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-02-10 20:45:49.019650511 +0000 UTC m=+20.449397318
+**Date:** 2026-02-10 21:42:13.184042416 +0000 UTC m=+36.253027275
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 12.13)`
@@ -123,6 +123,213 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260208.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
+
+
+*No vulnerabilities found.*
+
+
+
+*No misconfigurations found.*
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/Dockerfile`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+*No misconfigurations found.*
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/Dockerfile.sandbox`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+*No misconfigurations found.*
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/Dockerfile.sandbox-browser`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+*No misconfigurations found.*
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/scripts/docker/cleanup-smoke/Dockerfile`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+### Misconfigurations
+| ID | Severity | Type | Title | Message |
+| --- | --- | --- | --- | --- |
+| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/scripts/docker/install-sh-e2e/Dockerfile`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+### Misconfigurations
+| ID | Severity | Type | Title | Message |
+| --- | --- | --- | --- | --- |
+| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/scripts/docker/install-sh-nonroot/Dockerfile`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+### Misconfigurations
+| ID | Severity | Type | Title | Message |
+| --- | --- | --- | --- | --- |
+| DS010 | 🔴 **CRITICAL** | Dockerfile Security Check | RUN using 'sudo' | Using 'sudo' in Dockerfile should be avoided |
+| DS017 | 🟠 **HIGH** | Dockerfile Security Check | 'RUN <package-manager> update' instruction alone | The instruction 'RUN <package-manager> update' should always be followed by '<package-manager> install' in the same RUN statement. |
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/scripts/docker/install-sh-smoke/Dockerfile`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+### Misconfigurations
+| ID | Severity | Type | Title | Message |
+| --- | --- | --- | --- | --- |
+| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+| DS017 | 🟠 **HIGH** | Dockerfile Security Check | 'RUN <package-manager> update' instruction alone | The instruction 'RUN <package-manager> update' should always be followed by '<package-manager> install' in the same RUN statement. |
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/scripts/e2e/Dockerfile`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+### Misconfigurations
+| ID | Severity | Type | Title | Message |
+| --- | --- | --- | --- | --- |
+| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/scripts/e2e/Dockerfile.qr-import`
+**Type:** dockerfile
+
+
+*No vulnerabilities found.*
+
+
+
+### Misconfigurations
+| ID | Severity | Type | Title | Message |
+| --- | --- | --- | --- | --- |
+| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `OS Packages`
+**Type:** 
+
+
+*No vulnerabilities found.*
+
+
+
+*No misconfigurations found.*
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `Node.js`
+**Type:** 
 
 
 *No vulnerabilities found.*
