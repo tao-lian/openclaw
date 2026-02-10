@@ -1,4 +1,4 @@
-name: Combine markdown files
+name: Combine Markdown Files
 
 on:
   workflow_dispatch:
