@@ -3,7 +3,7 @@
 A ready-to-deploy docker image for [OpenClaw](https://github.com/openclaw/openclaw). Inspired by [OpenClaw-Docker](https://github.com/phioranex/openclaw-docker)
 
 # Trivy Scan Report
-**Date:** 2026-02-10 20:12:54.788790965 +0000 UTC m=+20.837573086
+**Date:** 2026-02-10 20:45:49.019650511 +0000 UTC m=+20.449397318
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 12.13)`
