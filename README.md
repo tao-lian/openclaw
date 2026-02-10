@@ -25,8 +25,8 @@ docker pull ghcr.io/tao-lian/openclaw:latest
 # Run onboarding (initial setup)
 docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/openclaw:latest onboard
 
-# Start gateway in foreground
-docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/openclaw:latest gateway start --foreground
+# Start gateway
+docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/openclaw:latest gateway
 ```
 
 # Links
