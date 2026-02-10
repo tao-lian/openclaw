@@ -36,11 +36,25 @@ jobs:
           path: "./build"
           ref: ${{ steps.vars.outputs.OPENCLAW_VERSION }}
 
-      - name: Build Docker image
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build amd64 image for vulnerability scan
         run: |
-          docker build . \
-          -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }} \
-          -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          docker buildx build . \
+            --platform linux/amd64 \
+            --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }} \
+            --load
 
       - name: Fail build on critical vulnerabilities
         uses: aquasecurity/trivy-action@master
@@ -52,17 +66,13 @@ jobs:
           ignore-unfixed: true
           severity: "CRITICAL"
 
-      - name: Log in to GHCR
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push to Registry
+      - name: Build and push multi-arch image (amd64 + arm64)
         run: |
-          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }}
-          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          docker buildx build . \
+            --platform linux/amd64,linux/arm64 \
+            --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }} \
+            --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest \
+            --push
 
       # CLEANUP (Deletes the "ghost" version that was just overwritten)
       - name: Delete untagged images
