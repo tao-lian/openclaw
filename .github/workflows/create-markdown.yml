@@ -1,0 +1,32 @@
+name: Combine markdown files
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "docs/*.md"
+  workflow_run:
+    workflows: ["Trivy Vulnerability Scan"]
+    types: [completed]
+
+jobs:
+  pipeline:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Combine markdown files
+        run: |
+          awk 'FNR==1 && NR!=1{print ""}1' docs/*.md > README.md
+
+      - name: Update version tracker
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Update README.md"
+          file_pattern: "README.md"

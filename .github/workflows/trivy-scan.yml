@@ -1,0 +1,36 @@
+name: Trivy Vulnerability Scan
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "docs/markdown.tpl"
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: "ghcr.io/tao-lian/openclaw:latest"
+          format: template
+          template: "@docs/markdown.tpl"
+          output: "docs/2_trivy-report.md"
+          severity: "MEDIUM,HIGH,CRITICAL"
+          scanners: "vuln"
+          ignore-unfixed: true
+
+      - name: Update Trivy Report
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Update Trivy Report"
+          file_pattern: "docs/2_trivy-report.md"

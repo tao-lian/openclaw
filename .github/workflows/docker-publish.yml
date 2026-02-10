@@ -1,0 +1,75 @@
+name: Docker Build and Publish
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "Dockerfile"
+      - ".last-openclaw-version"
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout my repository
+        uses: actions/checkout@v6
+
+      - name: Read OpenClaw release version
+        id: vars
+        run: |
+          VERSION=$(cat .last-openclaw-version | tr -d '[:space:]')
+          echo "OPENCLAW_VERSION=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Checkout openclaw repository
+        uses: actions/checkout@v6
+        with:
+          repository: "openclaw/openclaw"
+          path: "./build"
+          ref: ${{ steps.vars.outputs.OPENCLAW_VERSION }}
+
+      - name: Build Docker image
+        run: |
+          docker build . \
+          -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }} \
+          -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+      - name: Fail build on critical vulnerabilities
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }}"
+          format: "table"
+          output: ${GITHUB_STEP_SUMMARY}
+          exit-code: "1"
+          ignore-unfixed: true
+          severity: "CRITICAL"
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push to Registry
+        run: |
+          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }}
+          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+      # CLEANUP (Deletes the "ghost" version that was just overwritten)
+      - name: Delete untagged images
+        uses: actions/delete-package-versions@v5
+        if: always()
+        with:
+          package-name: ${{ github.event.repository.name }}
+          package-type: "container"
+          min-versions-to-keep: 0
+          delete-only-untagged-versions: "true"

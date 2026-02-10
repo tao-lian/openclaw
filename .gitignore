@@ -1,0 +1,47 @@
+### Build outputs
+build/
+dist/
+out/
+data/
+
+### Dependencies
+node_modules/
+
+### Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Runtime / temp
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.pid
+.cache/
+
+### Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+### Docker / Compose (local overrides)
+docker-compose.override.yml
+compose.override.yml
+
+### IDEs / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+### Test coverage
+coverage/
+.nyc_output/

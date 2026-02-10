@@ -1,0 +1,14 @@
+services:
+  openclaw:
+    image: openclaw-docker:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/home/node
+    ports:
+      - "18789:18789"
+      - "18790:18790"
+    environment:
+      NODE_ENV: production
+    command: ["gateway"]

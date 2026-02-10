@@ -1,0 +1,57 @@
+name: OpenClaw Release Tracker
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+      actions: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for new OpenClaw release
+        id: check_release
+        run: |
+          # Get the latest release from OpenClaw repository
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/openclaw/openclaw/releases/latest | jq -r '.tag_name // empty')
+
+          # Get the latest commit from main branch if no releases
+          if [ -z "$LATEST_RELEASE" ]; then
+            LATEST_COMMIT=$(curl -s https://api.github.com/repos/openclaw/openclaw/commits/main | jq -r '.sha[:7]')
+            LATEST_RELEASE="main-${LATEST_COMMIT}"
+          fi
+
+          echo "Latest OpenClaw version: ${LATEST_RELEASE}"
+          echo "latest_version=${LATEST_RELEASE}" >> $GITHUB_OUTPUT
+
+          # Check if we've already built this version
+          if [ -f ".last-openclaw-version" ]; then
+            LAST_VERSION=$(cat .last-openclaw-version)
+            echo "Last built version: ${LAST_VERSION}"
+            
+            if [ "$LATEST_RELEASE" = "$LAST_VERSION" ]; then
+              echo "new_release=false" >> $GITHUB_OUTPUT
+              echo "No new release found"
+            else
+              echo "new_release=true" >> $GITHUB_OUTPUT
+              echo "New release detected!"
+            fi
+          else
+            echo "new_release=true" >> $GITHUB_OUTPUT
+            echo "First run - will build"
+          fi
+
+      - name: Update version tracker
+        if: steps.check_release.outputs.new_release == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Update OpenClaw version to ${{ steps.check_release.outputs.latest_version }}"
+          file_pattern: ".last-openclaw-version"
