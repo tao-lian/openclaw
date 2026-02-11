@@ -76,11 +76,11 @@ jobs:
             --push
 
       # CLEANUP (Deletes the "ghost" version that was just overwritten)
-      - name: Delete untagged images
-        uses: actions/delete-package-versions@v5
-        if: always()
-        with:
-          package-name: ${{ github.event.repository.name }}
-          package-type: "container"
-          min-versions-to-keep: 0
-          delete-only-untagged-versions: "true"
+      #- name: Delete untagged images
+      #  uses: actions/delete-package-versions@v5
+      #  if: always()
+      #  with:
+      #    package-name: ${{ github.event.repository.name }}
+      #    package-type: "container"
+      #    min-versions-to-keep: 1
+      #    delete-only-untagged-versions: "true"
