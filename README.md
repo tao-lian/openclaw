@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-02-11 15:36:39.285467264 +0000 UTC m=+38.599651239
+**Date:** 2026-02-12 07:51:52.251531473 +0000 UTC m=+58.433245344
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -92,12 +92,12 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2025-68121](https://avd.aquasec.com/nvd/cve-2025-68121) | 🔴 **CRITICAL** | `stdlib` | 1.24.13, 1.25.7, 1.26.0-rc.3 | During session resumption in crypto/tls, if the underlying Config has  ... |
 | [CVE-2025-58183](https://avd.aquasec.com/nvd/cve-2025-58183) | 🟠 **HIGH** | `stdlib` | 1.24.8, 1.25.2 | golang: archive/tar: Unbounded allocation when parsing GNU sparse map |
 | [CVE-2025-61726](https://avd.aquasec.com/nvd/cve-2025-61726) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | golang: net/url: Memory exhaustion in query parameter parsing in net/url |
 | [CVE-2025-61728](https://avd.aquasec.com/nvd/cve-2025-61728) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | golang: archive/zip: Excessive CPU consumption when building archive index in archive/zip |
 | [CVE-2025-61729](https://avd.aquasec.com/nvd/cve-2025-61729) | 🟠 **HIGH** | `stdlib` | 1.24.11, 1.25.5 | crypto/x509: golang: Denial of Service due to excessive resource consumption via crafted certificate |
 | [CVE-2025-61730](https://avd.aquasec.com/nvd/cve-2025-61730) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | During the TLS 1.3 handshake if multiple messages are sent in records  ... |
-| [CVE-2025-68121](https://avd.aquasec.com/nvd/cve-2025-68121) | 🟠 **HIGH** | `stdlib` | 1.24.13, 1.25.7, 1.26.0-rc.3 | During session resumption in crypto/tls, if the underlying Config has  ... |
 | [CVE-2025-47910](https://avd.aquasec.com/nvd/cve-2025-47910) | 🟡 **MEDIUM** | `stdlib` | 1.25.1 | net/http: CrossOriginProtection bypass in net/http |
 | [CVE-2025-47912](https://avd.aquasec.com/nvd/cve-2025-47912) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | net/url: Insufficient validation of bracketed IPv6 hostnames in net/url |
 | [CVE-2025-58185](https://avd.aquasec.com/nvd/cve-2025-58185) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1 |
