@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-02-13 07:50:03.253214772 +0000 UTC m=+43.343936412
+**Date:** 2026-02-13 22:12:33.601919795 +0000 UTC m=+37.441992551
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -27,15 +27,7 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-25547](https://avd.aquasec.com/nvd/cve-2026-25547) | 🟠 **HIGH** | `@isaacs/brace-expansion` | 5.0.1 | brace-expansion: brace-expansion: Denial of Service via unbounded brace range expansion |
-| [CVE-2026-24763](https://avd.aquasec.com/nvd/cve-2026-24763) | 🟠 **HIGH** | `clawdbot` | 2026.1.29 | OpenClaw/Clawdbot Docker Execution has Authenticated Command Injection via PATH Environment Variable |
-| [CVE-2026-25157](https://avd.aquasec.com/nvd/cve-2026-25157) | 🟠 **HIGH** | `clawdbot` | 2026.1.29 | OpenClaw/Clawdbot has OS Command Injection via Project Root Path in sshNodeCommand |
-| [CVE-2026-25253](https://avd.aquasec.com/nvd/cve-2026-25253) | 🟠 **HIGH** | `clawdbot` | 2026.1.29 | OpenClaw/Clawdbot has 1-Click RCE via Authentication Token Exfiltration From gatewayUrl |
-| [CVE-2025-64756](https://avd.aquasec.com/nvd/cve-2025-64756) | 🟠 **HIGH** | `glob` | 11.1.0, 10.5.0 | glob: glob: Command Injection Vulnerability via Malicious Filenames |
-| [CVE-2025-64756](https://avd.aquasec.com/nvd/cve-2025-64756) | 🟠 **HIGH** | `glob` | 11.1.0, 10.5.0 | glob: glob: Command Injection Vulnerability via Malicious Filenames |
-| [CVE-2026-23745](https://avd.aquasec.com/nvd/cve-2026-23745) | 🟠 **HIGH** | `tar` | 7.5.3 | node-tar: tar: node-tar: Arbitrary file overwrite and symlink poisoning via unsanitized linkpaths in archives |
-| [CVE-2026-23950](https://avd.aquasec.com/nvd/cve-2026-23950) | 🟠 **HIGH** | `tar` | 7.5.4 | node-tar: tar: node-tar: Arbitrary file overwrite via Unicode path collision race condition |
 | [CVE-2026-24842](https://avd.aquasec.com/nvd/cve-2026-24842) | 🟠 **HIGH** | `tar` | 7.5.7 | node-tar: tar: node-tar: Arbitrary file creation via path traversal bypass in hardlink security check |
-| [CVE-2025-64118](https://avd.aquasec.com/nvd/cve-2025-64118) | 🟡 **MEDIUM** | `tar` | 7.5.2 | node-tar: tar: node-tar: Information disclosure via reading a truncated tar file |
 
 
 
@@ -48,7 +40,7 @@
 
 ---
 
-## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.11.5/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
+## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.12.1/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
 **Type:** gobinary
 
 
@@ -84,213 +76,8 @@
 
 ---
 
-## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260208.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260212.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
-
-
-*No vulnerabilities found.*
-
-
-
-*No misconfigurations found.*
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/Dockerfile`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-*No misconfigurations found.*
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/Dockerfile.sandbox`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-*No misconfigurations found.*
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/Dockerfile.sandbox-browser`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-*No misconfigurations found.*
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/scripts/docker/cleanup-smoke/Dockerfile`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-### Misconfigurations
-| ID | Severity | Type | Title | Message |
-| --- | --- | --- | --- | --- |
-| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/scripts/docker/install-sh-e2e/Dockerfile`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-### Misconfigurations
-| ID | Severity | Type | Title | Message |
-| --- | --- | --- | --- | --- |
-| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/scripts/docker/install-sh-nonroot/Dockerfile`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-### Misconfigurations
-| ID | Severity | Type | Title | Message |
-| --- | --- | --- | --- | --- |
-| DS-0010 | 🔴 **CRITICAL** | Dockerfile Security Check | RUN using 'sudo' | Using 'sudo' in Dockerfile should be avoided |
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/scripts/docker/install-sh-smoke/Dockerfile`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-### Misconfigurations
-| ID | Severity | Type | Title | Message |
-| --- | --- | --- | --- | --- |
-| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/scripts/e2e/Dockerfile`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-### Misconfigurations
-| ID | Severity | Type | Title | Message |
-| --- | --- | --- | --- | --- |
-| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `app/scripts/e2e/Dockerfile.qr-import`
-**Type:** dockerfile
-
-
-*No vulnerabilities found.*
-
-
-
-### Misconfigurations
-| ID | Severity | Type | Title | Message |
-| --- | --- | --- | --- | --- |
-| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `OS Packages`
-**Type:** 
-
-
-*No vulnerabilities found.*
-
-
-
-*No misconfigurations found.*
-
-
-
-*No secrets found.*
-
-
----
-
-## Target: `Node.js`
-**Type:** 
 
 
 *No vulnerabilities found.*
