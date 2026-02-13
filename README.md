@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-02-12 07:51:52.251531473 +0000 UTC m=+58.433245344
+**Date:** 2026-02-13 07:50:03.253214772 +0000 UTC m=+43.343936412
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -92,7 +92,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2025-68121](https://avd.aquasec.com/nvd/cve-2025-68121) | 🔴 **CRITICAL** | `stdlib` | 1.24.13, 1.25.7, 1.26.0-rc.3 | During session resumption in crypto/tls, if the underlying Config has  ... |
+| [CVE-2025-68121](https://avd.aquasec.com/nvd/cve-2025-68121) | 🔴 **CRITICAL** | `stdlib` | 1.24.13, 1.25.7, 1.26.0-rc.3 | crypto/tls: Unexpected session resumption in crypto/tls |
 | [CVE-2025-58183](https://avd.aquasec.com/nvd/cve-2025-58183) | 🟠 **HIGH** | `stdlib` | 1.24.8, 1.25.2 | golang: archive/tar: Unbounded allocation when parsing GNU sparse map |
 | [CVE-2025-61726](https://avd.aquasec.com/nvd/cve-2025-61726) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | golang: net/url: Memory exhaustion in query parameter parsing in net/url |
 | [CVE-2025-61728](https://avd.aquasec.com/nvd/cve-2025-61728) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | golang: archive/zip: Excessive CPU consumption when building archive index in archive/zip |
@@ -200,7 +200,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Misconfigurations
 | ID | Severity | Type | Title | Message |
 | --- | --- | --- | --- | --- |
-| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
 
 
 
@@ -220,7 +220,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Misconfigurations
 | ID | Severity | Type | Title | Message |
 | --- | --- | --- | --- | --- |
-| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
 
 
 
@@ -240,8 +240,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Misconfigurations
 | ID | Severity | Type | Title | Message |
 | --- | --- | --- | --- | --- |
-| DS010 | 🔴 **CRITICAL** | Dockerfile Security Check | RUN using 'sudo' | Using 'sudo' in Dockerfile should be avoided |
-| DS017 | 🟠 **HIGH** | Dockerfile Security Check | 'RUN <package-manager> update' instruction alone | The instruction 'RUN <package-manager> update' should always be followed by '<package-manager> install' in the same RUN statement. |
+| DS-0010 | 🔴 **CRITICAL** | Dockerfile Security Check | RUN using 'sudo' | Using 'sudo' in Dockerfile should be avoided |
 
 
 
@@ -261,8 +260,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Misconfigurations
 | ID | Severity | Type | Title | Message |
 | --- | --- | --- | --- | --- |
-| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
-| DS017 | 🟠 **HIGH** | Dockerfile Security Check | 'RUN <package-manager> update' instruction alone | The instruction 'RUN <package-manager> update' should always be followed by '<package-manager> install' in the same RUN statement. |
+| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
 
 
 
@@ -282,7 +280,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Misconfigurations
 | ID | Severity | Type | Title | Message |
 | --- | --- | --- | --- | --- |
-| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
 
 
 
@@ -302,7 +300,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Misconfigurations
 | ID | Severity | Type | Title | Message |
 | --- | --- | --- | --- | --- |
-| DS002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
+| DS-0002 | 🟠 **HIGH** | Dockerfile Security Check | Image user should not be 'root' | Specify at least 1 USER command in Dockerfile with non-root user as argument |
 
 
 
