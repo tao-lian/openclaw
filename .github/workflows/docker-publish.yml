@@ -62,7 +62,6 @@ jobs:
         with:
           image-ref: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }}"
           format: "table"
-          output: ${GITHUB_STEP_SUMMARY}
           exit-code: "1"
           ignore-unfixed: true
           severity: "CRITICAL"
