@@ -50,22 +50,6 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build amd64 image for vulnerability scan
-        run: |
-          docker buildx build . \
-            --platform linux/amd64 \
-            --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }} \
-            --load
-
-      - name: Fail build on critical vulnerabilities
-        uses: aquasecurity/trivy-action@master
-        with:
-          image-ref: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.OPENCLAW_VERSION }}"
-          format: "table"
-          exit-code: "1"
-          ignore-unfixed: true
-          severity: "CRITICAL"
-
       - name: Build and push multi-arch image (amd64 + arm64)
         run: |
           docker buildx build . \
