@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-02-16 07:53:47.295351412 +0000 UTC m=+38.085363861
+**Date:** 2026-02-17 07:50:48.020974704 +0000 UTC m=+28.330122739
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -77,30 +77,11 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.12.2/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
+## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.13.0/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
 **Type:** gobinary
 
 
-### Vulnerabilities
-| ID | Severity | Package | Fixed Version | Title |
-| --- | --- | --- | --- | --- |
-| [CVE-2025-68121](https://avd.aquasec.com/nvd/cve-2025-68121) | 🔴 **CRITICAL** | `stdlib` | 1.24.13, 1.25.7, 1.26.0-rc.3 | crypto/tls: Unexpected session resumption in crypto/tls |
-| [CVE-2025-58183](https://avd.aquasec.com/nvd/cve-2025-58183) | 🟠 **HIGH** | `stdlib` | 1.24.8, 1.25.2 | golang: archive/tar: Unbounded allocation when parsing GNU sparse map |
-| [CVE-2025-61726](https://avd.aquasec.com/nvd/cve-2025-61726) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | golang: net/url: Memory exhaustion in query parameter parsing in net/url |
-| [CVE-2025-61728](https://avd.aquasec.com/nvd/cve-2025-61728) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | golang: archive/zip: Excessive CPU consumption when building archive index in archive/zip |
-| [CVE-2025-61729](https://avd.aquasec.com/nvd/cve-2025-61729) | 🟠 **HIGH** | `stdlib` | 1.24.11, 1.25.5 | crypto/x509: golang: Denial of Service due to excessive resource consumption via crafted certificate |
-| [CVE-2025-61730](https://avd.aquasec.com/nvd/cve-2025-61730) | 🟠 **HIGH** | `stdlib` | 1.24.12, 1.25.6 | During the TLS 1.3 handshake if multiple messages are sent in records  ... |
-| [CVE-2025-47910](https://avd.aquasec.com/nvd/cve-2025-47910) | 🟡 **MEDIUM** | `stdlib` | 1.25.1 | net/http: CrossOriginProtection bypass in net/http |
-| [CVE-2025-47912](https://avd.aquasec.com/nvd/cve-2025-47912) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | net/url: Insufficient validation of bracketed IPv6 hostnames in net/url |
-| [CVE-2025-58185](https://avd.aquasec.com/nvd/cve-2025-58185) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | encoding/asn1: Parsing DER payload can cause memory exhaustion in encoding/asn1 |
-| [CVE-2025-58186](https://avd.aquasec.com/nvd/cve-2025-58186) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | golang.org/net/http: Lack of limit when parsing cookies can cause memory exhaustion in net/http |
-| [CVE-2025-58187](https://avd.aquasec.com/nvd/cve-2025-58187) | 🟡 **MEDIUM** | `stdlib` | 1.24.9, 1.25.3 | crypto/x509: Quadratic complexity when checking name constraints in crypto/x509 |
-| [CVE-2025-58188](https://avd.aquasec.com/nvd/cve-2025-58188) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | crypto/x509: golang: Panic when validating certificates with DSA public keys in crypto/x509 |
-| [CVE-2025-58189](https://avd.aquasec.com/nvd/cve-2025-58189) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | crypto/tls: go crypto/tls ALPN negotiation error contains attacker controlled information |
-| [CVE-2025-61723](https://avd.aquasec.com/nvd/cve-2025-61723) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | encoding/pem: Quadratic complexity when parsing some invalid inputs in encoding/pem |
-| [CVE-2025-61724](https://avd.aquasec.com/nvd/cve-2025-61724) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | net/textproto: Excessive CPU consumption in Reader.ReadResponse in net/textproto |
-| [CVE-2025-61725](https://avd.aquasec.com/nvd/cve-2025-61725) | 🟡 **MEDIUM** | `stdlib` | 1.24.8, 1.25.2 | net/mail: Excessive CPU consumption in ParseAddress in net/mail |
-| [CVE-2025-61727](https://avd.aquasec.com/nvd/cve-2025-61727) | 🟡 **MEDIUM** | `stdlib` | 1.24.11, 1.25.5 | golang: crypto/x509: excluded subdomain constraint does not restrict wildcard SANs |
+*No vulnerabilities found.*
 
 
 
@@ -113,7 +94,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260214.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260215.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
 
 
