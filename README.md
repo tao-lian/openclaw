@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-02-18 07:49:38.280232665 +0000 UTC m=+4.432239305
+**Date:** 2026-02-19 07:49:31.427839648 +0000 UTC m=+47.706779163
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -67,8 +67,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2025-69873](https://avd.aquasec.com/nvd/cve-2025-69873) | 🟡 **MEDIUM** | `ajv` | 8.18.0 | ajv: ReDoS via $data reference |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
 | [CVE-2026-26278](https://avd.aquasec.com/nvd/cve-2026-26278) | 🟠 **HIGH** | `fast-xml-parser` | 5.3.6 | fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit) |
+| [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1 | minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern |
+| [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1 | minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern |
 | [CVE-2026-24842](https://avd.aquasec.com/nvd/cve-2026-24842) | 🟠 **HIGH** | `tar` | 7.5.7 | node-tar: tar: node-tar: Arbitrary file creation via path traversal bypass in hardlink security check |
-| [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction |
 | [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction |
 
 
@@ -82,7 +83,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.13.0/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
+## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.14.0/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
 **Type:** gobinary
 
 
@@ -99,7 +100,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260215.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260217.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
 
 
