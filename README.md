@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-02-20 07:47:57.231738909 +0000 UTC m=+28.165186107
+**Date:** 2026-02-21 07:31:26.361899151 +0000 UTC m=+4.725991120
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -65,9 +65,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | --- | --- | --- | --- | --- |
 | [CVE-2026-25547](https://avd.aquasec.com/nvd/cve-2026-25547) | 🟠 **HIGH** | `@isaacs/brace-expansion` | 5.0.1 | brace-expansion: brace-expansion: Denial of Service via unbounded brace range expansion |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
-| [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1 | minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern |
+| [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1 | minimatch: minimatch: Denial of Service via specially crafted glob patterns |
 | [CVE-2026-24842](https://avd.aquasec.com/nvd/cve-2026-24842) | 🟠 **HIGH** | `tar` | 7.5.7 | node-tar: tar: node-tar: Arbitrary file creation via path traversal bypass in hardlink security check |
-| [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction |
+| [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | tar: node-tar: node-tar: Arbitrary file read/write via malicious archive hardlink creation |
 
 
 
