@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-02-21 07:31:26.361899151 +0000 UTC m=+4.725991120
+**Date:** 2026-02-22 07:36:00.947775437 +0000 UTC m=+47.143110322
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
