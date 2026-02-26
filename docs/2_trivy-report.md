@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-02-25 07:51:44.087474231 +0000 UTC m=+42.924346005
+**Date:** 2026-02-26 07:51:31.720678531 +0000 UTC m=+29.494830229
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -41,7 +41,7 @@
 
 ---
 
-## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.14.2/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
+## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.15.0/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
 **Type:** gobinary
 
 
@@ -58,7 +58,7 @@
 
 ---
 
-## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260222.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260224.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
 
 
