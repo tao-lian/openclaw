@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-03-02 07:48:58.936039212 +0000 UTC m=+6.242583873
+**Date:** 2026-03-03 07:42:07.245822043 +0000 UTC m=+43.141213361
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -97,7 +97,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260225.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260301.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
 
 
