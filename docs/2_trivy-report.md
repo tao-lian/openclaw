@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-03-05 07:41:08.14595706 +0000 UTC m=+4.632573681
+**Date:** 2026-03-06 07:37:38.808671616 +0000 UTC m=+5.400726562
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -28,6 +28,7 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-29087](https://avd.aquasec.com/nvd/cve-2026-29087) | 🟠 **HIGH** | `@hono/node-server` | 1.19.10 | @hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
+| [CVE-2026-0540](https://avd.aquasec.com/nvd/cve-2026-0540) | 🟡 **MEDIUM** | `dompurify` | 3.3.2, 2.5.9 | DOMPurify: DOMPurify: Cross-site scripting vulnerability |
 | [CVE-2026-29045](https://avd.aquasec.com/nvd/cve-2026-29045) | 🟠 **HIGH** | `hono` | 4.12.4 | Hono vulnerable to arbitrary file access via serveStatic vulnerability  |
 | [CVE-2026-29085](https://avd.aquasec.com/nvd/cve-2026-29085) | 🟡 **MEDIUM** | `hono` | 4.12.4 | Hono Vulnerable to SSE Control Field Injection via CR/LF in writeSSE() |
 | [CVE-2026-29086](https://avd.aquasec.com/nvd/cve-2026-29086) | 🟡 **MEDIUM** | `hono` | 4.12.4 | Hono Vulnerable to Cookie Attribute Injection via Unsanitized domain and path in setCookie() |
@@ -46,8 +47,8 @@
 | [GHSA-wpg9-4g4v-f9rc](https://github.com/advisories/GHSA-wpg9-4g4v-f9rc) | 🟡 **MEDIUM** | `openclaw` | 2026.3.2 | OpenClaw: Discord voice transcript owner-flag omission could expose owner-only tools in mixed-trust channels |
 | [GHSA-x4vp-4235-65hg](https://github.com/advisories/GHSA-x4vp-4235-65hg) | 🟡 **MEDIUM** | `openclaw` | 2026.3.2 | OpenClaw has pre-auth webhook body parsing that can enable unauthenticated slow-request DoS |
 | [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | tar: node-tar: node-tar: Arbitrary file read/write via malicious archive hardlink creation |
-| [GHSA-qffp-2rhf-9h96](https://github.com/advisories/GHSA-qffp-2rhf-9h96) | 🟠 **HIGH** | `tar` | 7.5.10 | tar has Hardlink Path Traversal via Drive-Relative Linkpath |
-| [GHSA-qffp-2rhf-9h96](https://github.com/advisories/GHSA-qffp-2rhf-9h96) | 🟠 **HIGH** | `tar` | 7.5.10 | tar has Hardlink Path Traversal via Drive-Relative Linkpath |
+| [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | tar has Hardlink Path Traversal via Drive-Relative Linkpath |
+| [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | tar has Hardlink Path Traversal via Drive-Relative Linkpath |
 
 
 
