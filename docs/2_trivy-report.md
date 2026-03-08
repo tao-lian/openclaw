@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-03-07 07:27:53.991599328 +0000 UTC m=+6.178774955
+**Date:** 2026-03-08 07:30:04.896412346 +0000 UTC m=+4.789084702
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -47,8 +47,8 @@
 | [GHSA-wpg9-4g4v-f9rc](https://github.com/advisories/GHSA-wpg9-4g4v-f9rc) | 🟡 **MEDIUM** | `openclaw` | 2026.3.2 | OpenClaw: Discord voice transcript owner-flag omission could expose owner-only tools in mixed-trust channels |
 | [GHSA-x4vp-4235-65hg](https://github.com/advisories/GHSA-x4vp-4235-65hg) | 🟡 **MEDIUM** | `openclaw` | 2026.3.2 | OpenClaw has pre-auth webhook body parsing that can enable unauthenticated slow-request DoS |
 | [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | tar: node-tar: node-tar: Arbitrary file read/write via malicious archive hardlink creation |
-| [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | tar has Hardlink Path Traversal via Drive-Relative Linkpath |
-| [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | tar has Hardlink Path Traversal via Drive-Relative Linkpath |
+| [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | node-tar is a full-featured Tar for Node.js. Prior to version 7.5.10,  ... |
+| [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | node-tar is a full-featured Tar for Node.js. Prior to version 7.5.10,  ... |
 
 
 
