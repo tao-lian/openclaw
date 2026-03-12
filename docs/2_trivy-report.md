@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-03-11 07:42:36.376820125 +0000 UTC m=+4.675541840
+**Date:** 2026-03-12 07:45:17.096078609 +0000 UTC m=+4.659356142
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.3)`
@@ -27,7 +27,7 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
-| [CVE-2026-31808](https://avd.aquasec.com/nvd/cve-2026-31808) | 🟡 **MEDIUM** | `file-type` | 21.3.1 | file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header |
+| [CVE-2026-31808](https://avd.aquasec.com/nvd/cve-2026-31808) | 🟡 **MEDIUM** | `file-type` | 21.3.1 | file-type: file-type: Denial of Service due to infinite loop in ASF file parsing |
 | [GHSA-v8w9-8mx6-g223](https://github.com/advisories/GHSA-v8w9-8mx6-g223) | 🟡 **MEDIUM** | `hono` | 4.12.7 | Hono vulnerable to Prototype Pollution possible through __proto__ key allowed in parseBody({ dot: true }) |
 | [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 | minimatch: minimatch: Denial of Service via specially crafted glob patterns |
 | [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 | minimatch: minimatch: Denial of Service due to unbounded recursive backtracking via crafted glob patterns |
@@ -42,10 +42,10 @@
 | [GHSA-j425-whc4-4jgc](https://github.com/advisories/GHSA-j425-whc4-4jgc) | 🟡 **MEDIUM** | `openclaw` | 2026.3.7 | OpenClaw's `system.run` env override filtering allowed dangerous helper-command pivots |
 | [GHSA-pjvx-rx66-r3fg](https://github.com/advisories/GHSA-pjvx-rx66-r3fg) | 🟡 **MEDIUM** | `openclaw` | 2026.3.7 | OpenClaw: Cross-account sender authorization expansion in `/allowlist ... --store` account scoping |
 | [GHSA-r6qf-8968-wj9q](https://github.com/advisories/GHSA-r6qf-8968-wj9q) | 🟡 **MEDIUM** | `openclaw` | 2026.3.7 | OpenClaw: system.run wrapper-depth boundary could skip shell approval gating |
-| [CVE-2026-31802](https://avd.aquasec.com/nvd/cve-2026-31802) | 🟠 **HIGH** | `tar` | 7.5.11 | node-tar Symlink Path Traversal via Drive-Relative Linkpath |
+| [CVE-2026-31802](https://avd.aquasec.com/nvd/cve-2026-31802) | 🟠 **HIGH** | `tar` | 7.5.11 | tar: tar: File overwrite via drive-relative symlink traversal |
 | [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | tar: node-tar: node-tar: Arbitrary file read/write via malicious archive hardlink creation |
 | [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | node-tar: hardlink path traversal via drive-relative linkpath |
-| [CVE-2026-31802](https://avd.aquasec.com/nvd/cve-2026-31802) | 🟠 **HIGH** | `tar` | 7.5.11 | node-tar Symlink Path Traversal via Drive-Relative Linkpath |
+| [CVE-2026-31802](https://avd.aquasec.com/nvd/cve-2026-31802) | 🟠 **HIGH** | `tar` | 7.5.11 | tar: tar: File overwrite via drive-relative symlink traversal |
 
 
 
@@ -62,7 +62,12 @@
 **Type:** gobinary
 
 
-*No vulnerabilities found.*
+### Vulnerabilities
+| ID | Severity | Package | Fixed Version | Title |
+| --- | --- | --- | --- | --- |
+| [CVE-2026-25679](https://avd.aquasec.com/nvd/cve-2026-25679) | 🟡 **MEDIUM** | `stdlib` | 1.25.8, 1.26.1 | net/url: Incorrect parsing of IPv6 host literals in net/url |
+| [CVE-2026-27137](https://avd.aquasec.com/nvd/cve-2026-27137) | 🟡 **MEDIUM** | `stdlib` | 1.26.1 | crypto/x509: Incorrect enforcement of email constraints in crypto/x509 |
+| [CVE-2026-27142](https://avd.aquasec.com/nvd/cve-2026-27142) | 🟡 **MEDIUM** | `stdlib` | 1.25.8, 1.26.1 | html/template: URLs in meta content attribute actions are not escaped in html/template |
 
 
 
