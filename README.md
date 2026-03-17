@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-03-16 08:06:56.463037282 +0000 UTC m=+6.512776928
+**Date:** 2026-03-17 07:53:17.393620001 +0000 UTC m=+5.164856961
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -70,7 +70,6 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-26960](https://avd.aquasec.com/nvd/cve-2026-26960) | 🟠 **HIGH** | `tar` | 7.5.8 | tar: node-tar: node-tar: Arbitrary file read/write via malicious archive hardlink creation |
 | [CVE-2026-29786](https://avd.aquasec.com/nvd/cve-2026-29786) | 🟠 **HIGH** | `tar` | 7.5.10 | node-tar: hardlink path traversal via drive-relative linkpath |
 | [CVE-2026-31802](https://avd.aquasec.com/nvd/cve-2026-31802) | 🟠 **HIGH** | `tar` | 7.5.11 | tar: tar: File overwrite via drive-relative symlink traversal |
-| [CVE-2026-31988](https://avd.aquasec.com/nvd/cve-2026-31988) | 🟡 **MEDIUM** | `yauzl` | 3.2.1 | yauzl contains an off-by-one error |
 
 
 
