@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-03-17 07:53:17.393620001 +0000 UTC m=+5.164856961
+**Date:** 2026-03-18 07:51:25.370945923 +0000 UTC m=+4.661980283
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -64,6 +64,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
+| [CVE-2026-33036](https://avd.aquasec.com/nvd/cve-2026-33036) | 🟠 **HIGH** | `fast-xml-parser` | 5.5.6 | fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278) |
 | [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 | minimatch: minimatch: Denial of Service via specially crafted glob patterns |
 | [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 | minimatch: minimatch: Denial of Service due to unbounded recursive backtracking via crafted glob patterns |
 | [CVE-2026-27904](https://avd.aquasec.com/nvd/cve-2026-27904) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4 | minimatch: Minimatch: Denial of Service via catastrophic backtracking in glob expressions |
@@ -89,8 +90,8 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-25679](https://avd.aquasec.com/nvd/cve-2026-25679) | 🟡 **MEDIUM** | `stdlib` | 1.25.8, 1.26.1 | net/url: Incorrect parsing of IPv6 host literals in net/url |
-| [CVE-2026-27137](https://avd.aquasec.com/nvd/cve-2026-27137) | 🟡 **MEDIUM** | `stdlib` | 1.26.1 | crypto/x509: Incorrect enforcement of email constraints in crypto/x509 |
+| [CVE-2026-25679](https://avd.aquasec.com/nvd/cve-2026-25679) | 🟠 **HIGH** | `stdlib` | 1.25.8, 1.26.1 | net/url: Incorrect parsing of IPv6 host literals in net/url |
+| [CVE-2026-27137](https://avd.aquasec.com/nvd/cve-2026-27137) | 🟠 **HIGH** | `stdlib` | 1.26.1 | crypto/x509: Incorrect enforcement of email constraints in crypto/x509 |
 | [CVE-2026-27142](https://avd.aquasec.com/nvd/cve-2026-27142) | 🟡 **MEDIUM** | `stdlib` | 1.25.8, 1.26.1 | html/template: URLs in meta content attribute actions are not escaped in html/template |
 
 
