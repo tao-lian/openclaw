@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-03-23 08:01:22.05317097 +0000 UTC m=+6.570361067
+**Date:** 2026-03-24 07:53:55.469138015 +0000 UTC m=+51.666095277
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -26,8 +26,8 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-29087](https://avd.aquasec.com/nvd/cve-2026-29087) | 🟠 **HIGH** | `@hono/node-server` | 1.19.10 | @hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
-| [CVE-2026-33036](https://avd.aquasec.com/nvd/cve-2026-33036) | 🟠 **HIGH** | `fast-xml-parser` | 5.5.6 | fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278) |
 | [CVE-2026-26996](https://avd.aquasec.com/nvd/cve-2026-26996) | 🟠 **HIGH** | `minimatch` | 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 | minimatch: minimatch: Denial of Service via specially crafted glob patterns |
 | [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 | minimatch: minimatch: Denial of Service due to unbounded recursive backtracking via crafted glob patterns |
 | [CVE-2026-27904](https://avd.aquasec.com/nvd/cve-2026-27904) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4 | minimatch: Minimatch: Denial of Service via catastrophic backtracking in glob expressions |
@@ -46,16 +46,11 @@
 
 ---
 
-## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@0.16.0/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
+## Target: `app/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
 **Type:** gobinary
 
 
-### Vulnerabilities
-| ID | Severity | Package | Fixed Version | Title |
-| --- | --- | --- | --- | --- |
-| [CVE-2026-25679](https://avd.aquasec.com/nvd/cve-2026-25679) | 🟠 **HIGH** | `stdlib` | 1.25.8, 1.26.1 | net/url: Incorrect parsing of IPv6 host literals in net/url |
-| [CVE-2026-27137](https://avd.aquasec.com/nvd/cve-2026-27137) | 🟠 **HIGH** | `stdlib` | 1.26.1 | crypto/x509: Incorrect enforcement of email constraints in crypto/x509 |
-| [CVE-2026-27142](https://avd.aquasec.com/nvd/cve-2026-27142) | 🟡 **MEDIUM** | `stdlib` | 1.25.8, 1.26.1 | html/template: URLs in meta content attribute actions are not escaped in html/template |
+*No vulnerabilities found.*
 
 
 
@@ -68,7 +63,7 @@
 
 ---
 
-## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260313.1/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
 
 
