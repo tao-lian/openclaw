@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-04-01 08:15:57.504543618 +0000 UTC m=+44.608325798
+**Date:** 2026-04-02 08:06:02.853090289 +0000 UTC m=+30.061421199
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -26,6 +26,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-34451](https://avd.aquasec.com/nvd/cve-2026-34451) | 🟡 **MEDIUM** | `@anthropic-ai/sdk` | 0.81.0 | Claude SDK for TypeScript: Memory Tool Path Validation Allows Sandbox Escape to Sibling Directories |
 | [CVE-2026-29087](https://avd.aquasec.com/nvd/cve-2026-29087) | 🟠 **HIGH** | `@hono/node-server` | 1.19.10 | @hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware |
 | [CVE-2026-33750](https://avd.aquasec.com/nvd/cve-2026-33750) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.5, 3.0.2, 2.0.3, 1.1.13 | brace-expansion: brace-expansion: Denial of Service via zero step value in brace pattern |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
