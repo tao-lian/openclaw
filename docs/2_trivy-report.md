@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-04-09 08:20:24.745568306 +0000 UTC m=+43.512541251
+**Date:** 2026-04-10 08:20:10.116420261 +0000 UTC m=+5.288839640
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -28,6 +28,8 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-29087](https://avd.aquasec.com/nvd/cve-2026-29087) | 🟠 **HIGH** | `@hono/node-server` | 1.19.10 | @hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware |
 | [CVE-2026-39406](https://avd.aquasec.com/nvd/cve-2026-39406) | 🟡 **MEDIUM** | `@hono/node-server` | 1.19.13 | @hono/node-server: Middleware bypass via repeated slashes in serveStatic |
+| [CVE-2025-62718](https://avd.aquasec.com/nvd/cve-2025-62718) | 🔴 **CRITICAL** | `axios` | 1.15.0 | Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF |
+| [CVE-2025-62718](https://avd.aquasec.com/nvd/cve-2025-62718) | 🔴 **CRITICAL** | `axios` | 1.15.0 | Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF |
 | [CVE-2026-33750](https://avd.aquasec.com/nvd/cve-2026-33750) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.5, 3.0.2, 2.0.3, 1.1.13 | brace-expansion: brace-expansion: Denial of Service via zero step value in brace pattern |
 | [CVE-2026-26328](https://avd.aquasec.com/nvd/cve-2026-26328) | 🟡 **MEDIUM** | `clawdbot` | 2026.2.14 | OpenClaw iMessage group allowlist authorization inherited DM pairing-store identities |
 | [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 | minimatch: minimatch: Denial of Service due to unbounded recursive backtracking via crafted glob patterns |
