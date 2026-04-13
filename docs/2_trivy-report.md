@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-04-12 08:03:23.925236762 +0000 UTC m=+49.691890252
+**Date:** 2026-04-13 09:00:25.20172647 +0000 UTC m=+13.866175718
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -26,7 +26,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2025-62718](https://avd.aquasec.com/nvd/cve-2025-62718) | 🔴 **CRITICAL** | `axios` | 1.15.0 | Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF |
+| [CVE-2025-62718](https://avd.aquasec.com/nvd/cve-2025-62718) | 🔴 **CRITICAL** | `axios` | 1.15.0 | axios: Axios: Server-Side Request Forgery and proxy bypass due to improper hostname normalization |
 | [CVE-2026-40175](https://avd.aquasec.com/nvd/cve-2026-40175) | 🔴 **CRITICAL** | `axios` | 1.15.0 | Axios is a promise based HTTP client for the browser and Node.js. Prio ... |
 | [CVE-2026-33750](https://avd.aquasec.com/nvd/cve-2026-33750) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.5, 3.0.2, 2.0.3, 1.1.13 | brace-expansion: brace-expansion: Denial of Service via zero step value in brace pattern |
 | [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 | minimatch: minimatch: Denial of Service due to unbounded recursive backtracking via crafted glob patterns |
@@ -60,6 +60,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-32282](https://avd.aquasec.com/nvd/cve-2026-32282) | 🟠 **HIGH** | `stdlib` | 1.25.9, 1.26.2 | golang: internal/syscall/unix: Root.Chmod can follow symlinks out of the root |
 | [CVE-2026-32281](https://avd.aquasec.com/nvd/cve-2026-32281) | 🟡 **MEDIUM** | `stdlib` | 1.25.9, 1.26.2 | crypto/x509: golang: Go crypto/x509: Denial of Service via inefficient certificate chain validation |
 | [CVE-2026-32288](https://avd.aquasec.com/nvd/cve-2026-32288) | 🟡 **MEDIUM** | `stdlib` | 1.25.9, 1.26.2 | archive/tar: golang: Go's archive/tar package: Denial of Service via maliciously-crafted archive |
 | [CVE-2026-32289](https://avd.aquasec.com/nvd/cve-2026-32289) | 🟡 **MEDIUM** | `stdlib` | 1.25.9, 1.26.2 | html/template: golang: html/template: Cross-Site Scripting (XSS) via improper context and brace depth tracking in JS template literals |
