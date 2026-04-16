@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-04-15 08:26:39.33456467 +0000 UTC m=+6.334926611
+**Date:** 2026-04-16 08:26:16.06951583 +0000 UTC m=+5.024111385
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -26,10 +26,12 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2025-62718](https://avd.aquasec.com/nvd/cve-2025-62718) | 🔴 **CRITICAL** | `axios` | 1.15.0 | axios: Axios: Server-Side Request Forgery and proxy bypass due to improper hostname normalization |
+| [CVE-2025-62718](https://avd.aquasec.com/nvd/cve-2025-62718) | 🔴 **CRITICAL** | `axios` | 1.15.0, 0.31.0 | axios: Axios: Server-Side Request Forgery and proxy bypass due to improper hostname normalization |
 | [CVE-2026-40175](https://avd.aquasec.com/nvd/cve-2026-40175) | 🔴 **CRITICAL** | `axios` | 1.15.0, 0.31.0 | axios: Axios: Remote Code Execution via Prototype Pollution escalation |
 | [CVE-2026-33750](https://avd.aquasec.com/nvd/cve-2026-33750) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.5, 3.0.2, 2.0.3, 1.1.13 | brace-expansion: brace-expansion: Denial of Service via zero step value in brace pattern |
+| [GHSA-39q2-94rc-95cp](https://github.com/advisories/GHSA-39q2-94rc-95cp) | 🟡 **MEDIUM** | `dompurify` | 3.4.0 | DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation |
 | [GHSA-r4q5-vmmm-2653](https://github.com/advisories/GHSA-r4q5-vmmm-2653) | 🟡 **MEDIUM** | `follow-redirects` | 1.16.0 | follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets |
+| [GHSA-458j-xx4x-4375](https://github.com/advisories/GHSA-458j-xx4x-4375) | 🟡 **MEDIUM** | `hono` | 4.12.14 | hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR |
 | [CVE-2026-27903](https://avd.aquasec.com/nvd/cve-2026-27903) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 | minimatch: minimatch: Denial of Service due to unbounded recursive backtracking via crafted glob patterns |
 | [CVE-2026-27904](https://avd.aquasec.com/nvd/cve-2026-27904) | 🟠 **HIGH** | `minimatch` | 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4 | minimatch: Minimatch: Denial of Service via catastrophic backtracking in glob expressions |
 | [CVE-2026-33671](https://avd.aquasec.com/nvd/cve-2026-33671) | 🟠 **HIGH** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Regular Expression Denial of Service via crafted extglob patterns |
