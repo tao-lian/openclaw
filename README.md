@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-05-07 09:30:53.629379333 +0000 UTC m=+25.664238839
+**Date:** 2026-05-08 08:21:01.533569904 +0000 UTC m=+30.143070145
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -63,7 +63,6 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-44240](https://avd.aquasec.com/nvd/cve-2026-44240) | 🟠 **HIGH** | `basic-ftp` | 5.3.1 | basic-ftp allows a malicious FTP server to cause client-side denial of service via unbounded multiline control response buffering |
 | [CVE-2026-33750](https://avd.aquasec.com/nvd/cve-2026-33750) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.5, 3.0.2, 2.0.3, 1.1.13 | brace-expansion: brace-expansion: Denial of Service via zero step value in brace pattern |
 | [CVE-2026-44455](https://avd.aquasec.com/nvd/cve-2026-44455) | 🟡 **MEDIUM** | `hono` | 4.12.16 | hono/jsx has Unvalidated JSX Tag Names that May Allow HTML Injection |
 | [CVE-2026-44456](https://avd.aquasec.com/nvd/cve-2026-44456) | 🟡 **MEDIUM** | `hono` | 4.12.16 | Hono: bodyLimit() can be bypassed for chunked / unknown-length requests |
