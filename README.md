@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-05-12 09:36:29.756439647 +0000 UTC m=+6.591345960
+**Date:** 2026-05-13 09:43:26.723917821 +0000 UTC m=+6.106936782
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
@@ -75,6 +75,13 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address has XSS in Address6 HTML-emitting methods |
 | [CVE-2026-33671](https://avd.aquasec.com/nvd/cve-2026-33671) | 🟠 **HIGH** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Regular Expression Denial of Service via crafted extglob patterns |
 | [CVE-2026-33672](https://avd.aquasec.com/nvd/cve-2026-33672) | 🟡 **MEDIUM** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Data integrity compromised via method injection with crafted POSIX bracket expressions |
+| [CVE-2026-44289](https://avd.aquasec.com/nvd/cve-2026-44289) | 🟠 **HIGH** | `protobufjs` | 7.5.6, 8.0.2 | protobuf.js: Denial of service through unbounded protobuf recursion |
+| [CVE-2026-44290](https://avd.aquasec.com/nvd/cve-2026-44290) | 🟠 **HIGH** | `protobufjs` | 7.5.6, 8.0.2 | protobuf.js: Process-wide denial of service through unsafe option paths |
+| [CVE-2026-44291](https://avd.aquasec.com/nvd/cve-2026-44291) | 🟠 **HIGH** | `protobufjs` | 7.5.6, 8.0.2 | protobuf.js: Code generation gadget after prototype pollution |
+| [CVE-2026-44293](https://avd.aquasec.com/nvd/cve-2026-44293) | 🟠 **HIGH** | `protobufjs` | 7.5.6, 8.0.2 | protobuf.js: Code injection through bytes field defaults in generated toObject code |
+| [CVE-2026-44288](https://avd.aquasec.com/nvd/cve-2026-44288) | 🟡 **MEDIUM** | `protobufjs` | 7.5.6, 8.0.2 | protobufjs has overlong UTF-8 decoding |
+| [CVE-2026-44292](https://avd.aquasec.com/nvd/cve-2026-44292) | 🟡 **MEDIUM** | `protobufjs` | 7.5.6, 8.0.2 | protobuf.js: Prototype injection in generated message constructors |
+| [CVE-2026-44294](https://avd.aquasec.com/nvd/cve-2026-44294) | 🟡 **MEDIUM** | `protobufjs` | 7.5.6, 8.0.2 | protobuf.js: Denial of service from crafted field names in generated code |
 
 
 
