@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-05-13 09:43:26.723917821 +0000 UTC m=+6.106936782
+**Date:** 2026-05-14 09:33:20.411844374 +0000 UTC m=+5.991222322
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
