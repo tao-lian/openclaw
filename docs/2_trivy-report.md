@@ -1,12 +1,114 @@
 # Trivy Scan Report
-**Date:** 2026-05-16 08:47:14.320612321 +0000 UTC m=+6.720199414
+**Date:** 2026-05-17 09:03:53.83188802 +0000 UTC m=+4.780856948
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.4)`
 **Type:** debian
 
 
-*No vulnerabilities found.*
+### Vulnerabilities
+| ID | Severity | Package | Fixed Version | Title |
+| --- | --- | --- | --- | --- |
+| [CVE-2025-13034](https://avd.aquasec.com/nvd/cve-2025-13034) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u3 | curl: Public key pinning bypass via QUIC and GnuTLS allows server impersonation |
+| [CVE-2026-32316](https://avd.aquasec.com/nvd/cve-2026-32316) | 🟠 **HIGH** | `jq` | 1.7.1-6+deb13u2 | jq: jq: Denial of Service or potential arbitrary code execution due to integer overflow and heap-based buffer overflow |
+| [CVE-2026-40164](https://avd.aquasec.com/nvd/cve-2026-40164) | 🟠 **HIGH** | `jq` | 1.7.1-6+deb13u2 | jq: jq: Denial of Service via crafted JSON object causing hash collisions |
+| [CVE-2026-33947](https://avd.aquasec.com/nvd/cve-2026-33947) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u2 | jq: unbounded Recursion in jv_setpath() / jv_getpath() / delpaths_sorted() |
+| [CVE-2026-33948](https://avd.aquasec.com/nvd/cve-2026-33948) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u2 | jq: jq: Input validation bypass via embedded NUL bytes allows parser differential attacks |
+| [CVE-2026-39956](https://avd.aquasec.com/nvd/cve-2026-39956) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u2 | jq: missing runtime type checks for _strindices lead to crash and limited memory disclosure |
+| [CVE-2026-39979](https://avd.aquasec.com/nvd/cve-2026-39979) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u2 | jq: out-of-bounds read in jv_parse_sized() on error formatting for non-NUL-terminated buffers |
+| [CVE-2026-4046](https://avd.aquasec.com/nvd/cve-2026-4046) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u3 | glibc: glibc: Denial of Service via iconv() function with specific character sets |
+| [CVE-2026-4437](https://avd.aquasec.com/nvd/cve-2026-4437) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u3 | glibc: glibc: Incorrect DNS response parsing via crafted DNS server response |
+| [CVE-2026-4438](https://avd.aquasec.com/nvd/cve-2026-4438) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u3 | glibc: glibc: Invalid DNS hostname returned via gethostbyaddr functions |
+| [CVE-2026-4046](https://avd.aquasec.com/nvd/cve-2026-4046) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u3 | glibc: glibc: Denial of Service via iconv() function with specific character sets |
+| [CVE-2026-4437](https://avd.aquasec.com/nvd/cve-2026-4437) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u3 | glibc: glibc: Incorrect DNS response parsing via crafted DNS server response |
+| [CVE-2026-4438](https://avd.aquasec.com/nvd/cve-2026-4438) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u3 | glibc: glibc: Invalid DNS hostname returned via gethostbyaddr functions |
+| [CVE-2026-4878](https://avd.aquasec.com/nvd/cve-2026-4878) | 🟠 **HIGH** | `libcap2` | 1:2.75-10+deb13u1 | libcap: libcap: Privilege escalation via TOCTOU race condition in cap_set_file() |
+| [CVE-2025-13034](https://avd.aquasec.com/nvd/cve-2025-13034) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u3 | curl: Public key pinning bypass via QUIC and GnuTLS allows server impersonation |
+| [CVE-2025-13034](https://avd.aquasec.com/nvd/cve-2025-13034) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u3 | curl: Public key pinning bypass via QUIC and GnuTLS allows server impersonation |
+| [CVE-2026-32316](https://avd.aquasec.com/nvd/cve-2026-32316) | 🟠 **HIGH** | `libjq1` | 1.7.1-6+deb13u2 | jq: jq: Denial of Service or potential arbitrary code execution due to integer overflow and heap-based buffer overflow |
+| [CVE-2026-40164](https://avd.aquasec.com/nvd/cve-2026-40164) | 🟠 **HIGH** | `libjq1` | 1.7.1-6+deb13u2 | jq: jq: Denial of Service via crafted JSON object causing hash collisions |
+| [CVE-2026-33947](https://avd.aquasec.com/nvd/cve-2026-33947) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u2 | jq: unbounded Recursion in jv_setpath() / jv_getpath() / delpaths_sorted() |
+| [CVE-2026-33948](https://avd.aquasec.com/nvd/cve-2026-33948) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u2 | jq: jq: Input validation bypass via embedded NUL bytes allows parser differential attacks |
+| [CVE-2026-39956](https://avd.aquasec.com/nvd/cve-2026-39956) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u2 | jq: missing runtime type checks for _strindices lead to crash and limited memory disclosure |
+| [CVE-2026-39979](https://avd.aquasec.com/nvd/cve-2026-39979) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u2 | jq: out-of-bounds read in jv_parse_sized() on error formatting for non-NUL-terminated buffers |
+| [CVE-2025-13836](https://avd.aquasec.com/nvd/cve-2025-13836) | 🟠 **HIGH** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Excessive read buffering DoS in http.client |
+| [CVE-2025-8194](https://avd.aquasec.com/nvd/cve-2025-8194) | 🟠 **HIGH** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Cpython infinite loop when parsing a tarfile |
+| [CVE-2026-1299](https://avd.aquasec.com/nvd/cve-2026-1299) | 🟠 **HIGH** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: email header injection due to unquoted newlines |
+| [CVE-2026-6100](https://avd.aquasec.com/nvd/cve-2026-6100) | 🟠 **HIGH** | `libpython3.13-minimal` | 3.13.5-2+deb13u2 | python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules |
+| [CVE-2025-11468](https://avd.aquasec.com/nvd/cve-2025-11468) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Missing character filtering in Python |
+| [CVE-2025-12084](https://avd.aquasec.com/nvd/cve-2025-12084) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: python: cpython: Quadratic algorithm in xml.dom.minidom leads to denial of service |
+| [CVE-2025-13837](https://avd.aquasec.com/nvd/cve-2025-13837) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Out-of-memory when loading Plist |
+| [CVE-2025-15282](https://avd.aquasec.com/nvd/cve-2025-15282) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Header injection via newlines in data URL mediatype in Python |
+| [CVE-2025-6069](https://avd.aquasec.com/nvd/cve-2025-6069) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Python HTMLParser quadratic complexity |
+| [CVE-2025-6075](https://avd.aquasec.com/nvd/cve-2025-6075) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | python: Quadratic complexity in os.path.expandvars() with user-controlled template |
+| [CVE-2025-8291](https://avd.aquasec.com/nvd/cve-2025-8291) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked |
+| [CVE-2026-0672](https://avd.aquasec.com/nvd/cve-2026-0672) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Header injection in http.cookies.Morsel in Python |
+| [CVE-2026-0865](https://avd.aquasec.com/nvd/cve-2026-0865) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u1 | cpython: wsgiref.headers.Headers allows header newline injection in Python |
+| [CVE-2026-3446](https://avd.aquasec.com/nvd/cve-2026-3446) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u2 | python: Python base64: Incomplete data decoding due to premature stop at padding |
+| [CVE-2026-3644](https://avd.aquasec.com/nvd/cve-2026-3644) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u2 | cpython: Incomplete control character validation in http.cookies |
+| [CVE-2026-4224](https://avd.aquasec.com/nvd/cve-2026-4224) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u2 | cpython: Stack overflow parsing XML with deeply nested DTD content models |
+| [CVE-2026-6019](https://avd.aquasec.com/nvd/cve-2026-6019) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u2 | python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module |
+| [CVE-2025-13836](https://avd.aquasec.com/nvd/cve-2025-13836) | 🟠 **HIGH** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Excessive read buffering DoS in http.client |
+| [CVE-2025-8194](https://avd.aquasec.com/nvd/cve-2025-8194) | 🟠 **HIGH** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Cpython infinite loop when parsing a tarfile |
+| [CVE-2026-1299](https://avd.aquasec.com/nvd/cve-2026-1299) | 🟠 **HIGH** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: email header injection due to unquoted newlines |
+| [CVE-2026-6100](https://avd.aquasec.com/nvd/cve-2026-6100) | 🟠 **HIGH** | `libpython3.13-stdlib` | 3.13.5-2+deb13u2 | python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules |
+| [CVE-2025-11468](https://avd.aquasec.com/nvd/cve-2025-11468) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Missing character filtering in Python |
+| [CVE-2025-12084](https://avd.aquasec.com/nvd/cve-2025-12084) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: python: cpython: Quadratic algorithm in xml.dom.minidom leads to denial of service |
+| [CVE-2025-13837](https://avd.aquasec.com/nvd/cve-2025-13837) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Out-of-memory when loading Plist |
+| [CVE-2025-15282](https://avd.aquasec.com/nvd/cve-2025-15282) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Header injection via newlines in data URL mediatype in Python |
+| [CVE-2025-6069](https://avd.aquasec.com/nvd/cve-2025-6069) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Python HTMLParser quadratic complexity |
+| [CVE-2025-6075](https://avd.aquasec.com/nvd/cve-2025-6075) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | python: Quadratic complexity in os.path.expandvars() with user-controlled template |
+| [CVE-2025-8291](https://avd.aquasec.com/nvd/cve-2025-8291) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked |
+| [CVE-2026-0672](https://avd.aquasec.com/nvd/cve-2026-0672) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: Header injection in http.cookies.Morsel in Python |
+| [CVE-2026-0865](https://avd.aquasec.com/nvd/cve-2026-0865) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u1 | cpython: wsgiref.headers.Headers allows header newline injection in Python |
+| [CVE-2026-3446](https://avd.aquasec.com/nvd/cve-2026-3446) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u2 | python: Python base64: Incomplete data decoding due to premature stop at padding |
+| [CVE-2026-3644](https://avd.aquasec.com/nvd/cve-2026-3644) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u2 | cpython: Incomplete control character validation in http.cookies |
+| [CVE-2026-4224](https://avd.aquasec.com/nvd/cve-2026-4224) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u2 | cpython: Stack overflow parsing XML with deeply nested DTD content models |
+| [CVE-2026-6019](https://avd.aquasec.com/nvd/cve-2026-6019) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u2 | python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module |
+| [CVE-2026-29111](https://avd.aquasec.com/nvd/cve-2026-29111) | 🟠 **HIGH** | `libsystemd0` | 257.13-1~deb13u1 | systemd: systemd: Arbitrary code execution or Denial of Service via spurious IPC API call data |
+| [CVE-2026-40225](https://avd.aquasec.com/nvd/cve-2026-40225) | 🟡 **MEDIUM** | `libsystemd0` | 257.13-1~deb13u1 | systemd: udev in systemd: Privilege escalation via malicious hardware devices and unsanitized kernel output |
+| [CVE-2026-40226](https://avd.aquasec.com/nvd/cve-2026-40226) | 🟡 **MEDIUM** | `libsystemd0` | 257.13-1~deb13u1 | systemd: systemd nspawn: Escape-to-host action via crafted config file |
+| [CVE-2026-4105](https://avd.aquasec.com/nvd/cve-2026-4105) | 🟡 **MEDIUM** | `libsystemd0` | 257.13-1~deb13u1 | systemd: systemd: Privilege escalation via improper access control in RegisterMachine D-Bus method |
+| [CVE-2026-29111](https://avd.aquasec.com/nvd/cve-2026-29111) | 🟠 **HIGH** | `libudev1` | 257.13-1~deb13u1 | systemd: systemd: Arbitrary code execution or Denial of Service via spurious IPC API call data |
+| [CVE-2026-40225](https://avd.aquasec.com/nvd/cve-2026-40225) | 🟡 **MEDIUM** | `libudev1` | 257.13-1~deb13u1 | systemd: udev in systemd: Privilege escalation via malicious hardware devices and unsanitized kernel output |
+| [CVE-2026-40226](https://avd.aquasec.com/nvd/cve-2026-40226) | 🟡 **MEDIUM** | `libudev1` | 257.13-1~deb13u1 | systemd: systemd nspawn: Escape-to-host action via crafted config file |
+| [CVE-2026-4105](https://avd.aquasec.com/nvd/cve-2026-4105) | 🟡 **MEDIUM** | `libudev1` | 257.13-1~deb13u1 | systemd: systemd: Privilege escalation via improper access control in RegisterMachine D-Bus method |
+| [CVE-2025-13836](https://avd.aquasec.com/nvd/cve-2025-13836) | 🟠 **HIGH** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Excessive read buffering DoS in http.client |
+| [CVE-2025-8194](https://avd.aquasec.com/nvd/cve-2025-8194) | 🟠 **HIGH** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Cpython infinite loop when parsing a tarfile |
+| [CVE-2026-1299](https://avd.aquasec.com/nvd/cve-2026-1299) | 🟠 **HIGH** | `python3.13` | 3.13.5-2+deb13u1 | cpython: email header injection due to unquoted newlines |
+| [CVE-2026-6100](https://avd.aquasec.com/nvd/cve-2026-6100) | 🟠 **HIGH** | `python3.13` | 3.13.5-2+deb13u2 | python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules |
+| [CVE-2025-11468](https://avd.aquasec.com/nvd/cve-2025-11468) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Missing character filtering in Python |
+| [CVE-2025-12084](https://avd.aquasec.com/nvd/cve-2025-12084) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: python: cpython: Quadratic algorithm in xml.dom.minidom leads to denial of service |
+| [CVE-2025-13837](https://avd.aquasec.com/nvd/cve-2025-13837) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Out-of-memory when loading Plist |
+| [CVE-2025-15282](https://avd.aquasec.com/nvd/cve-2025-15282) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Header injection via newlines in data URL mediatype in Python |
+| [CVE-2025-6069](https://avd.aquasec.com/nvd/cve-2025-6069) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Python HTMLParser quadratic complexity |
+| [CVE-2025-6075](https://avd.aquasec.com/nvd/cve-2025-6075) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | python: Quadratic complexity in os.path.expandvars() with user-controlled template |
+| [CVE-2025-8291](https://avd.aquasec.com/nvd/cve-2025-8291) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked |
+| [CVE-2026-0672](https://avd.aquasec.com/nvd/cve-2026-0672) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: Header injection in http.cookies.Morsel in Python |
+| [CVE-2026-0865](https://avd.aquasec.com/nvd/cve-2026-0865) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u1 | cpython: wsgiref.headers.Headers allows header newline injection in Python |
+| [CVE-2026-3446](https://avd.aquasec.com/nvd/cve-2026-3446) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u2 | python: Python base64: Incomplete data decoding due to premature stop at padding |
+| [CVE-2026-3644](https://avd.aquasec.com/nvd/cve-2026-3644) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u2 | cpython: Incomplete control character validation in http.cookies |
+| [CVE-2026-4224](https://avd.aquasec.com/nvd/cve-2026-4224) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u2 | cpython: Stack overflow parsing XML with deeply nested DTD content models |
+| [CVE-2026-6019](https://avd.aquasec.com/nvd/cve-2026-6019) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u2 | python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module |
+| [CVE-2025-13836](https://avd.aquasec.com/nvd/cve-2025-13836) | 🟠 **HIGH** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Excessive read buffering DoS in http.client |
+| [CVE-2025-8194](https://avd.aquasec.com/nvd/cve-2025-8194) | 🟠 **HIGH** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Cpython infinite loop when parsing a tarfile |
+| [CVE-2026-1299](https://avd.aquasec.com/nvd/cve-2026-1299) | 🟠 **HIGH** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: email header injection due to unquoted newlines |
+| [CVE-2026-6100](https://avd.aquasec.com/nvd/cve-2026-6100) | 🟠 **HIGH** | `python3.13-minimal` | 3.13.5-2+deb13u2 | python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules |
+| [CVE-2025-11468](https://avd.aquasec.com/nvd/cve-2025-11468) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Missing character filtering in Python |
+| [CVE-2025-12084](https://avd.aquasec.com/nvd/cve-2025-12084) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: python: cpython: Quadratic algorithm in xml.dom.minidom leads to denial of service |
+| [CVE-2025-13837](https://avd.aquasec.com/nvd/cve-2025-13837) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Out-of-memory when loading Plist |
+| [CVE-2025-15282](https://avd.aquasec.com/nvd/cve-2025-15282) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Header injection via newlines in data URL mediatype in Python |
+| [CVE-2025-6069](https://avd.aquasec.com/nvd/cve-2025-6069) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Python HTMLParser quadratic complexity |
+| [CVE-2025-6075](https://avd.aquasec.com/nvd/cve-2025-6075) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | python: Quadratic complexity in os.path.expandvars() with user-controlled template |
+| [CVE-2025-8291](https://avd.aquasec.com/nvd/cve-2025-8291) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked |
+| [CVE-2026-0672](https://avd.aquasec.com/nvd/cve-2026-0672) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: Header injection in http.cookies.Morsel in Python |
+| [CVE-2026-0865](https://avd.aquasec.com/nvd/cve-2026-0865) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u1 | cpython: wsgiref.headers.Headers allows header newline injection in Python |
+| [CVE-2026-3446](https://avd.aquasec.com/nvd/cve-2026-3446) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u2 | python: Python base64: Incomplete data decoding due to premature stop at padding |
+| [CVE-2026-3644](https://avd.aquasec.com/nvd/cve-2026-3644) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u2 | cpython: Incomplete control character validation in http.cookies |
+| [CVE-2026-4224](https://avd.aquasec.com/nvd/cve-2026-4224) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u2 | cpython: Stack overflow parsing XML with deeply nested DTD content models |
+| [CVE-2026-6019](https://avd.aquasec.com/nvd/cve-2026-6019) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u2 | python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module |
+| [CVE-2026-5958](https://avd.aquasec.com/nvd/cve-2026-5958) | 🟡 **MEDIUM** | `sed` | 4.9-2+deb13u1 | When sed is invoked with both -i (in-place edit) and --follow-symlinks ... |
+| [CVE-2026-35535](https://avd.aquasec.com/nvd/cve-2026-35535) | 🟠 **HIGH** | `sudo` | 1.9.16p2-3+deb13u2 | sudo: Sudo: Privilege escalation due to failure in privilege drop calls |
 
 
 
