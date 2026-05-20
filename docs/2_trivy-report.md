@@ -1,12 +1,20 @@
 # Trivy Scan Report
-**Date:** 2026-05-19 10:37:01.623821345 +0000 UTC m=+43.230006890
+**Date:** 2026-05-20 10:23:37.154210428 +0000 UTC m=+5.361016036
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
 **Type:** debian
 
 
-*No vulnerabilities found.*
+### Vulnerabilities
+| ID | Severity | Package | Fixed Version | Title |
+| --- | --- | --- | --- | --- |
+| [CVE-2026-33845](https://avd.aquasec.com/nvd/cve-2026-33845) | 🔴 **CRITICAL** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: GnuTLS: Denial of Service via DTLS zero-length fragment |
+| [CVE-2026-42010](https://avd.aquasec.com/nvd/cve-2026-42010) | 🔴 **CRITICAL** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: gnutls: Authentication Bypass via NUL Character in Username |
+| [CVE-2026-33846](https://avd.aquasec.com/nvd/cve-2026-33846) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: GnuTLS: Denial of Service via heap buffer overflow in DTLS handshake fragment reassembly |
+| [CVE-2026-3833](https://avd.aquasec.com/nvd/cve-2026-3833) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: GnuTLS: Policy bypass due to case-sensitive nameConstraints comparison |
+| [CVE-2026-42009](https://avd.aquasec.com/nvd/cve-2026-42009) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: gnutls: Denial of Service via DTLS packet reordering vulnerability |
+| [CVE-2026-42011](https://avd.aquasec.com/nvd/cve-2026-42011) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: gnutls: Security bypass due to incorrect name constraint handling |
 
 
 
@@ -31,6 +39,7 @@
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
 | [CVE-2026-33671](https://avd.aquasec.com/nvd/cve-2026-33671) | 🟠 **HIGH** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Regular Expression Denial of Service via crafted extglob patterns |
 | [CVE-2026-33672](https://avd.aquasec.com/nvd/cve-2026-33672) | 🟡 **MEDIUM** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Data integrity compromised via method injection with crafted POSIX bracket expressions |
+| [CVE-2026-45740](https://avd.aquasec.com/nvd/cve-2026-45740) | 🟡 **MEDIUM** | `protobufjs` | 7.5.8, 8.2.0 | protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion |
 
 
 
