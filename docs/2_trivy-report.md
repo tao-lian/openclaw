@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-05-21 10:38:56.534120126 +0000 UTC m=+5.603101581
+**Date:** 2026-05-22 10:23:58.356426351 +0000 UTC m=+6.664367409
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -14,7 +14,7 @@
 | [CVE-2026-33846](https://avd.aquasec.com/nvd/cve-2026-33846) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: GnuTLS: Denial of Service via heap buffer overflow in DTLS handshake fragment reassembly |
 | [CVE-2026-3833](https://avd.aquasec.com/nvd/cve-2026-3833) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: GnuTLS: Policy bypass due to case-sensitive nameConstraints comparison |
 | [CVE-2026-42009](https://avd.aquasec.com/nvd/cve-2026-42009) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: gnutls: Denial of Service via DTLS packet reordering vulnerability |
-| [CVE-2026-42011](https://avd.aquasec.com/nvd/cve-2026-42011) | 🟠 **HIGH** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: gnutls: Security bypass due to incorrect name constraint handling |
+| [CVE-2026-42011](https://avd.aquasec.com/nvd/cve-2026-42011) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 | gnutls: gnutls: Security bypass due to incorrect name constraint handling |
 | [CVE-2026-42012](https://avd.aquasec.com/nvd/cve-2026-42012) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 |  |
 | [CVE-2026-42013](https://avd.aquasec.com/nvd/cve-2026-42013) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 |  |
 | [CVE-2026-42014](https://avd.aquasec.com/nvd/cve-2026-42014) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 |  |
