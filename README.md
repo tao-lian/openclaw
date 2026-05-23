@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-05-22 10:23:58.356426351 +0000 UTC m=+6.664367409
+**Date:** 2026-05-23 09:00:56.156330049 +0000 UTC m=+6.515681577
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -58,6 +58,10 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-42015](https://avd.aquasec.com/nvd/cve-2026-42015) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 |  |
 | [CVE-2026-5260](https://avd.aquasec.com/nvd/cve-2026-5260) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 |  |
 | [CVE-2026-5419](https://avd.aquasec.com/nvd/cve-2026-5419) | 🟡 **MEDIUM** | `libgnutls30t64` | 3.8.9-3+deb13u4 |  |
+| [CVE-2026-40355](https://avd.aquasec.com/nvd/cve-2026-40355) | 🟡 **MEDIUM** | `libgssapi-krb5-2` | 1.21.3-5+deb13u1 | krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism |
+| [CVE-2026-40355](https://avd.aquasec.com/nvd/cve-2026-40355) | 🟡 **MEDIUM** | `libk5crypto3` | 1.21.3-5+deb13u1 | krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism |
+| [CVE-2026-40355](https://avd.aquasec.com/nvd/cve-2026-40355) | 🟡 **MEDIUM** | `libkrb5-3` | 1.21.3-5+deb13u1 | krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism |
+| [CVE-2026-40355](https://avd.aquasec.com/nvd/cve-2026-40355) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u1 | krb5: MIT Kerberos 5: Denial of Service via NULL pointer dereference in NegoEx mechanism |
 
 
 
@@ -83,6 +87,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-33671](https://avd.aquasec.com/nvd/cve-2026-33671) | 🟠 **HIGH** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Regular Expression Denial of Service via crafted extglob patterns |
 | [CVE-2026-33672](https://avd.aquasec.com/nvd/cve-2026-33672) | 🟡 **MEDIUM** | `picomatch` | 4.0.4, 3.0.2, 2.3.2 | picomatch: Picomatch: Data integrity compromised via method injection with crafted POSIX bracket expressions |
 | [CVE-2026-45740](https://avd.aquasec.com/nvd/cve-2026-45740) | 🟡 **MEDIUM** | `protobufjs` | 7.5.8, 8.2.0 | protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion |
+| [CVE-2026-8723](https://avd.aquasec.com/nvd/cve-2026-8723) | 🟡 **MEDIUM** | `qs` | 6.15.2 | ### Summary    `qs.stringify` throws `TypeError` when called with `arr ... |
 
 
 
