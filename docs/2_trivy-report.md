@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-05-27 10:54:26.86037629 +0000 UTC m=+4.899501842
+**Date:** 2026-05-28 10:55:30.907287845 +0000 UTC m=+41.854043447
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -28,7 +28,6 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | brace-expansion: Large numeric range defeats documented `max` DoS protection |
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
-| [CVE-2026-8723](https://avd.aquasec.com/nvd/cve-2026-8723) | 🟡 **MEDIUM** | `qs` | 6.15.2 | ### Summary    `qs.stringify` throws `TypeError` when called with `arr ... |
 
 
 
