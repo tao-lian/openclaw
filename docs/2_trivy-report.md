@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-05-30 09:13:37.327202736 +0000 UTC m=+6.527143396
+**Date:** 2026-05-31 09:46:08.11154158 +0000 UTC m=+5.366909461
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -26,7 +26,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | brace-expansion: Large numeric range defeats documented `max` DoS protection |
+| [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | The brace-expansion library generates arbitrary strings containing a c ... |
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
 
 
