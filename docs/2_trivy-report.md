@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-06-12 10:59:49.434996684 +0000 UTC m=+5.596622273
+**Date:** 2026-06-13 09:55:43.799972844 +0000 UTC m=+6.680950016
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -44,6 +44,7 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | The brace-expansion library generates arbitrary strings containing a c ... |
+| [GHSA-gv7w-rqvm-qjhr](https://github.com/advisories/GHSA-gv7w-rqvm-qjhr) | 🟠 **HIGH** | `esbuild` | 0.28.1 | esbuild: Missing binary integrity verification in Deno module enables remote code execution via NPM_CONFIG_REGISTRY |
 | [CVE-2026-47673](https://avd.aquasec.com/nvd/cve-2026-47673) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: JWT middleware accepts any Authorization scheme, not only Bearer |
 | [CVE-2026-47674](https://avd.aquasec.com/nvd/cve-2026-47674) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: IP Restriction bypasses static deny rules for non-canonical IPv6  |
 | [CVE-2026-47675](https://avd.aquasec.com/nvd/cve-2026-47675) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: Cookie helper does not sanitize sameSite and priority, allowing Set-Cookie injection |
