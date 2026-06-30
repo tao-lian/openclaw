@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-06-29 11:57:35.192528993 +0000 UTC m=+4.820983491
+**Date:** 2026-06-30 10:31:04.292198356 +0000 UTC m=+49.944425423
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -49,7 +49,7 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-54328](https://avd.aquasec.com/nvd/cve-2026-54328) | 🟠 **HIGH** | `@earendil-works/pi-coding-agent` | 0.78.1 | Pi Agent: Predictable temporary extension install paths allow local privilege escalation on shared Linux hosts |
 | [CVE-2026-54325](https://avd.aquasec.com/nvd/cve-2026-54325) | 🟡 **MEDIUM** | `@earendil-works/pi-coding-agent` | 0.79.0 | Pi Agent: Pi loads project-local extensions without approval |
-| [CVE-2026-54285](https://avd.aquasec.com/nvd/cve-2026-54285) | 🟡 **MEDIUM** | `@opentelemetry/core` | 2.8.0 | OpenTelemetry Core: Unbounded memory allocation in W3C Baggage propagation |
+| [CVE-2026-54285](https://avd.aquasec.com/nvd/cve-2026-54285) | 🟡 **MEDIUM** | `@opentelemetry/core` | 2.8.0 | @opentelemetry/core: opentelemetry-js: @opentelemetry/core: Denial of Service via oversized baggage HTTP headers |
 | [CVE-2026-48758](https://avd.aquasec.com/nvd/cve-2026-48758) | 🟡 **MEDIUM** | `@sigstore/core` | 3.2.1 | @sigstore/core has DSSE payloadType type-binding failure |
 | [CVE-2026-53633](https://avd.aquasec.com/nvd/cve-2026-53633) | 🔴 **CRITICAL** | `@vitest/browser` | 5.0.0-beta.4, 4.1.8, 3.2.5 | Vitest Browser: Exposed Browser Mode API Can Proxy CDP and Overwrite Config Files, Leading to RCE |
 | [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | brace-expansion: brace-expansion: Denial of Service due to excessive memory allocation when expanding large numeric ranges |
@@ -58,7 +58,7 @@
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify IN_PLACE Sanitization Bypass via Attached Shadow Root Inside <template>.content |
 | [GHSA-76mc-f452-cxcm](https://github.com/advisories/GHSA-76mc-f452-cxcm) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify: Hook mutation of `data.allowedTags` / `data.allowedAttributes` permanently pollutes `DEFAULT_ALLOWED_TAGS` / `DEFAULT_ALLOWED_ATTR` |
 | [GHSA-cmwh-pvxp-8882](https://github.com/advisories/GHSA-cmwh-pvxp-8882) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | DOMPurify: Permanent `ALLOWED_ATTR` pollution via `setConfig()` bypassing the hook clone-guard (incomplete fix of the 3.4.7 hook-pollution patch) |
-| [CVE-2026-12143](https://avd.aquasec.com/nvd/cve-2026-12143) | 🟠 **HIGH** | `form-data` | 2.5.6, 3.0.5, 4.0.6 | form-data is a library for creating readable multipart/form-data strea ... |
+| [CVE-2026-12143](https://avd.aquasec.com/nvd/cve-2026-12143) | 🟠 **HIGH** | `form-data` | 2.5.6, 3.0.5, 4.0.6 | form-data: form-data: Form field override via CRLF injection |
 | [CVE-2026-54290](https://avd.aquasec.com/nvd/cve-2026-54290) | 🟠 **HIGH** | `hono` | 4.12.25 | hono: CORS Middleware reflects any Origin with credentials when `origin` defaults to the wildcard |
 | [CVE-2026-47673](https://avd.aquasec.com/nvd/cve-2026-47673) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: JWT middleware accepts any Authorization scheme, not only Bearer |
 | [CVE-2026-47674](https://avd.aquasec.com/nvd/cve-2026-47674) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: IP Restriction bypasses static deny rules for non-canonical IPv6  |
@@ -71,9 +71,9 @@
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input |
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | LinkifyIt#match scan loop has quadratic algorithmic complexity |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
-| [CVE-2026-48712](https://avd.aquasec.com/nvd/cve-2026-48712) | 🟠 **HIGH** | `protobufjs` | 7.6.1, 8.4.1 | protobufjs: Denial of service through unbounded Any expansion during JSON conversion |
-| [CVE-2026-54269](https://avd.aquasec.com/nvd/cve-2026-54269) | 🟡 **MEDIUM** | `protobufjs` | 7.6.3, 8.6.0 | protobufjs : Schema-derived names can shadow runtime-significant properties |
-| [CVE-2026-54270](https://avd.aquasec.com/nvd/cve-2026-54270) | 🟡 **MEDIUM** | `protobufjs` | 8.5.0 | protobufjs: Memory amplification from preserved unknown fields in binary decode |
+| [CVE-2026-48712](https://avd.aquasec.com/nvd/cve-2026-48712) | 🟠 **HIGH** | `protobufjs` | 7.6.1, 8.4.1 | protobufjs: protobufjs: Denial of Service via uncontrolled recursion with crafted protobuf payload |
+| [CVE-2026-54269](https://avd.aquasec.com/nvd/cve-2026-54269) | 🟡 **MEDIUM** | `protobufjs` | 7.6.3, 8.6.0 | protobufjs: protobufjs-cli: protobufjs: Denial of Service due to name collision with runtime helpers |
+| [CVE-2026-54270](https://avd.aquasec.com/nvd/cve-2026-54270) | 🟡 **MEDIUM** | `protobufjs` | 8.5.0 | protobufjs: protobufjs: Denial of Service due to excessive memory consumption |
 | [CVE-2026-53655](https://avd.aquasec.com/nvd/cve-2026-53655) | 🟡 **MEDIUM** | `tar` | 7.5.16 | node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (nod ... |
 | [CVE-2026-53655](https://avd.aquasec.com/nvd/cve-2026-53655) | 🟡 **MEDIUM** | `tar` | 7.5.16 | node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (nod ... |
 | [CVE-2026-12151](https://avd.aquasec.com/nvd/cve-2026-12151) | 🟠 **HIGH** | `undici` | 6.27.0, 7.28.0, 8.5.0 | undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames |
@@ -94,7 +94,7 @@
 | [CVE-2026-9678](https://avd.aquasec.com/nvd/cve-2026-9678) | 🟡 **MEDIUM** | `undici` | 7.28.0, 8.5.0 | undici: Undici: Information disclosure due to improper cache-control header parsing |
 | [CVE-2026-9679](https://avd.aquasec.com/nvd/cve-2026-9679) | 🟡 **MEDIUM** | `undici` | 6.27.0, 7.28.0, 8.5.0 | undici: undici vulnerable to HTTP header injection via Set-Cookie percent-decoding |
 | [CVE-2026-53571](https://avd.aquasec.com/nvd/cve-2026-53571) | 🟠 **HIGH** | `vite` | 8.0.16, 7.3.5, 6.4.3 | vite: `server.fs.deny` bypass on Windows alternate paths |
-| [CVE-2026-53632](https://avd.aquasec.com/nvd/cve-2026-53632) | 🟡 **MEDIUM** | `vite` | 8.0.16, 7.3.5, 6.4.3 | launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows |
+| [CVE-2026-53632](https://avd.aquasec.com/nvd/cve-2026-53632) | 🟡 **MEDIUM** | `vite` | 8.0.16, 7.3.5, 6.4.3 | launch-editor: launch-editor: Credential compromise via NTLMv2 password hash leak through UNC path access |
 
 
 
@@ -114,7 +114,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | *x509.Certificate).VerifyHostname previously called matchHostnames in ... |
+| [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries |
 | [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | Decoding a maliciously-crafted MIME header containing many invalid enc ... |
 | [CVE-2026-42507](https://avd.aquasec.com/nvd/cve-2026-42507) | 🟡 **MEDIUM** | `stdlib` | 1.25.11, 1.26.4 | net/textproto: golang: Golang net/textproto: Misleading error messages via input injection |
 
@@ -136,7 +136,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | *x509.Certificate).VerifyHostname previously called matchHostnames in ... |
+| [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries |
 | [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | Decoding a maliciously-crafted MIME header containing many invalid enc ... |
 | [CVE-2026-42507](https://avd.aquasec.com/nvd/cve-2026-42507) | 🟡 **MEDIUM** | `stdlib` | 1.25.11, 1.26.4 | net/textproto: golang: Golang net/textproto: Misleading error messages via input injection |
 
