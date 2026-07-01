@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-06-30 10:31:04.292198356 +0000 UTC m=+49.944425423
+**Date:** 2026-07-01 10:40:34.461706939 +0000 UTC m=+5.932025701
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -9,8 +9,8 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-55200](https://avd.aquasec.com/nvd/cve-2026-55200) | 🔴 **CRITICAL** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c |
 | [CVE-2026-55199](https://avd.aquasec.com/nvd/cve-2026-55199) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2: Denial of Service via crafted SSH_MSG_EXT_INFO message |
+| [CVE-2026-55200](https://avd.aquasec.com/nvd/cve-2026-55200) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c |
 | [CVE-2026-7598](https://avd.aquasec.com/nvd/cve-2026-7598) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: integer overflow via large username or password arguments |
 | [CVE-2025-15661](https://avd.aquasec.com/nvd/cve-2025-15661) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2: Information disclosure and denial of service via crafted SFTP response |
 | [CVE-2026-45447](https://avd.aquasec.com/nvd/cve-2026-45447) | 🟠 **HIGH** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() |
