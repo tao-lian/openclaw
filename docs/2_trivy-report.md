@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-02 10:09:18.065066142 +0000 UTC m=+6.985243636
+**Date:** 2026-07-03 09:56:46.575991393 +0000 UTC m=+6.874279744
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -72,6 +72,8 @@
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input |
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | LinkifyIt#match scan loop has quadratic algorithmic complexity |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
+| [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
+| [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
 | [CVE-2026-48712](https://avd.aquasec.com/nvd/cve-2026-48712) | 🟠 **HIGH** | `protobufjs` | 7.6.1, 8.4.1 | protobufjs: protobufjs: Denial of Service via uncontrolled recursion with crafted protobuf payload |
 | [CVE-2026-54269](https://avd.aquasec.com/nvd/cve-2026-54269) | 🟡 **MEDIUM** | `protobufjs` | 7.6.3, 8.6.0 | protobufjs: protobufjs-cli: protobufjs: Denial of Service due to name collision with runtime helpers |
