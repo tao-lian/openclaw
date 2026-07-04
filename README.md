@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-07-03 09:56:46.575991393 +0000 UTC m=+6.874279744
+**Date:** 2026-07-04 09:21:12.404305826 +0000 UTC m=+5.696739537
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -157,7 +157,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries |
-| [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | Decoding a maliciously-crafted MIME header containing many invalid enc ... |
+| [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟡 **MEDIUM** | `stdlib` | 1.25.11, 1.26.4 | Decoding a maliciously-crafted MIME header containing many invalid enc ... |
 | [CVE-2026-42507](https://avd.aquasec.com/nvd/cve-2026-42507) | 🟡 **MEDIUM** | `stdlib` | 1.25.11, 1.26.4 | net/textproto: golang: Golang net/textproto: Misleading error messages via input injection |
 
 
@@ -179,7 +179,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries |
-| [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | Decoding a maliciously-crafted MIME header containing many invalid enc ... |
+| [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟡 **MEDIUM** | `stdlib` | 1.25.11, 1.26.4 | Decoding a maliciously-crafted MIME header containing many invalid enc ... |
 | [CVE-2026-42507](https://avd.aquasec.com/nvd/cve-2026-42507) | 🟡 **MEDIUM** | `stdlib` | 1.25.11, 1.26.4 | net/textproto: golang: Golang net/textproto: Misleading error messages via input injection |
 
 
