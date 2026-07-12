@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-07-11 08:45:03.171431904 +0000 UTC m=+4.737643641
+**Date:** 2026-07-12 09:00:42.200018501 +0000 UTC m=+5.546597245
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -46,6 +46,50 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-5773](https://avd.aquasec.com/nvd/cve-2026-5773) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse |
+| [CVE-2026-6276](https://avd.aquasec.com/nvd/cve-2026-6276) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers |
+| [CVE-2026-1965](https://avd.aquasec.com/nvd/cve-2026-1965) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication |
+| [CVE-2026-3783](https://avd.aquasec.com/nvd/cve-2026-3783) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Information disclosure via OAuth2 bearer token leakage during HTTP(S) redirect |
+| [CVE-2026-3784](https://avd.aquasec.com/nvd/cve-2026-3784) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Unauthorized access due to improper HTTP proxy connection reuse |
+| [CVE-2026-3805](https://avd.aquasec.com/nvd/cve-2026-3805) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Arbitrary code execution or Denial of Service via use-after-free in SMB request handling |
+| [CVE-2026-4873](https://avd.aquasec.com/nvd/cve-2026-4873) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Information disclosure due to incorrect TLS connection reuse |
+| [CVE-2026-5545](https://avd.aquasec.com/nvd/cve-2026-5545) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse |
+| [CVE-2026-6253](https://avd.aquasec.com/nvd/cve-2026-6253) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies |
+| [CVE-2026-6429](https://avd.aquasec.com/nvd/cve-2026-6429) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Credential leak via reused proxy connection during HTTP redirects |
+| [CVE-2026-7168](https://avd.aquasec.com/nvd/cve-2026-7168) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure via incorrect Proxy-Authorization header reuse |
+| [CVE-2026-5773](https://avd.aquasec.com/nvd/cve-2026-5773) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse |
+| [CVE-2026-6276](https://avd.aquasec.com/nvd/cve-2026-6276) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers |
+| [CVE-2026-1965](https://avd.aquasec.com/nvd/cve-2026-1965) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication |
+| [CVE-2026-3783](https://avd.aquasec.com/nvd/cve-2026-3783) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Information disclosure via OAuth2 bearer token leakage during HTTP(S) redirect |
+| [CVE-2026-3784](https://avd.aquasec.com/nvd/cve-2026-3784) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Unauthorized access due to improper HTTP proxy connection reuse |
+| [CVE-2026-3805](https://avd.aquasec.com/nvd/cve-2026-3805) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Arbitrary code execution or Denial of Service via use-after-free in SMB request handling |
+| [CVE-2026-4873](https://avd.aquasec.com/nvd/cve-2026-4873) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Information disclosure due to incorrect TLS connection reuse |
+| [CVE-2026-5545](https://avd.aquasec.com/nvd/cve-2026-5545) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse |
+| [CVE-2026-6253](https://avd.aquasec.com/nvd/cve-2026-6253) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies |
+| [CVE-2026-6429](https://avd.aquasec.com/nvd/cve-2026-6429) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Credential leak via reused proxy connection during HTTP redirects |
+| [CVE-2026-7168](https://avd.aquasec.com/nvd/cve-2026-7168) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure via incorrect Proxy-Authorization header reuse |
+| [CVE-2026-5773](https://avd.aquasec.com/nvd/cve-2026-5773) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse |
+| [CVE-2026-6276](https://avd.aquasec.com/nvd/cve-2026-6276) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers |
+| [CVE-2026-1965](https://avd.aquasec.com/nvd/cve-2026-1965) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication |
+| [CVE-2026-3783](https://avd.aquasec.com/nvd/cve-2026-3783) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Information disclosure via OAuth2 bearer token leakage during HTTP(S) redirect |
+| [CVE-2026-3784](https://avd.aquasec.com/nvd/cve-2026-3784) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Unauthorized access due to improper HTTP proxy connection reuse |
+| [CVE-2026-3805](https://avd.aquasec.com/nvd/cve-2026-3805) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Arbitrary code execution or Denial of Service via use-after-free in SMB request handling |
+| [CVE-2026-4873](https://avd.aquasec.com/nvd/cve-2026-4873) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Information disclosure due to incorrect TLS connection reuse |
+| [CVE-2026-5545](https://avd.aquasec.com/nvd/cve-2026-5545) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse |
+| [CVE-2026-6253](https://avd.aquasec.com/nvd/cve-2026-6253) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies |
+| [CVE-2026-6429](https://avd.aquasec.com/nvd/cve-2026-6429) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Credential leak via reused proxy connection during HTTP redirects |
+| [CVE-2026-7168](https://avd.aquasec.com/nvd/cve-2026-7168) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure via incorrect Proxy-Authorization header reuse |
+| [CVE-2026-34743](https://avd.aquasec.com/nvd/cve-2026-34743) | 🟡 **MEDIUM** | `liblzma5` | 5.8.1-1+deb13u1 | xz: XZ Utils: Denial of Service via buffer overflow in index decoding |
+| [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
+| [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
+| [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
+| [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
+| [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
+| [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
+| [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
+| [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
+| [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
+| [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
 | [CVE-2026-55199](https://avd.aquasec.com/nvd/cve-2026-55199) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2: Denial of Service via crafted SSH_MSG_EXT_INFO message |
 | [CVE-2026-55200](https://avd.aquasec.com/nvd/cve-2026-55200) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c |
 | [CVE-2026-7598](https://avd.aquasec.com/nvd/cve-2026-7598) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: integer overflow via large username or password arguments |
@@ -65,6 +109,17 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
 | [CVE-2026-42764](https://avd.aquasec.com/nvd/cve-2026-42764) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: NULL pointer dereference in QUIC server initial packet handling |
 | [CVE-2026-45445](https://avd.aquasec.com/nvd/cve-2026-45445) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: AES-OCB IV Ignored on EVP_Cipher() Path |
+| [CVE-2026-45409](https://avd.aquasec.com/nvd/cve-2026-45409) | 🟡 **MEDIUM** | `python3-idna` | 3.10-1+deb13u1 | python-idna: idna: Denial of Service via specially crafted long inputs |
+| [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
+| [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
+| [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
+| [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
+| [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
+| [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
+| [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
+| [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
+| [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
+| [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
 
 
 
