@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-07-20 09:58:26.237451252 +0000 UTC m=+5.082091489
+**Date:** 2026-07-21 09:26:01.853079627 +0000 UTC m=+7.121208222
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -145,7 +145,19 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-48758](https://avd.aquasec.com/nvd/cve-2026-48758) | 🟡 **MEDIUM** | `@sigstore/core` | 3.2.1 | sigstore-core: @sigstore/core: Signature bypass due to incorrect encoding in preAuthEncoding |
 | [CVE-2026-48816](https://avd.aquasec.com/nvd/cve-2026-48816) | 🟡 **MEDIUM** | `@sigstore/verify` | 3.1.1 | sigstore-js: github.com/sigstore/sigstore-js: sigstore-js: Insufficient verification of data authenticity allows timestamp manipulation |
 | [CVE-2026-53633](https://avd.aquasec.com/nvd/cve-2026-53633) | 🔴 **CRITICAL** | `@vitest/browser` | 5.0.0-beta.4, 4.1.8, 3.2.5 | @vitest/browser: vite-plus: Vitest: Remote code execution via exposed Chrome DevTools Protocol API |
+| [GHSA-gcfj-64vw-6mp9](https://github.com/advisories/GHSA-gcfj-64vw-6mp9) | 🟠 **HIGH** | `axios` | 0.33.0, 1.18.0 | Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning |
+| [GHSA-42h9-826w-cgv3](https://github.com/advisories/GHSA-42h9-826w-cgv3) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Excessive recursion in formDataToJSON can cause denial of service |
+| [GHSA-7q8q-rj6j-mhjq](https://github.com/advisories/GHSA-7q8q-rj6j-mhjq) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Nested axios option objects can consume polluted prototype values |
+| [GHSA-f4gw-2p7v-4548](https://github.com/advisories/GHSA-f4gw-2p7v-4548) | 🟡 **MEDIUM** | `axios` | 1.18.0, 0.33.0 | Axios: NO_PROXY bypass for 0.0.0.0 local addresses in axios |
+| [GHSA-hcpx-6fm6-wx23](https://github.com/advisories/GHSA-hcpx-6fm6-wx23) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios form serializer maxDepth bypass via {} metatoken |
+| [GHSA-jqh4-m9w3-8hp9](https://github.com/advisories/GHSA-jqh4-m9w3-8hp9) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: Fetch adapter `ReadableStream` uploads bypass `maxBodyLength` |
+| [GHSA-mmx7-hfxf-jppx](https://github.com/advisories/GHSA-mmx7-hfxf-jppx) | 🟡 **MEDIUM** | `axios` | 1.18.0, 0.33.0 | Axios: Prototype pollution gadgets can alter axios request construction |
+| [GHSA-mwf2-3pr3-8698](https://github.com/advisories/GHSA-mwf2-3pr3-8698) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: HTTP/2 streamed uploads bypass `maxBodyLength` |
+| [GHSA-pmv8-rq9r-6j72](https://github.com/advisories/GHSA-pmv8-rq9r-6j72) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Deep formToJSON Key Recursion Can Cause Denial of Service |
+| [GHSA-xj6q-8x83-jv6g](https://github.com/advisories/GHSA-xj6q-8x83-jv6g) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: Prototype pollution auth subfields can inject Basic auth |
+| [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
 | [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | brace-expansion: brace-expansion: Denial of Service due to excessive memory allocation when expanding large numeric ranges |
+| [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
 | [CVE-2026-49458](https://avd.aquasec.com/nvd/cve-2026-49458) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes |
 | [CVE-2026-49459](https://avd.aquasec.com/nvd/cve-2026-49459) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution |
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution |
@@ -170,9 +182,19 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-48712](https://avd.aquasec.com/nvd/cve-2026-48712) | 🟠 **HIGH** | `protobufjs` | 7.6.1, 8.4.1 | protobufjs: protobufjs: Denial of Service via uncontrolled recursion with crafted protobuf payload |
 | [CVE-2026-54269](https://avd.aquasec.com/nvd/cve-2026-54269) | 🟡 **MEDIUM** | `protobufjs` | 7.6.3, 8.6.0 | protobufjs: protobufjs-cli: protobufjs: Denial of Service due to name collision with runtime helpers |
 | [CVE-2026-54270](https://avd.aquasec.com/nvd/cve-2026-54270) | 🟡 **MEDIUM** | `protobufjs` | 8.5.0 | protobufjs: protobufjs: Denial of Service due to excessive memory consumption |
+| [CVE-2026-59876](https://avd.aquasec.com/nvd/cve-2026-59876) | 🟡 **MEDIUM** | `protobufjs` | 8.6.5 | protobufjs: protobufjs: Prototype pollution vulnerability in Text Format extension |
+| [CVE-2026-59877](https://avd.aquasec.com/nvd/cve-2026-59877) | 🟡 **MEDIUM** | `protobufjs` | 7.6.5, 8.6.6 | protobufjs: Denial of Service via infinite loop in .proto option parsing |
 | [CVE-2026-48815](https://avd.aquasec.com/nvd/cve-2026-48815) | 🟠 **HIGH** | `sigstore` | 4.1.1 | sigstore: Sigstore: Unauthorized certificates accepted due to ignored `certificateOIDs` verification option |
+| [CVE-2026-59873](https://avd.aquasec.com/nvd/cve-2026-59873) | 🔴 **CRITICAL** | `tar` | 7.5.19 | tar: node-tar: Denial of Service via crafted gzip bomb |
+| [CVE-2026-59874](https://avd.aquasec.com/nvd/cve-2026-59874) | 🟠 **HIGH** | `tar` | 7.5.18 | tar: Node-tar: Denial of Service via malformed tar archive header |
 | [CVE-2026-53655](https://avd.aquasec.com/nvd/cve-2026-53655) | 🟡 **MEDIUM** | `tar` | 7.5.16 | node-tar: node-tar: File smuggling due to inconsistent tar archive parsing |
+| [CVE-2026-59871](https://avd.aquasec.com/nvd/cve-2026-59871) | 🟡 **MEDIUM** | `tar` | 7.5.18 | node-tar: node-tar: Denial of Service due to incorrect PAX path handling |
+| [CVE-2026-59875](https://avd.aquasec.com/nvd/cve-2026-59875) | 🟡 **MEDIUM** | `tar` | 7.5.17 | node-tar: node-tar: Denial of Service via crafted archive with NUL bytes in metadata |
+| [CVE-2026-59873](https://avd.aquasec.com/nvd/cve-2026-59873) | 🔴 **CRITICAL** | `tar` | 7.5.19 | tar: node-tar: Denial of Service via crafted gzip bomb |
+| [CVE-2026-59874](https://avd.aquasec.com/nvd/cve-2026-59874) | 🟠 **HIGH** | `tar` | 7.5.18 | tar: Node-tar: Denial of Service via malformed tar archive header |
 | [CVE-2026-53655](https://avd.aquasec.com/nvd/cve-2026-53655) | 🟡 **MEDIUM** | `tar` | 7.5.16 | node-tar: node-tar: File smuggling due to inconsistent tar archive parsing |
+| [CVE-2026-59871](https://avd.aquasec.com/nvd/cve-2026-59871) | 🟡 **MEDIUM** | `tar` | 7.5.18 | node-tar: node-tar: Denial of Service due to incorrect PAX path handling |
+| [CVE-2026-59875](https://avd.aquasec.com/nvd/cve-2026-59875) | 🟡 **MEDIUM** | `tar` | 7.5.17 | node-tar: node-tar: Denial of Service via crafted archive with NUL bytes in metadata |
 | [CVE-2026-12151](https://avd.aquasec.com/nvd/cve-2026-12151) | 🟠 **HIGH** | `undici` | 6.27.0, 7.28.0, 8.5.0 | undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames |
 | [CVE-2026-9679](https://avd.aquasec.com/nvd/cve-2026-9679) | 🟡 **MEDIUM** | `undici` | 6.27.0, 7.28.0, 8.5.0 | undici: undici vulnerable to HTTP header injection via Set-Cookie percent-decoding |
 | [CVE-2026-12151](https://avd.aquasec.com/nvd/cve-2026-12151) | 🟠 **HIGH** | `undici` | 6.27.0, 7.28.0, 8.5.0 | undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames |
