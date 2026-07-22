@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-21 09:26:01.853079627 +0000 UTC m=+7.121208222
+**Date:** 2026-07-22 09:24:44.256327435 +0000 UTC m=+5.538925601
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -104,10 +104,13 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-54328](https://avd.aquasec.com/nvd/cve-2026-54328) | 🟠 **HIGH** | `@earendil-works/pi-coding-agent` | 0.78.1 | Pi Agent: Predictable temporary extension install paths allow local privilege escalation on shared Linux hosts |
 | [CVE-2026-54325](https://avd.aquasec.com/nvd/cve-2026-54325) | 🟡 **MEDIUM** | `@earendil-works/pi-coding-agent` | 0.79.0 | Pi Agent: Pi loads project-local extensions without approval |
+| [GHSA-frvp-7c67-39w9](https://github.com/advisories/GHSA-frvp-7c67-39w9) | 🟡 **MEDIUM** | `@hono/node-server` | 2.0.5 | Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`) |
 | [CVE-2026-54285](https://avd.aquasec.com/nvd/cve-2026-54285) | 🟡 **MEDIUM** | `@opentelemetry/core` | 2.8.0 | @opentelemetry/core: opentelemetry-js: @opentelemetry/core: Denial of Service via oversized baggage HTTP headers |
+| [CVE-2026-59892](https://avd.aquasec.com/nvd/cve-2026-59892) | 🟠 **HIGH** | `@opentelemetry/propagator-jaeger` | 2.9.0 | @opentelemetry/propagator-jaeger: OpenTelemetry JavaScript: Denial of Service via malformed HTTP header decoding |
 | [CVE-2026-48758](https://avd.aquasec.com/nvd/cve-2026-48758) | 🟡 **MEDIUM** | `@sigstore/core` | 3.2.1 | sigstore-core: @sigstore/core: Signature bypass due to incorrect encoding in preAuthEncoding |
 | [CVE-2026-48816](https://avd.aquasec.com/nvd/cve-2026-48816) | 🟡 **MEDIUM** | `@sigstore/verify` | 3.1.1 | sigstore-js: github.com/sigstore/sigstore-js: sigstore-js: Insufficient verification of data authenticity allows timestamp manipulation |
 | [CVE-2026-53633](https://avd.aquasec.com/nvd/cve-2026-53633) | 🔴 **CRITICAL** | `@vitest/browser` | 5.0.0-beta.4, 4.1.8, 3.2.5 | @vitest/browser: vite-plus: Vitest: Remote code execution via exposed Chrome DevTools Protocol API |
+| [GHSA-p63j-vcc4-9vmv](https://github.com/advisories/GHSA-p63j-vcc4-9vmv) | 🔴 **CRITICAL** | `@vitest/browser` | 4.1.10, 3.2.7, 5.0.0-beta.6 | @vitest/browser: Browser Mode provider commands bypass the file-access permission gate |
 | [GHSA-gcfj-64vw-6mp9](https://github.com/advisories/GHSA-gcfj-64vw-6mp9) | 🟠 **HIGH** | `axios` | 0.33.0, 1.18.0 | Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning |
 | [GHSA-42h9-826w-cgv3](https://github.com/advisories/GHSA-42h9-826w-cgv3) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Excessive recursion in formDataToJSON can cause denial of service |
 | [GHSA-7q8q-rj6j-mhjq](https://github.com/advisories/GHSA-7q8q-rj6j-mhjq) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Nested axios option objects can consume polluted prototype values |
@@ -126,6 +129,8 @@
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution |
 | [GHSA-76mc-f452-cxcm](https://github.com/advisories/GHSA-76mc-f452-cxcm) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify: Hook mutation of `data.allowedTags` / `data.allowedAttributes` permanently pollutes `DEFAULT_ALLOWED_TAGS` / `DEFAULT_ALLOWED_ATTR` |
 | [GHSA-cmwh-pvxp-8882](https://github.com/advisories/GHSA-cmwh-pvxp-8882) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | DOMPurify: Permanent `ALLOWED_ATTR` pollution via `setConfig()` bypassing the hook clone-guard (incomplete fix of the 3.4.7 hook-pollution patch) |
+| [CVE-2026-13676](https://avd.aquasec.com/nvd/cve-2026-13676) | 🟠 **HIGH** | `fast-uri` | 4.0.1, 3.1.3, 2.4.2 | fast-uri: fast-uri: Security policy bypass due to improper Unicode hostname canonicalization |
+| [CVE-2026-16221](https://avd.aquasec.com/nvd/cve-2026-16221) | 🟠 **HIGH** | `fast-uri` | 2.4.3, 3.1.4, 4.1.1 | Impact: fast-uri versions from 2.3.1 through 4.1.0 (including the 3.x  ... |
 | [CVE-2026-12143](https://avd.aquasec.com/nvd/cve-2026-12143) | 🟠 **HIGH** | `form-data` | 2.5.6, 3.0.5, 4.0.6 | form-data: form-data: Form field override via CRLF injection |
 | [CVE-2026-54290](https://avd.aquasec.com/nvd/cve-2026-54290) | 🟠 **HIGH** | `hono` | 4.12.25 | hono: CORS Middleware reflects any Origin with credentials when `origin` defaults to the wildcard |
 | [CVE-2026-47673](https://avd.aquasec.com/nvd/cve-2026-47673) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: JWT middleware accepts any Authorization scheme, not only Bearer |
@@ -136,8 +141,12 @@
 | [CVE-2026-54287](https://avd.aquasec.com/nvd/cve-2026-54287) | 🟡 **MEDIUM** | `hono` | 4.12.25 | hono: AWS Lambda adapter merges multiple `Set-Cookie` headers into one value, dropping cookies on ALB single-header and Lattice |
 | [CVE-2026-54288](https://avd.aquasec.com/nvd/cve-2026-54288) | 🟡 **MEDIUM** | `hono` | 4.12.25 | hono: Body Limit Middleware can be bypassed on AWS Lambda by understating `Content-Length` |
 | [CVE-2026-54289](https://avd.aquasec.com/nvd/cve-2026-54289) | 🟡 **MEDIUM** | `hono` | 4.12.25 | hono: Lambda@Edge adapter keeps only the last value of a repeated request header, dropping the rest |
+| [CVE-2026-59895](https://avd.aquasec.com/nvd/cve-2026-59895) | 🟡 **MEDIUM** | `hono` | 4.12.27 | Hono: Server-Side XSS via JSX Escaping Bypass in cx() Utility |
+| [CVE-2026-59896](https://avd.aquasec.com/nvd/cve-2026-59896) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono/jsx does not isolate context per request, leading to cross-request data disclosure |
+| [CVE-2026-59897](https://avd.aquasec.com/nvd/cve-2026-59897) | 🟡 **MEDIUM** | `hono` | 4.12.27 | Hono: API Gateway v1 adapter can drop a distinct repeated request header value during de-duplication |
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input |
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | linkify-it: linkify-it: Denial of Service via algorithmic complexity vulnerability |
+| [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
 | [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
