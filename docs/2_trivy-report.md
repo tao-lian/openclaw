@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-22 09:24:44.256327435 +0000 UTC m=+5.538925601
+**Date:** 2026-07-23 09:23:03.982960651 +0000 UTC m=+4.858125205
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -155,7 +155,7 @@
 | [CVE-2026-54269](https://avd.aquasec.com/nvd/cve-2026-54269) | 🟡 **MEDIUM** | `protobufjs` | 7.6.3, 8.6.0 | protobufjs: protobufjs-cli: protobufjs: Denial of Service due to name collision with runtime helpers |
 | [CVE-2026-54270](https://avd.aquasec.com/nvd/cve-2026-54270) | 🟡 **MEDIUM** | `protobufjs` | 8.5.0 | protobufjs: protobufjs: Denial of Service due to excessive memory consumption |
 | [CVE-2026-59876](https://avd.aquasec.com/nvd/cve-2026-59876) | 🟡 **MEDIUM** | `protobufjs` | 8.6.5 | protobufjs: protobufjs: Prototype pollution vulnerability in Text Format extension |
-| [CVE-2026-59877](https://avd.aquasec.com/nvd/cve-2026-59877) | 🟡 **MEDIUM** | `protobufjs` | 7.6.5, 8.6.6 | protobufjs: Denial of Service via infinite loop in .proto option parsing |
+| [CVE-2026-59877](https://avd.aquasec.com/nvd/cve-2026-59877) | 🟡 **MEDIUM** | `protobufjs` | 7.6.5, 8.6.6 | protobufjs: protobufjs: Denial of Service via crafted .proto schema |
 | [CVE-2026-48815](https://avd.aquasec.com/nvd/cve-2026-48815) | 🟠 **HIGH** | `sigstore` | 4.1.1 | sigstore: Sigstore: Unauthorized certificates accepted due to ignored `certificateOIDs` verification option |
 | [CVE-2026-59873](https://avd.aquasec.com/nvd/cve-2026-59873) | 🔴 **CRITICAL** | `tar` | 7.5.19 | tar: node-tar: Denial of Service via crafted gzip bomb |
 | [CVE-2026-59874](https://avd.aquasec.com/nvd/cve-2026-59874) | 🟠 **HIGH** | `tar` | 7.5.18 | tar: Node-tar: Denial of Service via malformed tar archive header |
