@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-23 09:23:03.982960651 +0000 UTC m=+4.858125205
+**Date:** 2026-07-24 09:19:52.862640287 +0000 UTC m=+4.593259001
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -127,8 +127,8 @@
 | [CVE-2026-49458](https://avd.aquasec.com/nvd/cve-2026-49458) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes |
 | [CVE-2026-49459](https://avd.aquasec.com/nvd/cve-2026-49459) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution |
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution |
-| [GHSA-76mc-f452-cxcm](https://github.com/advisories/GHSA-76mc-f452-cxcm) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify: Hook mutation of `data.allowedTags` / `data.allowedAttributes` permanently pollutes `DEFAULT_ALLOWED_TAGS` / `DEFAULT_ALLOWED_ATTR` |
-| [GHSA-cmwh-pvxp-8882](https://github.com/advisories/GHSA-cmwh-pvxp-8882) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | DOMPurify: Permanent `ALLOWED_ATTR` pollution via `setConfig()` bypassing the hook clone-guard (incomplete fix of the 3.4.7 hook-pollution patch) |
+| [CVE-2026-65898](https://avd.aquasec.com/nvd/cve-2026-65898) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | DOMPurify before 3.4.11 fails to clone the ALLOWED_ATTR allowlist when ... |
+| [CVE-2026-65902](https://avd.aquasec.com/nvd/cve-2026-65902) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify before 3.4.7 (affected versions <= 3.4.5) passes direct refe ... |
 | [CVE-2026-13676](https://avd.aquasec.com/nvd/cve-2026-13676) | 🟠 **HIGH** | `fast-uri` | 4.0.1, 3.1.3, 2.4.2 | fast-uri: fast-uri: Security policy bypass due to improper Unicode hostname canonicalization |
 | [CVE-2026-16221](https://avd.aquasec.com/nvd/cve-2026-16221) | 🟠 **HIGH** | `fast-uri` | 2.4.3, 3.1.4, 4.1.1 | Impact: fast-uri versions from 2.3.1 through 4.1.0 (including the 3.x  ... |
 | [CVE-2026-12143](https://avd.aquasec.com/nvd/cve-2026-12143) | 🟠 **HIGH** | `form-data` | 2.5.6, 3.0.5, 4.0.6 | form-data: form-data: Form field override via CRLF injection |
