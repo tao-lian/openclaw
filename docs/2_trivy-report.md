@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-28 09:35:01.529978509 +0000 UTC m=+4.636254852
+**Date:** 2026-07-29 09:35:18.646728305 +0000 UTC m=+5.871209789
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -143,9 +143,9 @@
 | [CVE-2026-54287](https://avd.aquasec.com/nvd/cve-2026-54287) | 🟡 **MEDIUM** | `hono` | 4.12.25 | hono: AWS Lambda adapter merges multiple `Set-Cookie` headers into one value, dropping cookies on ALB single-header and Lattice |
 | [CVE-2026-54288](https://avd.aquasec.com/nvd/cve-2026-54288) | 🟡 **MEDIUM** | `hono` | 4.12.25 | hono: Body Limit Middleware can be bypassed on AWS Lambda by understating `Content-Length` |
 | [CVE-2026-54289](https://avd.aquasec.com/nvd/cve-2026-54289) | 🟡 **MEDIUM** | `hono` | 4.12.25 | hono: Lambda@Edge adapter keeps only the last value of a repeated request header, dropping the rest |
-| [CVE-2026-59895](https://avd.aquasec.com/nvd/cve-2026-59895) | 🟡 **MEDIUM** | `hono` | 4.12.27 | Hono: Server-Side XSS via JSX Escaping Bypass in cx() Utility |
-| [CVE-2026-59896](https://avd.aquasec.com/nvd/cve-2026-59896) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono/jsx does not isolate context per request, leading to cross-request data disclosure |
-| [CVE-2026-59897](https://avd.aquasec.com/nvd/cve-2026-59897) | 🟡 **MEDIUM** | `hono` | 4.12.27 | Hono: API Gateway v1 adapter can drop a distinct repeated request header value during de-duplication |
+| [CVE-2026-59895](https://avd.aquasec.com/nvd/cve-2026-59895) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Arbitrary markup injection via improper handling of class names in server-side rendering. |
+| [CVE-2026-59896](https://avd.aquasec.com/nvd/cve-2026-59896) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Information disclosure due to improper context isolation in server-side rendering |
+| [CVE-2026-59897](https://avd.aquasec.com/nvd/cve-2026-59897) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Information disclosure due to incorrect header de-duplication in AWS API Gateway v1 adapter |
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input |
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | linkify-it: linkify-it: Denial of Service via algorithmic complexity vulnerability |
 | [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
@@ -210,6 +210,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-56852](https://avd.aquasec.com/nvd/cve-2026-56852) | 🟠 **HIGH** | `golang.org/x/text` | 0.39.0 | A norm.Iter can enter an infinite loop when handling input containing  ... |
 | [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries |
 | [CVE-2026-39822](https://avd.aquasec.com/nvd/cve-2026-39822) | 🟠 **HIGH** | `stdlib` | 1.25.12, 1.26.5, 1.27.0-rc.2 | os: golang: Go os.Root: Symlink following vulnerability allows directory traversal |
 | [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | mime: golang: Golang MIME: Denial of Service via maliciously-crafted MIME header |
@@ -234,6 +235,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-56852](https://avd.aquasec.com/nvd/cve-2026-56852) | 🟠 **HIGH** | `golang.org/x/text` | 0.39.0 | A norm.Iter can enter an infinite loop when handling input containing  ... |
 | [CVE-2026-27145](https://avd.aquasec.com/nvd/cve-2026-27145) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | crypto/x509: golang: golang crypto/x509: Denial of Service via excessive processing of DNS SAN entries |
 | [CVE-2026-39822](https://avd.aquasec.com/nvd/cve-2026-39822) | 🟠 **HIGH** | `stdlib` | 1.25.12, 1.26.5, 1.27.0-rc.2 | os: golang: Go os.Root: Symlink following vulnerability allows directory traversal |
 | [CVE-2026-42504](https://avd.aquasec.com/nvd/cve-2026-42504) | 🟠 **HIGH** | `stdlib` | 1.25.11, 1.26.4 | mime: golang: Golang MIME: Denial of Service via maliciously-crafted MIME header |
