@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-30 09:28:40.642985264 +0000 UTC m=+6.135961410
+**Date:** 2026-07-31 09:42:45.267491047 +0000 UTC m=+5.440813967
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -42,6 +42,25 @@
 | [CVE-2026-6253](https://avd.aquasec.com/nvd/cve-2026-6253) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies |
 | [CVE-2026-6429](https://avd.aquasec.com/nvd/cve-2026-6429) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Credential leak via reused proxy connection during HTTP redirects |
 | [CVE-2026-7168](https://avd.aquasec.com/nvd/cve-2026-7168) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure via incorrect Proxy-Authorization header reuse |
+| [CVE-2025-59375](https://avd.aquasec.com/nvd/cve-2025-59375) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | firefox: thunderbird: expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing |
+| [CVE-2026-25210](https://avd.aquasec.com/nvd/cve-2026-25210) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation |
+| [CVE-2026-45186](https://avd.aquasec.com/nvd/cve-2026-45186) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: denial of service via crafted XML input |
+| [CVE-2026-56131](https://avd.aquasec.com/nvd/cve-2026-56131) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat before 2.8.2 lacks handler call depth tracking for calls to X ... |
+| [CVE-2026-56408](https://avd.aquasec.com/nvd/cve-2026-56408) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat before 2.8.2 has an integer overflow in copyString. |
+| [CVE-2026-32776](https://avd.aquasec.com/nvd/cve-2026-32776) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Denial of Service due to NULL pointer dereference |
+| [CVE-2026-32777](https://avd.aquasec.com/nvd/cve-2026-32777) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Denial of Service via infinite loop in DTD content parsing |
+| [CVE-2026-32778](https://avd.aquasec.com/nvd/cve-2026-32778) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Denial of Service via NULL pointer dereference after out-of-memory condition |
+| [CVE-2026-50219](https://avd.aquasec.com/nvd/cve-2026-50219) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Use-after-free vulnerability due to improper handler call depth tracking |
+| [CVE-2026-56132](https://avd.aquasec.com/nvd/cve-2026-56132) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Arbitrary Code Execution via Heap-based Buffer Overflow |
+| [CVE-2026-56403](https://avd.aquasec.com/nvd/cve-2026-56403) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts |
+| [CVE-2026-56404](https://avd.aquasec.com/nvd/cve-2026-56404) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Arbitrary Code Execution via integer overflow in addBinding |
+| [CVE-2026-56405](https://avd.aquasec.com/nvd/cve-2026-56405) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Information disclosure and arbitrary code execution via integer overflow |
+| [CVE-2026-56406](https://avd.aquasec.com/nvd/cve-2026-56406) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Arbitrary code execution via integer overflow in XML_ParseBuffer |
+| [CVE-2026-56407](https://avd.aquasec.com/nvd/cve-2026-56407) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Arbitrary code execution due to integer overflow |
+| [CVE-2026-56409](https://avd.aquasec.com/nvd/cve-2026-56409) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | xmlwf in libexpat before 2.8.2 has an integer overflow for the output  ... |
+| [CVE-2026-56410](https://avd.aquasec.com/nvd/cve-2026-56410) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure and arbitrary code execution. |
+| [CVE-2026-56411](https://avd.aquasec.com/nvd/cve-2026-56411) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure or Code Execution |
+| [CVE-2026-56412](https://avd.aquasec.com/nvd/cve-2026-56412) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML CDATA sections |
 | [CVE-2026-34743](https://avd.aquasec.com/nvd/cve-2026-34743) | 🟡 **MEDIUM** | `liblzma5` | 5.8.1-1+deb13u1 | xz: XZ Utils: Denial of Service via buffer overflow in index decoding |
 | [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
 | [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
