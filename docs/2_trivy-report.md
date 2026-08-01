@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-07-31 09:42:45.267491047 +0000 UTC m=+5.440813967
+**Date:** 2026-08-01 09:05:27.09033818 +0000 UTC m=+45.793054478
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -45,12 +45,12 @@
 | [CVE-2025-59375](https://avd.aquasec.com/nvd/cve-2025-59375) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | firefox: thunderbird: expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing |
 | [CVE-2026-25210](https://avd.aquasec.com/nvd/cve-2026-25210) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation |
 | [CVE-2026-45186](https://avd.aquasec.com/nvd/cve-2026-45186) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: denial of service via crafted XML input |
-| [CVE-2026-56131](https://avd.aquasec.com/nvd/cve-2026-56131) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat before 2.8.2 lacks handler call depth tracking for calls to X ... |
 | [CVE-2026-56408](https://avd.aquasec.com/nvd/cve-2026-56408) | 🟠 **HIGH** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat before 2.8.2 has an integer overflow in copyString. |
 | [CVE-2026-32776](https://avd.aquasec.com/nvd/cve-2026-32776) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Denial of Service due to NULL pointer dereference |
 | [CVE-2026-32777](https://avd.aquasec.com/nvd/cve-2026-32777) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Denial of Service via infinite loop in DTD content parsing |
 | [CVE-2026-32778](https://avd.aquasec.com/nvd/cve-2026-32778) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Denial of Service via NULL pointer dereference after out-of-memory condition |
 | [CVE-2026-50219](https://avd.aquasec.com/nvd/cve-2026-50219) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Use-after-free vulnerability due to improper handler call depth tracking |
+| [CVE-2026-56131](https://avd.aquasec.com/nvd/cve-2026-56131) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Use-after-free vulnerability due to insufficient handler call depth tracking |
 | [CVE-2026-56132](https://avd.aquasec.com/nvd/cve-2026-56132) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Arbitrary Code Execution via Heap-based Buffer Overflow |
 | [CVE-2026-56403](https://avd.aquasec.com/nvd/cve-2026-56403) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts |
 | [CVE-2026-56404](https://avd.aquasec.com/nvd/cve-2026-56404) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Arbitrary Code Execution via integer overflow in addBinding |
@@ -141,10 +141,10 @@
 | [GHSA-pmv8-rq9r-6j72](https://github.com/advisories/GHSA-pmv8-rq9r-6j72) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Deep formToJSON Key Recursion Can Cause Denial of Service |
 | [GHSA-xj6q-8x83-jv6g](https://github.com/advisories/GHSA-xj6q-8x83-jv6g) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: Prototype pollution auth subfields can inject Basic auth |
 | [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
-| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8 | brace-expansion through 5.0.7 is vulnerable to denial of service via m ... |
+| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion through 5.0.7 is vulnerable to denial of service via m ... |
 | [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | brace-expansion: brace-expansion: Denial of Service due to excessive memory allocation when expanding large numeric ranges |
 | [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
-| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8 | brace-expansion through 5.0.7 is vulnerable to denial of service via m ... |
+| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion through 5.0.7 is vulnerable to denial of service via m ... |
 | [CVE-2026-49458](https://avd.aquasec.com/nvd/cve-2026-49458) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes |
 | [CVE-2026-49459](https://avd.aquasec.com/nvd/cve-2026-49459) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution |
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution |
