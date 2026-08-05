@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-08-04 09:37:48.172228154 +0000 UTC m=+6.043895464
+**Date:** 2026-08-05 09:35:09.223049224 +0000 UTC m=+4.727054740
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -141,11 +141,11 @@
 | [GHSA-pmv8-rq9r-6j72](https://github.com/advisories/GHSA-pmv8-rq9r-6j72) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Deep formToJSON Key Recursion Can Cause Denial of Service |
 | [GHSA-xj6q-8x83-jv6g](https://github.com/advisories/GHSA-xj6q-8x83-jv6g) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: Prototype pollution auth subfields can inject Basic auth |
 | [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
-| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion through 5.0.7 is vulnerable to denial of service via m ... |
+| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
 | [CVE-2026-69152](https://avd.aquasec.com/nvd/cve-2026-69152) | 🟠 **HIGH** | `brace-expansion` | 1.1.18, 2.1.4, 3.0.6, 5.0.9 | brace-expansion: brace-expansion: Denial of Service via unbounded intermediate arrays |
 | [CVE-2026-45149](https://avd.aquasec.com/nvd/cve-2026-45149) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.6 | brace-expansion: brace-expansion: Denial of Service due to excessive memory allocation when expanding large numeric ranges |
 | [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
-| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion through 5.0.7 is vulnerable to denial of service via m ... |
+| [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
 | [CVE-2026-69152](https://avd.aquasec.com/nvd/cve-2026-69152) | 🟠 **HIGH** | `brace-expansion` | 1.1.18, 2.1.4, 3.0.6, 5.0.9 | brace-expansion: brace-expansion: Denial of Service via unbounded intermediate arrays |
 | [CVE-2026-49458](https://avd.aquasec.com/nvd/cve-2026-49458) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes |
 | [CVE-2026-49459](https://avd.aquasec.com/nvd/cve-2026-49459) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution |
@@ -154,7 +154,7 @@
 | [CVE-2026-65902](https://avd.aquasec.com/nvd/cve-2026-65902) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify before 3.4.7 (affected versions <= 3.4.5) passes direct refe ... |
 | [CVE-2026-13676](https://avd.aquasec.com/nvd/cve-2026-13676) | 🟠 **HIGH** | `fast-uri` | 4.0.1, 3.1.3, 2.4.2 | fast-uri: fast-uri: Security policy bypass due to improper Unicode hostname canonicalization |
 | [CVE-2026-16221](https://avd.aquasec.com/nvd/cve-2026-16221) | 🟠 **HIGH** | `fast-uri` | 2.4.3, 3.1.4, 4.1.1 | Impact: fast-uri versions from 2.3.1 through 4.1.0 (including the 3.x  ... |
-| [CVE-2026-18446](https://avd.aquasec.com/nvd/cve-2026-18446) | 🟠 **HIGH** | `fast-uri` | 2.4.4, 3.1.5, 4.1.2 | fast-uri before 4.1.2, 3.1.5, and 2.4.4 requires a literal double forw ... |
+| [CVE-2026-18446](https://avd.aquasec.com/nvd/cve-2026-18446) | 🟠 **HIGH** | `fast-uri` | 2.4.4, 3.1.5, 4.1.2 | fast-uri: fast-uri: Host confusion vulnerability via backslash in URI authority |
 | [CVE-2026-12143](https://avd.aquasec.com/nvd/cve-2026-12143) | 🟠 **HIGH** | `form-data` | 2.5.6, 3.0.5, 4.0.6 | form-data: form-data: Form field override via CRLF injection |
 | [CVE-2026-54290](https://avd.aquasec.com/nvd/cve-2026-54290) | 🟠 **HIGH** | `hono` | 4.12.25 | hono: CORS Middleware reflects any Origin with credentials when `origin` defaults to the wildcard |
 | [CVE-2026-47673](https://avd.aquasec.com/nvd/cve-2026-47673) | 🟡 **MEDIUM** | `hono` | 4.12.21 | Hono: JWT middleware accepts any Authorization scheme, not only Bearer |
@@ -169,11 +169,11 @@
 | [CVE-2026-59896](https://avd.aquasec.com/nvd/cve-2026-59896) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Information disclosure due to improper context isolation in server-side rendering |
 | [CVE-2026-59897](https://avd.aquasec.com/nvd/cve-2026-59897) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Information disclosure due to incorrect header de-duplication in AWS API Gateway v1 adapter |
 | [CVE-2026-69207](https://avd.aquasec.com/nvd/cve-2026-69207) | 🟡 **MEDIUM** | `hono` | 4.12.34 | Hono: ReDoS in CORS middleware via Access-Control-Request-Headers |
-| [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: Address4 decodes leading-zero octets as decimal while resolvers decode them as octal, allowing SSRF and trust-boundary bypass |
+| [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input |
-| [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: Address4 decodes leading-zero octets as decimal while resolvers decode them as octal, allowing SSRF and trust-boundary bypass |
+| [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
 | [CVE-2026-54272](https://avd.aquasec.com/nvd/cve-2026-54272) | 🟡 **MEDIUM** | `ip-address` | 10.2.1 | ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification |
-| [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address: a CIDR suffix on the parsed address suppresses special-use classification and can bypass SSRF and trust-boundary checks |
+| [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | linkify-it: linkify-it: Denial of Service via algorithmic complexity vulnerability |
 | [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
