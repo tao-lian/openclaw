@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-08-06 09:37:48.470542073 +0000 UTC m=+5.888353424
+**Date:** 2026-08-07 08:11:19.001071746 +0000 UTC m=+4.619320631
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -57,6 +57,18 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-6253](https://avd.aquasec.com/nvd/cve-2026-6253) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies |
 | [CVE-2026-6429](https://avd.aquasec.com/nvd/cve-2026-6429) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Credential leak via reused proxy connection during HTTP redirects |
 | [CVE-2026-7168](https://avd.aquasec.com/nvd/cve-2026-7168) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure via incorrect Proxy-Authorization header reuse |
+| [CVE-2026-32316](https://avd.aquasec.com/nvd/cve-2026-32316) | 🟠 **HIGH** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service or potential arbitrary code execution due to integer overflow and heap-based buffer overflow |
+| [CVE-2024-53427](https://avd.aquasec.com/nvd/cve-2024-53427) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: stack-buffer-overflow in the decNumberCopy function in decNumber.c |
+| [CVE-2026-40612](https://avd.aquasec.com/nvd/cve-2026-40612) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: stack overflow via unbounded recursion in jv_contains |
+| [CVE-2026-41256](https://avd.aquasec.com/nvd/cve-2026-41256) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: embedded NUL truncates top-level jq programs loaded with -f |
+| [CVE-2026-41257](https://avd.aquasec.com/nvd/cve-2026-41257) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: signed-int overflow in stack_reallocate |
+| [CVE-2026-43894](https://avd.aquasec.com/nvd/cve-2026-43894) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Arbitrary Code Execution or Denial of Service via Signed Integer Overflow |
+| [CVE-2026-43895](https://avd.aquasec.com/nvd/cve-2026-43895) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: embedded NUL in jq import paths causes local redaction-policy bypass and preserves sensitive fields in published artifacts |
+| [CVE-2026-43896](https://avd.aquasec.com/nvd/cve-2026-43896) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: stack overflow in recursive object merge |
+| [CVE-2026-44777](https://avd.aquasec.com/nvd/cve-2026-44777) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: stack overflow in module loading on mutual include |
+| [CVE-2026-47770](https://avd.aquasec.com/nvd/cve-2026-47770) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via deeply nested array comparison |
+| [CVE-2026-49839](https://avd.aquasec.com/nvd/cve-2026-49839) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Heap out-of-bounds write via oversized raw file processing |
+| [CVE-2026-54679](https://avd.aquasec.com/nvd/cve-2026-54679) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems |
 | [CVE-2026-5773](https://avd.aquasec.com/nvd/cve-2026-5773) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse |
 | [CVE-2026-6276](https://avd.aquasec.com/nvd/cve-2026-6276) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers |
 | [CVE-2026-1965](https://avd.aquasec.com/nvd/cve-2026-1965) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication |
@@ -98,6 +110,18 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-56410](https://avd.aquasec.com/nvd/cve-2026-56410) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure and arbitrary code execution. |
 | [CVE-2026-56411](https://avd.aquasec.com/nvd/cve-2026-56411) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure or Code Execution |
 | [CVE-2026-56412](https://avd.aquasec.com/nvd/cve-2026-56412) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML CDATA sections |
+| [CVE-2026-32316](https://avd.aquasec.com/nvd/cve-2026-32316) | 🟠 **HIGH** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service or potential arbitrary code execution due to integer overflow and heap-based buffer overflow |
+| [CVE-2024-53427](https://avd.aquasec.com/nvd/cve-2024-53427) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: stack-buffer-overflow in the decNumberCopy function in decNumber.c |
+| [CVE-2026-40612](https://avd.aquasec.com/nvd/cve-2026-40612) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: stack overflow via unbounded recursion in jv_contains |
+| [CVE-2026-41256](https://avd.aquasec.com/nvd/cve-2026-41256) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: embedded NUL truncates top-level jq programs loaded with -f |
+| [CVE-2026-41257](https://avd.aquasec.com/nvd/cve-2026-41257) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: signed-int overflow in stack_reallocate |
+| [CVE-2026-43894](https://avd.aquasec.com/nvd/cve-2026-43894) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Arbitrary Code Execution or Denial of Service via Signed Integer Overflow |
+| [CVE-2026-43895](https://avd.aquasec.com/nvd/cve-2026-43895) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: embedded NUL in jq import paths causes local redaction-policy bypass and preserves sensitive fields in published artifacts |
+| [CVE-2026-43896](https://avd.aquasec.com/nvd/cve-2026-43896) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: stack overflow in recursive object merge |
+| [CVE-2026-44777](https://avd.aquasec.com/nvd/cve-2026-44777) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: stack overflow in module loading on mutual include |
+| [CVE-2026-47770](https://avd.aquasec.com/nvd/cve-2026-47770) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via deeply nested array comparison |
+| [CVE-2026-49839](https://avd.aquasec.com/nvd/cve-2026-49839) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Heap out-of-bounds write via oversized raw file processing |
+| [CVE-2026-54679](https://avd.aquasec.com/nvd/cve-2026-54679) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems |
 | [CVE-2026-34743](https://avd.aquasec.com/nvd/cve-2026-34743) | 🟡 **MEDIUM** | `liblzma5` | 5.8.1-1+deb13u1 | xz: XZ Utils: Denial of Service via buffer overflow in index decoding |
 | [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
 | [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
@@ -217,6 +241,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
 | [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
+| [CVE-2026-16633](https://avd.aquasec.com/nvd/cve-2026-16633) | 🟠 **HIGH** | `pdfjs-dist` | 6.2.108 | PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF  |
 | [GHSA-r28c-9q8g-f849](https://github.com/advisories/GHSA-r28c-9q8g-f849) | 🟠 **HIGH** | `postcss` | 8.5.18 | PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure |
 | [CVE-2026-69153](https://avd.aquasec.com/nvd/cve-2026-69153) | 🟡 **MEDIUM** | `postcss` | 8.5.23 | postcss: PostCSS: Information disclosure via crafted sourceMappingURL |
 | [CVE-2026-48712](https://avd.aquasec.com/nvd/cve-2026-48712) | 🟠 **HIGH** | `protobufjs` | 7.6.1, 8.4.1 | protobufjs: protobufjs: Denial of Service via uncontrolled recursion with crafted protobuf payload |
