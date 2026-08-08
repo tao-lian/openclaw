@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-08-07 08:11:19.001071746 +0000 UTC m=+4.619320631
+**Date:** 2026-08-08 07:47:11.984253252 +0000 UTC m=+4.535598322
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -155,6 +155,7 @@
 | [CVE-2026-53633](https://avd.aquasec.com/nvd/cve-2026-53633) | 🔴 **CRITICAL** | `@vitest/browser` | 5.0.0-beta.4, 4.1.8, 3.2.5 | @vitest/browser: vite-plus: Vitest: Remote code execution via exposed Chrome DevTools Protocol API |
 | [GHSA-p63j-vcc4-9vmv](https://github.com/advisories/GHSA-p63j-vcc4-9vmv) | 🔴 **CRITICAL** | `@vitest/browser` | 4.1.10, 3.2.7, 5.0.0-beta.6 | @vitest/browser: Browser Mode provider commands bypass the file-access permission gate |
 | [GHSA-gcfj-64vw-6mp9](https://github.com/advisories/GHSA-gcfj-64vw-6mp9) | 🟠 **HIGH** | `axios` | 0.33.0, 1.18.0 | Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning |
+| [CVE-2026-67314](https://avd.aquasec.com/nvd/cve-2026-67314) | 🟡 **MEDIUM** | `axios` | 1.18.0 | axios: axios: Outbound Request Tampering via Prototype Pollution in Basic Auth |
 | [GHSA-42h9-826w-cgv3](https://github.com/advisories/GHSA-42h9-826w-cgv3) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Excessive recursion in formDataToJSON can cause denial of service |
 | [GHSA-7q8q-rj6j-mhjq](https://github.com/advisories/GHSA-7q8q-rj6j-mhjq) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Nested axios option objects can consume polluted prototype values |
 | [GHSA-f4gw-2p7v-4548](https://github.com/advisories/GHSA-f4gw-2p7v-4548) | 🟡 **MEDIUM** | `axios` | 1.18.0, 0.33.0 | Axios: NO_PROXY bypass for 0.0.0.0 local addresses in axios |
@@ -163,7 +164,6 @@
 | [GHSA-mmx7-hfxf-jppx](https://github.com/advisories/GHSA-mmx7-hfxf-jppx) | 🟡 **MEDIUM** | `axios` | 1.18.0, 0.33.0 | Axios: Prototype pollution gadgets can alter axios request construction |
 | [GHSA-mwf2-3pr3-8698](https://github.com/advisories/GHSA-mwf2-3pr3-8698) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: HTTP/2 streamed uploads bypass `maxBodyLength` |
 | [GHSA-pmv8-rq9r-6j72](https://github.com/advisories/GHSA-pmv8-rq9r-6j72) | 🟡 **MEDIUM** | `axios` | 0.33.0, 1.18.0 | Axios: Deep formToJSON Key Recursion Can Cause Denial of Service |
-| [GHSA-xj6q-8x83-jv6g](https://github.com/advisories/GHSA-xj6q-8x83-jv6g) | 🟡 **MEDIUM** | `axios` | 1.18.0 | Axios: Prototype pollution auth subfields can inject Basic auth |
 | [CVE-2026-13149](https://avd.aquasec.com/nvd/cve-2026-13149) | 🟠 **HIGH** | `brace-expansion` | 5.0.7, 1.1.16, 2.1.2 | brace-expansion: Brace-expansion: Denial of Service due to exponential-time complexity |
 | [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
 | [CVE-2026-69152](https://avd.aquasec.com/nvd/cve-2026-69152) | 🟠 **HIGH** | `brace-expansion` | 1.1.18, 2.1.4, 3.0.6, 5.0.9 | brace-expansion: brace-expansion: Denial of Service via unbounded intermediate arrays |
@@ -176,6 +176,7 @@
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution |
 | [CVE-2026-65898](https://avd.aquasec.com/nvd/cve-2026-65898) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | DOMPurify before 3.4.11 fails to clone the ALLOWED_ATTR allowlist when ... |
 | [CVE-2026-65902](https://avd.aquasec.com/nvd/cve-2026-65902) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify before 3.4.7 (affected versions <= 3.4.5) passes direct refe ... |
+| [GHSA-55q2-fjhq-7xh7](https://github.com/advisories/GHSA-55q2-fjhq-7xh7) | 🟡 **MEDIUM** | `dompurify` | 3.4.13 | DOMPurify: IN_PLACE hook removal leaves a detached subtree executable, causing XSS |
 | [CVE-2026-13676](https://avd.aquasec.com/nvd/cve-2026-13676) | 🟠 **HIGH** | `fast-uri` | 4.0.1, 3.1.3, 2.4.2 | fast-uri: fast-uri: Security policy bypass due to improper Unicode hostname canonicalization |
 | [CVE-2026-16221](https://avd.aquasec.com/nvd/cve-2026-16221) | 🟠 **HIGH** | `fast-uri` | 2.4.3, 3.1.4, 4.1.1 | Impact: fast-uri versions from 2.3.1 through 4.1.0 (including the 3.x  ... |
 | [CVE-2026-18446](https://avd.aquasec.com/nvd/cve-2026-18446) | 🟠 **HIGH** | `fast-uri` | 2.4.4, 3.1.5, 4.1.2 | fast-uri: fast-uri: Host confusion vulnerability via backslash in URI authority |
@@ -193,6 +194,8 @@
 | [CVE-2026-59896](https://avd.aquasec.com/nvd/cve-2026-59896) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Information disclosure due to improper context isolation in server-side rendering |
 | [CVE-2026-59897](https://avd.aquasec.com/nvd/cve-2026-59897) | 🟡 **MEDIUM** | `hono` | 4.12.27 | hono: Hono: Information disclosure due to incorrect header de-duplication in AWS API Gateway v1 adapter |
 | [CVE-2026-69207](https://avd.aquasec.com/nvd/cve-2026-69207) | 🟡 **MEDIUM** | `hono` | 4.12.34 | Hono: ReDoS in CORS middleware via Access-Control-Request-Headers |
+| [CVE-2026-71848](https://avd.aquasec.com/nvd/cve-2026-71848) | 🟡 **MEDIUM** | `hono` | 4.12.34 | Hono: Algorithmic Complexity DoS in Language Middleware |
+| [CVE-2026-71850](https://avd.aquasec.com/nvd/cve-2026-71850) | 🟡 **MEDIUM** | `hono` | 4.12.34 | Hono: `memo()` retains SSR output across requests, leading to cross-user data disclosure |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-42338](https://avd.aquasec.com/nvd/cve-2026-42338) | 🟡 **MEDIUM** | `ip-address` | 10.1.1 | ip-address: ip-address: Cross-site scripting via improper HTML escaping of untrusted input |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
@@ -201,6 +204,8 @@
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | linkify-it: linkify-it: Denial of Service via algorithmic complexity vulnerability |
 | [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
+| [CVE-2026-67213](https://avd.aquasec.com/nvd/cve-2026-67213) | 🟠 **HIGH** | `nanoid` | 3.3.17, 5.1.6 | nanoid (Nano ID) before 5.1.6 contains an infinite loop in the customA ... |
+| [CVE-2026-67214](https://avd.aquasec.com/nvd/cve-2026-67214) | 🟠 **HIGH** | `nanoid` | 3.3.16, 5.1.16 | nanoid (Nano ID) before 5.1.16 contains an infinite loop in the custom ... |
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
 | [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
