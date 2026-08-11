@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-08-10 08:24:41.670145465 +0000 UTC m=+5.298911124
+**Date:** 2026-08-11 08:08:05.360797252 +0000 UTC m=+5.012044960
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -241,7 +241,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | linkify-it: linkify-it: Denial of Service via algorithmic complexity vulnerability |
 | [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
-| [CVE-2026-67213](https://avd.aquasec.com/nvd/cve-2026-67213) | 🟠 **HIGH** | `nanoid` | 3.3.17, 5.1.6 | nanoid (Nano ID) before 5.1.6 contains an infinite loop in the customA ... |
+| [CVE-2026-67213](https://avd.aquasec.com/nvd/cve-2026-67213) | 🟠 **HIGH** | `nanoid` | 3.3.17, 5.1.6 | nanoid: nanoid: Denial of Service via infinite loop in random ID generation |
 | [CVE-2026-67214](https://avd.aquasec.com/nvd/cve-2026-67214) | 🟠 **HIGH** | `nanoid` | 3.3.16, 5.1.16 | nanoid (Nano ID) before 5.1.16 contains an infinite loop in the custom ... |
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
 | [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
