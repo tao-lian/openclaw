@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-08-14 08:13:38.347822832 +0000 UTC m=+6.381827410
+**Date:** 2026-08-15 07:28:42.013789888 +0000 UTC m=+46.128462926
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -9,6 +9,8 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-5773](https://avd.aquasec.com/nvd/cve-2026-5773) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse |
 | [CVE-2026-6276](https://avd.aquasec.com/nvd/cve-2026-6276) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers |
 | [CVE-2026-1965](https://avd.aquasec.com/nvd/cve-2026-1965) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u4 | curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication |
@@ -32,6 +34,8 @@
 | [CVE-2026-47770](https://avd.aquasec.com/nvd/cve-2026-47770) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via deeply nested array comparison |
 | [CVE-2026-49839](https://avd.aquasec.com/nvd/cve-2026-49839) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Heap out-of-bounds write via oversized raw file processing |
 | [CVE-2026-54679](https://avd.aquasec.com/nvd/cve-2026-54679) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-5773](https://avd.aquasec.com/nvd/cve-2026-5773) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse |
 | [CVE-2026-6276](https://avd.aquasec.com/nvd/cve-2026-6276) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers |
 | [CVE-2026-1965](https://avd.aquasec.com/nvd/cve-2026-1965) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u4 | curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication |
@@ -85,7 +89,11 @@
 | [CVE-2026-47770](https://avd.aquasec.com/nvd/cve-2026-47770) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via deeply nested array comparison |
 | [CVE-2026-49839](https://avd.aquasec.com/nvd/cve-2026-49839) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Heap out-of-bounds write via oversized raw file processing |
 | [CVE-2026-54679](https://avd.aquasec.com/nvd/cve-2026-54679) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-34743](https://avd.aquasec.com/nvd/cve-2026-34743) | 🟡 **MEDIUM** | `liblzma5` | 5.8.1-1+deb13u1 | xz: XZ Utils: Denial of Service via buffer overflow in index decoding |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
 | [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
 | [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
@@ -96,6 +104,8 @@
 | [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
 | [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
 | [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-55199](https://avd.aquasec.com/nvd/cve-2026-55199) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2: Denial of Service via crafted SSH_MSG_EXT_INFO message |
 | [CVE-2026-55200](https://avd.aquasec.com/nvd/cve-2026-55200) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c |
 | [CVE-2026-7598](https://avd.aquasec.com/nvd/cve-2026-7598) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: integer overflow via large username or password arguments |
@@ -105,6 +115,12 @@
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
 | [CVE-2026-42764](https://avd.aquasec.com/nvd/cve-2026-42764) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: NULL pointer dereference in QUIC server initial packet handling |
 | [CVE-2026-45445](https://avd.aquasec.com/nvd/cve-2026-45445) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: AES-OCB IV Ignored on EVP_Cipher() Path |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `login` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `login` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `mount` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `mount` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-45447](https://avd.aquasec.com/nvd/cve-2026-45447) | 🟠 **HIGH** | `openssl` | 3.5.6-1~deb13u2 | openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() |
 | [CVE-2026-34182](https://avd.aquasec.com/nvd/cve-2026-34182) | 🟡 **MEDIUM** | `openssl` | 3.5.6-1~deb13u2 | openssl: CMS AuthEnvelopedData Processing May Accept Forged Messages |
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `openssl` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
@@ -126,6 +142,8 @@
 | [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
 | [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
 | [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
+| [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
+| [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 
 
 
