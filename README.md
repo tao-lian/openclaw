@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-08-17 07:51:01.782700098 +0000 UTC m=+4.567392840
+**Date:** 2026-08-18 07:35:59.17546912 +0000 UTC m=+5.248058761
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -238,8 +238,8 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-49458](https://avd.aquasec.com/nvd/cve-2026-49458) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting due to improper sanitization of DOM nodes |
 | [CVE-2026-49459](https://avd.aquasec.com/nvd/cve-2026-49459) | 🟡 **MEDIUM** | `dompurify` | 3.4.6 | dompurify: DOMPurify: Cross-site scripting bypass allows arbitrary script execution |
 | [CVE-2026-49978](https://avd.aquasec.com/nvd/cve-2026-49978) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Cross-site scripting vulnerability allows code execution |
-| [CVE-2026-65898](https://avd.aquasec.com/nvd/cve-2026-65898) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | DOMPurify before 3.4.11 fails to clone the ALLOWED_ATTR allowlist when ... |
-| [CVE-2026-65902](https://avd.aquasec.com/nvd/cve-2026-65902) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | DOMPurify before 3.4.7 (affected versions <= 3.4.5) passes direct refe ... |
+| [CVE-2026-65898](https://avd.aquasec.com/nvd/cve-2026-65898) | 🟡 **MEDIUM** | `dompurify` | 3.4.11 | dompurify: DOMPurify: Cross-site scripting via permanent attribute allowlist pollution |
+| [CVE-2026-65902](https://avd.aquasec.com/nvd/cve-2026-65902) | 🟡 **MEDIUM** | `dompurify` | 3.4.7 | dompurify: DOMPurify: Sanitization bypass via hook manipulation |
 | [GHSA-55q2-fjhq-7xh7](https://github.com/advisories/GHSA-55q2-fjhq-7xh7) | 🟡 **MEDIUM** | `dompurify` | 3.4.13 | DOMPurify: IN_PLACE hook removal leaves a detached subtree executable, causing XSS |
 | [CVE-2026-13676](https://avd.aquasec.com/nvd/cve-2026-13676) | 🟠 **HIGH** | `fast-uri` | 4.0.1, 3.1.3, 2.4.2 | fast-uri: fast-uri: Security policy bypass due to improper Unicode hostname canonicalization |
 | [CVE-2026-16221](https://avd.aquasec.com/nvd/cve-2026-16221) | 🟠 **HIGH** | `fast-uri` | 2.4.3, 3.1.4, 4.1.1 | fast-uri: Fast-uri: Security policy bypass due to URL parsing inconsistency |
@@ -274,7 +274,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
 | [CVE-2026-16633](https://avd.aquasec.com/nvd/cve-2026-16633) | 🟠 **HIGH** | `pdfjs-dist` | 6.2.108 | PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF  |
-| [CVE-2026-73646](https://avd.aquasec.com/nvd/cve-2026-73646) | 🟠 **HIGH** | `postcss` | 8.5.18 | PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure |
+| [CVE-2026-73646](https://avd.aquasec.com/nvd/cve-2026-73646) | 🟠 **HIGH** | `postcss` | 8.5.18 | PostCSS takes a CSS file and provides an API to analyze and modify its ... |
 | [CVE-2026-69153](https://avd.aquasec.com/nvd/cve-2026-69153) | 🟡 **MEDIUM** | `postcss` | 8.5.23 | postcss: PostCSS: Information disclosure via crafted sourceMappingURL |
 | [CVE-2026-48712](https://avd.aquasec.com/nvd/cve-2026-48712) | 🟠 **HIGH** | `protobufjs` | 7.6.1, 8.4.1 | protobufjs: protobufjs: Denial of Service via uncontrolled recursion with crafted protobuf payload |
 | [CVE-2026-54269](https://avd.aquasec.com/nvd/cve-2026-54269) | 🟡 **MEDIUM** | `protobufjs` | 7.6.3, 8.6.0 | protobufjs: protobufjs-cli: protobufjs: Denial of Service due to name collision with runtime helpers |
