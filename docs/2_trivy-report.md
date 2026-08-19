@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-08-18 07:35:59.17546912 +0000 UTC m=+5.248058761
+**Date:** 2026-08-19 07:35:28.786020807 +0000 UTC m=+4.463530245
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -79,6 +79,7 @@
 | [CVE-2026-56410](https://avd.aquasec.com/nvd/cve-2026-56410) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure and arbitrary code execution. |
 | [CVE-2026-56411](https://avd.aquasec.com/nvd/cve-2026-56411) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure or Code Execution |
 | [CVE-2026-56412](https://avd.aquasec.com/nvd/cve-2026-56412) | 🟡 **MEDIUM** | `libexpat1` | 2.8.2-1~deb13u1 | libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML CDATA sections |
+| [CVE-2026-72522](https://avd.aquasec.com/nvd/cve-2026-72522) | 🟡 **MEDIUM** | `libexpat1` | 2.8.3-1~deb13u1 | expat: libexpat: Denial of Service due to incorrect Unicode surrogate handling |
 | [CVE-2026-32316](https://avd.aquasec.com/nvd/cve-2026-32316) | 🟠 **HIGH** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service or potential arbitrary code execution due to integer overflow and heap-based buffer overflow |
 | [CVE-2024-53427](https://avd.aquasec.com/nvd/cve-2024-53427) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: stack-buffer-overflow in the decNumberCopy function in decNumber.c |
 | [CVE-2026-40612](https://avd.aquasec.com/nvd/cve-2026-40612) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: stack overflow via unbounded recursion in jv_contains |
@@ -232,7 +233,7 @@
 | [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
 | [CVE-2026-67213](https://avd.aquasec.com/nvd/cve-2026-67213) | 🟠 **HIGH** | `nanoid` | 3.3.18, 5.1.6 | nanoid: nanoid: Denial of Service via infinite loop in random ID generation |
-| [CVE-2026-67214](https://avd.aquasec.com/nvd/cve-2026-67214) | 🟠 **HIGH** | `nanoid` | 3.3.16, 5.1.16 | nanoid (Nano ID) before 5.1.16 contains an infinite loop in the custom ... |
+| [CVE-2026-67214](https://avd.aquasec.com/nvd/cve-2026-67214) | 🟠 **HIGH** | `nanoid` | 3.3.16, 5.1.16 | nanoid: nanoid: Denial of Service via negative size input in non-secure module functions |
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
 | [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
