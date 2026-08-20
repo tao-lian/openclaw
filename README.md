@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-08-19 07:35:28.786020807 +0000 UTC m=+4.463530245
+**Date:** 2026-08-20 07:39:00.154717306 +0000 UTC m=+6.721834378
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -46,6 +46,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `bsdutils` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `bsdutils` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
@@ -72,6 +75,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-47770](https://avd.aquasec.com/nvd/cve-2026-47770) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via deeply nested array comparison |
 | [CVE-2026-49839](https://avd.aquasec.com/nvd/cve-2026-49839) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Heap out-of-bounds write via oversized raw file processing |
 | [CVE-2026-54679](https://avd.aquasec.com/nvd/cve-2026-54679) | 🟡 **MEDIUM** | `jq` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `libblkid1` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libblkid1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
@@ -129,10 +135,16 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-47770](https://avd.aquasec.com/nvd/cve-2026-47770) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via deeply nested array comparison |
 | [CVE-2026-49839](https://avd.aquasec.com/nvd/cve-2026-49839) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Heap out-of-bounds write via oversized raw file processing |
 | [CVE-2026-54679](https://avd.aquasec.com/nvd/cve-2026-54679) | 🟡 **MEDIUM** | `libjq1` | 1.7.1-6+deb13u3 | jq: jq: Denial of Service via integer overflow and buffer overrun on 32-bit systems |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `liblastlog2-2` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `liblastlog2-2` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
 | [CVE-2026-34743](https://avd.aquasec.com/nvd/cve-2026-34743) | 🟡 **MEDIUM** | `liblzma5` | 5.8.1-1+deb13u1 | xz: XZ Utils: Denial of Service via buffer overflow in index decoding |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `libmount1` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libmount1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
@@ -146,6 +158,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
 | [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
 | [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `libsmartcols1` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libsmartcols1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
@@ -158,12 +173,21 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
 | [CVE-2026-42764](https://avd.aquasec.com/nvd/cve-2026-42764) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: NULL pointer dereference in QUIC server initial packet handling |
 | [CVE-2026-45445](https://avd.aquasec.com/nvd/cve-2026-45445) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: AES-OCB IV Ignored on EVP_Cipher() Path |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `login` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `login` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `login` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `login` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `login` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `login` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `mount` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `mount` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `mount` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `mount` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `mount` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `mount` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
@@ -188,6 +212,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-7774](https://avd.aquasec.com/nvd/cve-2026-7774) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: CPython: Python tarfile: Arbitrary file write via crafted link entries |
 | [CVE-2026-8328](https://avd.aquasec.com/nvd/cve-2026-8328) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | The ftpcp() function in Lib/ftplib.py was not updated when  CVE-2021-4 ... |
 | [CVE-2026-9669](https://avd.aquasec.com/nvd/cve-2026-9669) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u3 | python: Python: Denial of Service via out-of-bounds write in BZ2 decompression |
+| [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
+| [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
+| [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `util-linux` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `util-linux` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
@@ -267,7 +294,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-54272](https://avd.aquasec.com/nvd/cve-2026-54272) | 🟡 **MEDIUM** | `ip-address` | 10.2.1 | ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification |
 | [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address: ip-address: Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-48801](https://avd.aquasec.com/nvd/cve-2026-48801) | 🟠 **HIGH** | `linkify-it` | 5.0.1 | linkify-it: linkify-it: Denial of Service via algorithmic complexity vulnerability |
-| [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text |
+| [CVE-2026-59887](https://avd.aquasec.com/nvd/cve-2026-59887) | 🟠 **HIGH** | `linkify-it` | 5.0.2 | linkify-it: linkify-it: Denial of Service via crafted mailto: links |
 | [CVE-2026-48988](https://avd.aquasec.com/nvd/cve-2026-48988) | 🟡 **MEDIUM** | `markdown-it` | 14.2.0 | markdown-it is a Markdown parser. Versions 14.1.1 and below contain a  ... |
 | [CVE-2026-67213](https://avd.aquasec.com/nvd/cve-2026-67213) | 🟠 **HIGH** | `nanoid` | 3.3.18, 5.1.6 | nanoid: nanoid: Denial of Service via infinite loop in random ID generation |
 | [CVE-2026-67214](https://avd.aquasec.com/nvd/cve-2026-67214) | 🟠 **HIGH** | `nanoid` | 3.3.16, 5.1.16 | nanoid: nanoid: Denial of Service via negative size input in non-secure module functions |
