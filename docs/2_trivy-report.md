@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-08-21 07:39:57.997129097 +0000 UTC m=+4.919476022
+**Date:** 2026-08-22 07:29:23.520083776 +0000 UTC m=+5.366140456
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -275,16 +275,16 @@
 | [CVE-2026-48815](https://avd.aquasec.com/nvd/cve-2026-48815) | 🟠 **HIGH** | `sigstore` | 4.1.1 | sigstore: Sigstore: Unauthorized certificates accepted due to ignored `certificateOIDs` verification option |
 | [CVE-2026-59873](https://avd.aquasec.com/nvd/cve-2026-59873) | 🔴 **CRITICAL** | `tar` | 7.5.19 | tar: node-tar: Denial of Service via crafted gzip bomb |
 | [CVE-2026-59874](https://avd.aquasec.com/nvd/cve-2026-59874) | 🟠 **HIGH** | `tar` | 7.5.18 | tar: Node-tar: Denial of Service via malformed tar archive header |
+| [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
 | [CVE-2026-53655](https://avd.aquasec.com/nvd/cve-2026-53655) | 🟡 **MEDIUM** | `tar` | 7.5.16 | node-tar: node-tar: File smuggling due to inconsistent tar archive parsing |
 | [CVE-2026-59871](https://avd.aquasec.com/nvd/cve-2026-59871) | 🟡 **MEDIUM** | `tar` | 7.5.18 | node-tar: node-tar: Denial of Service due to incorrect PAX path handling |
 | [CVE-2026-59875](https://avd.aquasec.com/nvd/cve-2026-59875) | 🟡 **MEDIUM** | `tar` | 7.5.17 | node-tar: node-tar: Denial of Service via crafted archive with NUL bytes in metadata |
-| [GHSA-r292-9mhp-454m](https://github.com/advisories/GHSA-r292-9mhp-454m) | 🟡 **MEDIUM** | `tar` | 7.5.21 | node-tar: Uncontrolled recursion in mapHas/filesFilter allows uncatchable stack-overflow DoS via crafted long-path tar with member selection |
 | [CVE-2026-59873](https://avd.aquasec.com/nvd/cve-2026-59873) | 🔴 **CRITICAL** | `tar` | 7.5.19 | tar: node-tar: Denial of Service via crafted gzip bomb |
 | [CVE-2026-59874](https://avd.aquasec.com/nvd/cve-2026-59874) | 🟠 **HIGH** | `tar` | 7.5.18 | tar: Node-tar: Denial of Service via malformed tar archive header |
+| [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
 | [CVE-2026-53655](https://avd.aquasec.com/nvd/cve-2026-53655) | 🟡 **MEDIUM** | `tar` | 7.5.16 | node-tar: node-tar: File smuggling due to inconsistent tar archive parsing |
 | [CVE-2026-59871](https://avd.aquasec.com/nvd/cve-2026-59871) | 🟡 **MEDIUM** | `tar` | 7.5.18 | node-tar: node-tar: Denial of Service due to incorrect PAX path handling |
 | [CVE-2026-59875](https://avd.aquasec.com/nvd/cve-2026-59875) | 🟡 **MEDIUM** | `tar` | 7.5.17 | node-tar: node-tar: Denial of Service via crafted archive with NUL bytes in metadata |
-| [GHSA-r292-9mhp-454m](https://github.com/advisories/GHSA-r292-9mhp-454m) | 🟡 **MEDIUM** | `tar` | 7.5.21 | node-tar: Uncontrolled recursion in mapHas/filesFilter allows uncatchable stack-overflow DoS via crafted long-path tar with member selection |
 | [CVE-2026-12151](https://avd.aquasec.com/nvd/cve-2026-12151) | 🟠 **HIGH** | `undici` | 6.27.0, 7.28.0, 8.5.0 | undici: undici: Denial of Service due to unbounded memory growth via WebSocket frames |
 | [CVE-2026-15157](https://avd.aquasec.com/nvd/cve-2026-15157) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: HTTP header injection via unvalidated blob-like body type property |
 | [CVE-2026-16728](https://avd.aquasec.com/nvd/cve-2026-16728) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: Response desynchronization via retry interceptor with mismatched Content-Length |
