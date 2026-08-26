@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-08-25 07:41:36.603030614 +0000 UTC m=+7.002723031
+**Date:** 2026-08-26 07:43:20.669766798 +0000 UTC m=+5.858191232
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -168,11 +168,15 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-55200](https://avd.aquasec.com/nvd/cve-2026-55200) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c |
 | [CVE-2026-7598](https://avd.aquasec.com/nvd/cve-2026-7598) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: integer overflow via large username or password arguments |
 | [CVE-2025-15661](https://avd.aquasec.com/nvd/cve-2025-15661) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u1 | libssh2: libssh2: Information disclosure and denial of service via crafted SFTP response |
+| [CVE-2026-14456](https://avd.aquasec.com/nvd/cve-2026-14456) | 🟠 **HIGH** | `libssl3t64` | 3.5.7-1~deb13u2 | openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server |
 | [CVE-2026-45447](https://avd.aquasec.com/nvd/cve-2026-45447) | 🟠 **HIGH** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() |
+| [CVE-2026-18798](https://avd.aquasec.com/nvd/cve-2026-18798) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u2 | openssl: QUIC server may trigger double free when processing INITIAL packet |
 | [CVE-2026-34182](https://avd.aquasec.com/nvd/cve-2026-34182) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: CMS AuthEnvelopedData Processing May Accept Forged Messages |
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
 | [CVE-2026-42764](https://avd.aquasec.com/nvd/cve-2026-42764) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: NULL pointer dereference in QUIC server initial packet handling |
 | [CVE-2026-45445](https://avd.aquasec.com/nvd/cve-2026-45445) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.6-1~deb13u2 | openssl: AES-OCB IV Ignored on EVP_Cipher() Path |
+| [CVE-2026-63072](https://avd.aquasec.com/nvd/cve-2026-63072) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u2 | openssl: heap buffer overflow in CMS key unwrapping |
+| [CVE-2026-63076](https://avd.aquasec.com/nvd/cve-2026-63076) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u2 | openssl: invalid pointer dereference in CMP server via crafted protectionAlg |
 | [CVE-2026-53612](https://avd.aquasec.com/nvd/cve-2026-53612) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes |
 | [CVE-2026-53613](https://avd.aquasec.com/nvd/cve-2026-53613) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path |
 | [CVE-2026-53614](https://avd.aquasec.com/nvd/cve-2026-53614) | 🟠 **HIGH** | `libuuid1` | 2.41.5-0+deb13u1 | util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2 |
@@ -191,16 +195,24 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-53615](https://avd.aquasec.com/nvd/cve-2026-53615) | 🟠 **HIGH** | `mount` | 2.41.5-0+deb13u1 | [Integer Overflow or Wraparound in libblkid/src/partitions/dos.c] |
 | [CVE-2026-13595](https://avd.aquasec.com/nvd/cve-2026-13595) | 🟡 **MEDIUM** | `mount` | 2.41.5-0+deb13u1 | util-linux: util-linux: heap use-after-free in libblkid nested partition probing |
 | [CVE-2026-27456](https://avd.aquasec.com/nvd/cve-2026-27456) | 🟡 **MEDIUM** | `mount` | 2.41.5-0+deb13u1 | util-linux: TOCTOU in the mount program when setting up loop devices |
+| [CVE-2026-14456](https://avd.aquasec.com/nvd/cve-2026-14456) | 🟠 **HIGH** | `openssl` | 3.5.7-1~deb13u2 | openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server |
 | [CVE-2026-45447](https://avd.aquasec.com/nvd/cve-2026-45447) | 🟠 **HIGH** | `openssl` | 3.5.6-1~deb13u2 | openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() |
+| [CVE-2026-18798](https://avd.aquasec.com/nvd/cve-2026-18798) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u2 | openssl: QUIC server may trigger double free when processing INITIAL packet |
 | [CVE-2026-34182](https://avd.aquasec.com/nvd/cve-2026-34182) | 🟡 **MEDIUM** | `openssl` | 3.5.6-1~deb13u2 | openssl: CMS AuthEnvelopedData Processing May Accept Forged Messages |
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `openssl` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
 | [CVE-2026-42764](https://avd.aquasec.com/nvd/cve-2026-42764) | 🟡 **MEDIUM** | `openssl` | 3.5.6-1~deb13u2 | openssl: NULL pointer dereference in QUIC server initial packet handling |
 | [CVE-2026-45445](https://avd.aquasec.com/nvd/cve-2026-45445) | 🟡 **MEDIUM** | `openssl` | 3.5.6-1~deb13u2 | openssl: AES-OCB IV Ignored on EVP_Cipher() Path |
+| [CVE-2026-63072](https://avd.aquasec.com/nvd/cve-2026-63072) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u2 | openssl: heap buffer overflow in CMS key unwrapping |
+| [CVE-2026-63076](https://avd.aquasec.com/nvd/cve-2026-63076) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u2 | openssl: invalid pointer dereference in CMP server via crafted protectionAlg |
+| [CVE-2026-14456](https://avd.aquasec.com/nvd/cve-2026-14456) | 🟠 **HIGH** | `openssl-provider-legacy` | 3.5.7-1~deb13u2 | openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server |
 | [CVE-2026-45447](https://avd.aquasec.com/nvd/cve-2026-45447) | 🟠 **HIGH** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: Heap Use-After-Free in OpenSSL PKCS7_verify() |
+| [CVE-2026-18798](https://avd.aquasec.com/nvd/cve-2026-18798) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u2 | openssl: QUIC server may trigger double free when processing INITIAL packet |
 | [CVE-2026-34182](https://avd.aquasec.com/nvd/cve-2026-34182) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: CMS AuthEnvelopedData Processing May Accept Forged Messages |
 | [CVE-2026-34183](https://avd.aquasec.com/nvd/cve-2026-34183) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler |
 | [CVE-2026-42764](https://avd.aquasec.com/nvd/cve-2026-42764) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: NULL pointer dereference in QUIC server initial packet handling |
 | [CVE-2026-45445](https://avd.aquasec.com/nvd/cve-2026-45445) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.6-1~deb13u2 | openssl: AES-OCB IV Ignored on EVP_Cipher() Path |
+| [CVE-2026-63072](https://avd.aquasec.com/nvd/cve-2026-63072) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u2 | openssl: heap buffer overflow in CMS key unwrapping |
+| [CVE-2026-63076](https://avd.aquasec.com/nvd/cve-2026-63076) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u2 | openssl: invalid pointer dereference in CMP server via crafted protectionAlg |
 | [CVE-2026-45409](https://avd.aquasec.com/nvd/cve-2026-45409) | 🟡 **MEDIUM** | `python3-idna` | 3.10-1+deb13u1 | python-idna: idna: Denial of Service via specially crafted long inputs |
 | [CVE-2026-1502](https://avd.aquasec.com/nvd/cve-2026-1502) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | python: Python: HTTP header injection via CR/LF in proxy tunnel headers |
 | [CVE-2026-3276](https://avd.aquasec.com/nvd/cve-2026-3276) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u3 | python: Python unicodedata: Denial of Service due to excessive CPU consumption |
@@ -299,7 +311,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-67213](https://avd.aquasec.com/nvd/cve-2026-67213) | 🟠 **HIGH** | `nanoid` | 3.3.18, 5.1.6 | nanoid: nanoid: Denial of Service via infinite loop in random ID generation |
 | [CVE-2026-67214](https://avd.aquasec.com/nvd/cve-2026-67214) | 🟠 **HIGH** | `nanoid` | 3.3.16, 5.1.16 | nanoid: nanoid: Denial of Service via negative size input in non-secure module functions |
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
-| [GHSA-83w9-h5wv-j9xm](https://github.com/advisories/GHSA-83w9-h5wv-j9xm) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
+| [CVE-2026-53838](https://avd.aquasec.com/nvd/cve-2026-53838) | 🟡 **MEDIUM** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
 | [CVE-2026-16633](https://avd.aquasec.com/nvd/cve-2026-16633) | 🟠 **HIGH** | `pdfjs-dist` | 6.2.108 | PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF  |
 | [CVE-2026-73646](https://avd.aquasec.com/nvd/cve-2026-73646) | 🟠 **HIGH** | `postcss` | 8.5.18 | PostCSS takes a CSS file and provides an API to analyze and modify its ... |
