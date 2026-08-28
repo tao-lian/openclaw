@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-08-27 18:05:28.66249174 +0000 UTC m=+7.014711731
+**Date:** 2026-08-28 19:15:05.638215402 +0000 UTC m=+7.045994073
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.5)`
@@ -276,6 +276,7 @@
 | [CVE-2026-53819](https://avd.aquasec.com/nvd/cve-2026-53819) | 🟠 **HIGH** | `openclaw` | 2026.5.27 | OpenClaw: Workspace .env could override Homebrew executable selection for skill install flows |
 | [CVE-2026-53838](https://avd.aquasec.com/nvd/cve-2026-53838) | 🟡 **MEDIUM** | `openclaw` | 2026.5.27 | OpenClaw: Node pairing reconnection could confuse approval scope state |
 | [GHSA-9c3v-684m-579c](https://github.com/advisories/GHSA-9c3v-684m-579c) | 🟡 **MEDIUM** | `openclaw` | 2026.6.5 | OpenClaw MCP SSE redirects could forward Authorization headers |
+| [CVE-2026-9496](https://avd.aquasec.com/nvd/cve-2026-9496) | 🟠 **HIGH** | `pacote` | 21.5.1 | Versions of the package pacote from 11.2.7 and before 21.5.1 are vulne ... |
 | [CVE-2026-16633](https://avd.aquasec.com/nvd/cve-2026-16633) | 🟠 **HIGH** | `pdfjs-dist` | 6.2.108 | PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF  |
 | [CVE-2026-73646](https://avd.aquasec.com/nvd/cve-2026-73646) | 🟠 **HIGH** | `postcss` | 8.5.18 | PostCSS takes a CSS file and provides an API to analyze and modify its ... |
 | [CVE-2026-69153](https://avd.aquasec.com/nvd/cve-2026-69153) | 🟡 **MEDIUM** | `postcss` | 8.5.23 | postcss: PostCSS: Information disclosure via crafted sourceMappingURL |
