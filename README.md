@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-09-08 11:58:42.738258448 +0000 UTC m=+5.930450459
+**Date:** 2026-09-09 12:08:48.634358966 +0000 UTC m=+7.759800575
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -66,9 +66,21 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-39244](https://avd.aquasec.com/nvd/cve-2026-39244) | 🟠 **HIGH** | `adm-zip` | 0.6.0 | adm-zip: adm-zip: Denial of Service via crafted ZIP file leading to excessive memory allocation |
 | [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
 | [CVE-2026-69152](https://avd.aquasec.com/nvd/cve-2026-69152) | 🟠 **HIGH** | `brace-expansion` | 1.1.18, 2.1.4, 3.0.6, 5.0.9 | brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation |
+| [CVE-2026-84363](https://avd.aquasec.com/nvd/cve-2026-84363) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Query parser reads parameters after the URL fragment, causing cache-key and proxy interpretation differentials |
+| [CVE-2026-84364](https://avd.aquasec.com/nvd/cve-2026-84364) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Unbounded dot-notation nesting in `parseBody()` can cause memory exhaustion |
+| [CVE-2026-84365](https://avd.aquasec.com/nvd/cve-2026-84365) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Incomplete fix for CVE-2026-39408: `toSSG()` still writes files outside the output directory |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-54272](https://avd.aquasec.com/nvd/cve-2026-54272) | 🟡 **MEDIUM** | `ip-address` | 10.2.1 | ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification |
 | [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address: ip-address: Server-Side Request Forgery (SSRF) and trust-boundary bypass |
+| [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
+| [GHSA-2x7j-588g-ccc2](https://github.com/advisories/GHSA-2x7j-588g-ccc2) | 🟠 **HIGH** | `nodemailer` | 9.1.0 | Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list |
+| [GHSA-8m3c-c648-2xjj](https://github.com/advisories/GHSA-8m3c-c648-2xjj) | 🟡 **MEDIUM** | `nodemailer` | 9.1.1 | Nodemailer: resolveContent() on a MailMessage bypasses disableFileAccess/disableUrlAccess when called with the legacy signature |
+| [GHSA-cc9r-2j5m-2m83](https://github.com/advisories/GHSA-cc9r-2j5m-2m83) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain |
+| [GHSA-wmmp-3585-3rmp](https://github.com/advisories/GHSA-wmmp-3585-3rmp) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain |
+| [GHSA-2x7j-588g-ccc2](https://github.com/advisories/GHSA-2x7j-588g-ccc2) | 🟠 **HIGH** | `nodemailer` | 9.1.0 | Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list |
+| [GHSA-8m3c-c648-2xjj](https://github.com/advisories/GHSA-8m3c-c648-2xjj) | 🟡 **MEDIUM** | `nodemailer` | 9.1.1 | Nodemailer: resolveContent() on a MailMessage bypasses disableFileAccess/disableUrlAccess when called with the legacy signature |
+| [GHSA-cc9r-2j5m-2m83](https://github.com/advisories/GHSA-cc9r-2j5m-2m83) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain |
+| [GHSA-wmmp-3585-3rmp](https://github.com/advisories/GHSA-wmmp-3585-3rmp) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain |
 | [CVE-2026-82417](https://avd.aquasec.com/nvd/cve-2026-82417) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via improper validation in stringify function |
 | [CVE-2026-82562](https://avd.aquasec.com/nvd/cve-2026-82562) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via array limit bypass in query string parsing |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
