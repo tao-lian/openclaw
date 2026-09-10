@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-09-09 12:08:48.634358966 +0000 UTC m=+7.759800575
+**Date:** 2026-09-10 12:03:48.469234705 +0000 UTC m=+59.223822043
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -73,14 +73,6 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-54272](https://avd.aquasec.com/nvd/cve-2026-54272) | 🟡 **MEDIUM** | `ip-address` | 10.2.1 | ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification |
 | [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address: ip-address: Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
-| [GHSA-2x7j-588g-ccc2](https://github.com/advisories/GHSA-2x7j-588g-ccc2) | 🟠 **HIGH** | `nodemailer` | 9.1.0 | Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list |
-| [GHSA-8m3c-c648-2xjj](https://github.com/advisories/GHSA-8m3c-c648-2xjj) | 🟡 **MEDIUM** | `nodemailer` | 9.1.1 | Nodemailer: resolveContent() on a MailMessage bypasses disableFileAccess/disableUrlAccess when called with the legacy signature |
-| [GHSA-cc9r-2j5m-2m83](https://github.com/advisories/GHSA-cc9r-2j5m-2m83) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain |
-| [GHSA-wmmp-3585-3rmp](https://github.com/advisories/GHSA-wmmp-3585-3rmp) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain |
-| [GHSA-2x7j-588g-ccc2](https://github.com/advisories/GHSA-2x7j-588g-ccc2) | 🟠 **HIGH** | `nodemailer` | 9.1.0 | Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list |
-| [GHSA-8m3c-c648-2xjj](https://github.com/advisories/GHSA-8m3c-c648-2xjj) | 🟡 **MEDIUM** | `nodemailer` | 9.1.1 | Nodemailer: resolveContent() on a MailMessage bypasses disableFileAccess/disableUrlAccess when called with the legacy signature |
-| [GHSA-cc9r-2j5m-2m83](https://github.com/advisories/GHSA-cc9r-2j5m-2m83) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain |
-| [GHSA-wmmp-3585-3rmp](https://github.com/advisories/GHSA-wmmp-3585-3rmp) | 🟡 **MEDIUM** | `nodemailer` | 9.1.0 | Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain |
 | [CVE-2026-82417](https://avd.aquasec.com/nvd/cve-2026-82417) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via improper validation in stringify function |
 | [CVE-2026-82562](https://avd.aquasec.com/nvd/cve-2026-82562) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via array limit bypass in query string parsing |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
@@ -119,7 +111,24 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
+## Target: `app/apps/shared/OpenClawWatchRTC/Cargo.lock`
+**Type:** cargo
+
+
+*No vulnerabilities found.*
+
+
+
+*No misconfigurations found.*
+
+
+
+*No secrets found.*
+
+
+---
+
+## Target: `app/node_modules/.pnpm/@oxlint-tsgolint+linux-x64@7.0.2001/node_modules/@oxlint-tsgolint/linux-x64/tsgolint`
 **Type:** gobinary
 
 
@@ -146,7 +155,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 
 ---
 
-## Target: `app/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
+## Target: `app/node_modules/.pnpm/@typescript+native-preview-linux-x64@7.0.0-dev.20260707.2/node_modules/@typescript/native-preview-linux-x64/lib/tsgo`
 **Type:** gobinary
 
 
