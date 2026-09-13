@@ -36,14 +36,102 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-09-12 11:27:46.188318917 +0000 UTC m=+6.078040052
+**Date:** 2026-09-13 12:32:09.543009622 +0000 UTC m=+5.542822094
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
 **Type:** debian
 
 
-*No vulnerabilities found.*
+### Vulnerabilities
+| ID | Severity | Package | Fixed Version | Title |
+| --- | --- | --- | --- | --- |
+| [CVE-2026-41992](https://avd.aquasec.com/nvd/cve-2026-41992) | 🟠 **HIGH** | `gzip` | 1.13-1+deb13u1 | gzip: gzip: Information disclosure via global buffer overflow in LZH decompression |
+| [CVE-2026-41991](https://avd.aquasec.com/nvd/cve-2026-41991) | 🟡 **MEDIUM** | `gzip` | 1.13-1+deb13u1 | gzip: gzip: Arbitrary file overwrite via insecure temporary file handling in gzexe utility |
+| [CVE-2026-5450](https://avd.aquasec.com/nvd/cve-2026-5450) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u4 | glibc: glibc: Heap Buffer Overflow in `scanf` with `%mc` format specifier and large width |
+| [CVE-2026-5928](https://avd.aquasec.com/nvd/cve-2026-5928) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u4 | glibc: glibc: Information disclosure or denial of service via ungetwc function with specific wide character encodings |
+| [CVE-2026-5450](https://avd.aquasec.com/nvd/cve-2026-5450) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u4 | glibc: glibc: Heap Buffer Overflow in `scanf` with `%mc` format specifier and large width |
+| [CVE-2026-5928](https://avd.aquasec.com/nvd/cve-2026-5928) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u4 | glibc: glibc: Information disclosure or denial of service via ungetwc function with specific wide character encodings |
+| [CVE-2026-86145](https://avd.aquasec.com/nvd/cve-2026-86145) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write allows arbitrary code execution via crafted regular expressions |
+| [CVE-2026-89161](https://avd.aquasec.com/nvd/cve-2026-89161) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Memory corruption vulnerability in pcre2_jit_match |
+| [CVE-2026-89157](https://avd.aquasec.com/nvd/cve-2026-89157) | 🟡 **MEDIUM** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write via large pattern input |
+| [CVE-2026-89158](https://avd.aquasec.com/nvd/cve-2026-89158) | 🟡 **MEDIUM** | `libpcre2-8-0` | 10.46-1~deb13u2 | PCRE2: PCRE2: Out-of-bounds write via integer overflow on 32-bit platforms |
+| [CVE-2026-13221](https://avd.aquasec.com/nvd/cve-2026-13221) | 🔴 **CRITICAL** | `libperl5.40` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression processing via large regular expressions |
+| [CVE-2026-42496](https://avd.aquasec.com/nvd/cve-2026-42496) | 🔴 **CRITICAL** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access |
+| [CVE-2026-8376](https://avd.aquasec.com/nvd/cve-2026-8376) | 🔴 **CRITICAL** | `libperl5.40` | 5.40.1-6+deb13u1 | perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds |
+| [CVE-2026-42497](https://avd.aquasec.com/nvd/cve-2026-42497) | 🟠 **HIGH** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-Archive-Tar: perl-Archive-Tar: Arbitrary file modification via crafted hardlinks during archive extraction |
+| [CVE-2026-48962](https://avd.aquasec.com/nvd/cve-2026-48962) | 🟠 **HIGH** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Arbitrary code execution via attacker-controlled output glob |
+| [CVE-2026-57432](https://avd.aquasec.com/nvd/cve-2026-57432) | 🟠 **HIGH** | `libperl5.40` | 5.40.1-6+deb13u1 | perl: Perl: Information disclosure via integer overflow in pack/unpack operations |
+| [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `libperl5.40` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
+| [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
+| [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
+| [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
+| [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
+| [CVE-2026-7017](https://avd.aquasec.com/nvd/cve-2026-7017) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.095 for Perl forward credential headers t ... |
+| [CVE-2026-11940](https://avd.aquasec.com/nvd/cve-2026-11940) | 🟠 **HIGH** | `libpython3.13-minimal` | 3.13.5-2+deb13u5 | python: cpython: CPython: tarfile extraction filter bypass allows escaping the destination directory |
+| [CVE-2026-0864](https://avd.aquasec.com/nvd/cve-2026-0864) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u5 | python: cpython: Python configparser: Configuration injection via crafted multi-line input |
+| [CVE-2026-11972](https://avd.aquasec.com/nvd/cve-2026-11972) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u5 | python: Python tarfile module: Denial of Service via improper EOF handling in streaming mode |
+| [CVE-2026-4360](https://avd.aquasec.com/nvd/cve-2026-4360) | 🟡 **MEDIUM** | `libpython3.13-minimal` | 3.13.5-2+deb13u5 | python: Python Tarfile: Unexpected file ownership when extracting hardlinks |
+| [CVE-2026-11940](https://avd.aquasec.com/nvd/cve-2026-11940) | 🟠 **HIGH** | `libpython3.13-stdlib` | 3.13.5-2+deb13u5 | python: cpython: CPython: tarfile extraction filter bypass allows escaping the destination directory |
+| [CVE-2026-0864](https://avd.aquasec.com/nvd/cve-2026-0864) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u5 | python: cpython: Python configparser: Configuration injection via crafted multi-line input |
+| [CVE-2026-11972](https://avd.aquasec.com/nvd/cve-2026-11972) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u5 | python: Python tarfile module: Denial of Service via improper EOF handling in streaming mode |
+| [CVE-2026-4360](https://avd.aquasec.com/nvd/cve-2026-4360) | 🟡 **MEDIUM** | `libpython3.13-stdlib` | 3.13.5-2+deb13u5 | python: Python Tarfile: Unexpected file ownership when extracting hardlinks |
+| [CVE-2026-11822](https://avd.aquasec.com/nvd/cve-2026-11822) | 🟠 **HIGH** | `libsqlite3-0` | 3.46.1-7+deb13u2 | sqlite: SQLite: Arbitrary code execution via crafted FTS5 full-text search data |
+| [CVE-2026-11824](https://avd.aquasec.com/nvd/cve-2026-11824) | 🟠 **HIGH** | `libsqlite3-0` | 3.46.1-7+deb13u2 | sqlite: SQLite: Arbitrary code execution and crash via heap-based buffer overflow in FTS5 |
+| [CVE-2026-58050](https://avd.aquasec.com/nvd/cve-2026-58050) | 🟠 **HIGH** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Heap buffer overflow via integer overflow in publickey attribute allocation |
+| [CVE-2026-58051](https://avd.aquasec.com/nvd/cve-2026-58051) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Denial of service or information disclosure via malformed SSH publickey response |
+| [CVE-2026-66032](https://avd.aquasec.com/nvd/cve-2026-66032) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Arbitrary code execution via double-free in SFTP session |
+| [CVE-2026-66033](https://avd.aquasec.com/nvd/cve-2026-66033) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Denial of Service via integer underflow in AES-GCM cipher negotiation |
+| [CVE-2026-66034](https://avd.aquasec.com/nvd/cve-2026-66034) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Information disclosure and potential arbitrary code execution via heap out-of-bounds read |
+| [CVE-2026-66035](https://avd.aquasec.com/nvd/cve-2026-66035) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Arbitrary code execution via heap buffer overflow during SSH negotiation |
+| [CVE-2026-13221](https://avd.aquasec.com/nvd/cve-2026-13221) | 🔴 **CRITICAL** | `perl` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression processing via large regular expressions |
+| [CVE-2026-42496](https://avd.aquasec.com/nvd/cve-2026-42496) | 🔴 **CRITICAL** | `perl` | 5.40.1-6+deb13u1 | perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access |
+| [CVE-2026-8376](https://avd.aquasec.com/nvd/cve-2026-8376) | 🔴 **CRITICAL** | `perl` | 5.40.1-6+deb13u1 | perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds |
+| [CVE-2026-42497](https://avd.aquasec.com/nvd/cve-2026-42497) | 🟠 **HIGH** | `perl` | 5.40.1-6+deb13u1 | perl-Archive-Tar: perl-Archive-Tar: Arbitrary file modification via crafted hardlinks during archive extraction |
+| [CVE-2026-48962](https://avd.aquasec.com/nvd/cve-2026-48962) | 🟠 **HIGH** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Arbitrary code execution via attacker-controlled output glob |
+| [CVE-2026-57432](https://avd.aquasec.com/nvd/cve-2026-57432) | 🟠 **HIGH** | `perl` | 5.40.1-6+deb13u1 | perl: Perl: Information disclosure via integer overflow in pack/unpack operations |
+| [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `perl` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
+| [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
+| [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
+| [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
+| [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
+| [CVE-2026-7017](https://avd.aquasec.com/nvd/cve-2026-7017) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.095 for Perl forward credential headers t ... |
+| [CVE-2026-13221](https://avd.aquasec.com/nvd/cve-2026-13221) | 🔴 **CRITICAL** | `perl-base` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression processing via large regular expressions |
+| [CVE-2026-42496](https://avd.aquasec.com/nvd/cve-2026-42496) | 🔴 **CRITICAL** | `perl-base` | 5.40.1-6+deb13u1 | perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access |
+| [CVE-2026-8376](https://avd.aquasec.com/nvd/cve-2026-8376) | 🔴 **CRITICAL** | `perl-base` | 5.40.1-6+deb13u1 | perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds |
+| [CVE-2026-42497](https://avd.aquasec.com/nvd/cve-2026-42497) | 🟠 **HIGH** | `perl-base` | 5.40.1-6+deb13u1 | perl-Archive-Tar: perl-Archive-Tar: Arbitrary file modification via crafted hardlinks during archive extraction |
+| [CVE-2026-48962](https://avd.aquasec.com/nvd/cve-2026-48962) | 🟠 **HIGH** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Arbitrary code execution via attacker-controlled output glob |
+| [CVE-2026-57432](https://avd.aquasec.com/nvd/cve-2026-57432) | 🟠 **HIGH** | `perl-base` | 5.40.1-6+deb13u1 | perl: Perl: Information disclosure via integer overflow in pack/unpack operations |
+| [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `perl-base` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
+| [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
+| [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
+| [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
+| [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
+| [CVE-2026-7017](https://avd.aquasec.com/nvd/cve-2026-7017) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.095 for Perl forward credential headers t ... |
+| [CVE-2026-13221](https://avd.aquasec.com/nvd/cve-2026-13221) | 🔴 **CRITICAL** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression processing via large regular expressions |
+| [CVE-2026-42496](https://avd.aquasec.com/nvd/cve-2026-42496) | 🔴 **CRITICAL** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access |
+| [CVE-2026-8376](https://avd.aquasec.com/nvd/cve-2026-8376) | 🔴 **CRITICAL** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds |
+| [CVE-2026-42497](https://avd.aquasec.com/nvd/cve-2026-42497) | 🟠 **HIGH** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-Archive-Tar: perl-Archive-Tar: Arbitrary file modification via crafted hardlinks during archive extraction |
+| [CVE-2026-48962](https://avd.aquasec.com/nvd/cve-2026-48962) | 🟠 **HIGH** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Arbitrary code execution via attacker-controlled output glob |
+| [CVE-2026-57432](https://avd.aquasec.com/nvd/cve-2026-57432) | 🟠 **HIGH** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl: Perl: Information disclosure via integer overflow in pack/unpack operations |
+| [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
+| [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
+| [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
+| [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
+| [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
+| [CVE-2026-7017](https://avd.aquasec.com/nvd/cve-2026-7017) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.095 for Perl forward credential headers t ... |
+| [CVE-2026-11940](https://avd.aquasec.com/nvd/cve-2026-11940) | 🟠 **HIGH** | `python3.13` | 3.13.5-2+deb13u5 | python: cpython: CPython: tarfile extraction filter bypass allows escaping the destination directory |
+| [CVE-2026-0864](https://avd.aquasec.com/nvd/cve-2026-0864) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u5 | python: cpython: Python configparser: Configuration injection via crafted multi-line input |
+| [CVE-2026-11972](https://avd.aquasec.com/nvd/cve-2026-11972) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u5 | python: Python tarfile module: Denial of Service via improper EOF handling in streaming mode |
+| [CVE-2026-4360](https://avd.aquasec.com/nvd/cve-2026-4360) | 🟡 **MEDIUM** | `python3.13` | 3.13.5-2+deb13u5 | python: Python Tarfile: Unexpected file ownership when extracting hardlinks |
+| [CVE-2026-11940](https://avd.aquasec.com/nvd/cve-2026-11940) | 🟠 **HIGH** | `python3.13-minimal` | 3.13.5-2+deb13u5 | python: cpython: CPython: tarfile extraction filter bypass allows escaping the destination directory |
+| [CVE-2026-0864](https://avd.aquasec.com/nvd/cve-2026-0864) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u5 | python: cpython: Python configparser: Configuration injection via crafted multi-line input |
+| [CVE-2026-11972](https://avd.aquasec.com/nvd/cve-2026-11972) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u5 | python: Python tarfile module: Denial of Service via improper EOF handling in streaming mode |
+| [CVE-2026-4360](https://avd.aquasec.com/nvd/cve-2026-4360) | 🟡 **MEDIUM** | `python3.13-minimal` | 3.13.5-2+deb13u5 | python: Python Tarfile: Unexpected file ownership when extracting hardlinks |
 
 
 
