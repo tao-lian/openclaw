@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-09-16 12:25:11.876999241 +0000 UTC m=+6.972231730
+**Date:** 2026-09-17 12:24:47.91264695 +0000 UTC m=+5.640801996
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -53,9 +53,11 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-5450](https://avd.aquasec.com/nvd/cve-2026-5450) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u4 | glibc: glibc: Heap Buffer Overflow in `scanf` with `%mc` format specifier and large width |
 | [CVE-2026-5928](https://avd.aquasec.com/nvd/cve-2026-5928) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u4 | glibc: glibc: Information disclosure or denial of service via ungetwc function with specific wide character encodings |
 | [CVE-2026-86145](https://avd.aquasec.com/nvd/cve-2026-86145) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write allows arbitrary code execution via crafted regular expressions |
+| [CVE-2026-89157](https://avd.aquasec.com/nvd/cve-2026-89157) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write via large pattern input |
 | [CVE-2026-89161](https://avd.aquasec.com/nvd/cve-2026-89161) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Memory corruption vulnerability in pcre2_jit_match |
-| [CVE-2026-89157](https://avd.aquasec.com/nvd/cve-2026-89157) | 🟡 **MEDIUM** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write via large pattern input |
+| [CVE-2026-89156](https://avd.aquasec.com/nvd/cve-2026-89156) | 🟡 **MEDIUM** | `libpcre2-8-0` | 10.46-1~deb13u2 | PCRE2: PCRE2: Out-of-bounds read via invalid UTF data during JIT fallback |
 | [CVE-2026-89158](https://avd.aquasec.com/nvd/cve-2026-89158) | 🟡 **MEDIUM** | `libpcre2-8-0` | 10.46-1~deb13u2 | PCRE2: PCRE2: Out-of-bounds write via integer overflow on 32-bit platforms |
+| [CVE-2026-89160](https://avd.aquasec.com/nvd/cve-2026-89160) | 🟡 **MEDIUM** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Denial of Service via out-of-bounds read during invalid UTF matching |
 | [CVE-2026-13221](https://avd.aquasec.com/nvd/cve-2026-13221) | 🔴 **CRITICAL** | `libperl5.40` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression processing via large regular expressions |
 | [CVE-2026-42496](https://avd.aquasec.com/nvd/cve-2026-42496) | 🔴 **CRITICAL** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access |
 | [CVE-2026-8376](https://avd.aquasec.com/nvd/cve-2026-8376) | 🔴 **CRITICAL** | `libperl5.40` | 5.40.1-6+deb13u1 | perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds |
