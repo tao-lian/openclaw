@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-09-18 12:04:05.447545039 +0000 UTC m=+4.443193139
+**Date:** 2026-09-19 11:46:50.905955988 +0000 UTC m=+5.273572642
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -117,6 +117,7 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-39244](https://avd.aquasec.com/nvd/cve-2026-39244) | 🟠 **HIGH** | `adm-zip` | 0.6.0 | adm-zip: adm-zip: Denial of Service via crafted ZIP file leading to excessive memory allocation |
+| [CVE-2026-77301](https://avd.aquasec.com/nvd/cve-2026-77301) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS) |
 | [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
 | [CVE-2026-69152](https://avd.aquasec.com/nvd/cve-2026-69152) | 🟠 **HIGH** | `brace-expansion` | 1.1.18, 2.1.4, 3.0.6, 5.0.9 | brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation |
 | [CVE-2026-84363](https://avd.aquasec.com/nvd/cve-2026-84363) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Query parser reads parameters after the URL fragment, causing cache-key and proxy interpretation differentials |
