@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-09-29 13:44:03.370352006 +0000 UTC m=+5.500062472
+**Date:** 2026-09-30 13:20:01.892141413 +0000 UTC m=+6.346278202
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -87,6 +87,39 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-66033](https://avd.aquasec.com/nvd/cve-2026-66033) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Denial of Service via integer underflow in AES-GCM cipher negotiation |
 | [CVE-2026-66034](https://avd.aquasec.com/nvd/cve-2026-66034) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Information disclosure and potential arbitrary code execution via heap out-of-bounds read |
 | [CVE-2026-66035](https://avd.aquasec.com/nvd/cve-2026-66035) | 🟡 **MEDIUM** | `libssh2-1t64` | 1.11.1-1+deb13u2 | libssh2: libssh2: Arbitrary code execution via heap buffer overflow during SSH negotiation |
+| [CVE-2026-75804](https://avd.aquasec.com/nvd/cve-2026-75804) | 🟠 **HIGH** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via unenforced QUIC connection flow control |
+| [CVE-2026-84782](https://avd.aquasec.com/nvd/cve-2026-84782) | 🟠 **HIGH** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: compat-openssl: openssl: Information disclosure via DTLS handshake retransmission |
+| [CVE-2026-42772](https://avd.aquasec.com/nvd/cve-2026-42772) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via inefficient QUIC stream reassembly |
+| [CVE-2026-54872](https://avd.aquasec.com/nvd/cve-2026-54872) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Private key recovery via timing side-channel in generic elliptic curve operations |
+| [CVE-2026-54873](https://avd.aquasec.com/nvd/cve-2026-54873) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via excessive QUIC packet buffer retention |
+| [CVE-2026-54875](https://avd.aquasec.com/nvd/cve-2026-54875) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: openssl: information disclosure via non-constant-time SM2 scalar multiplication on ARM64 and RISC-V |
+| [CVE-2026-72897](https://avd.aquasec.com/nvd/cve-2026-72897) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via out-of-bounds write during TLS context switch |
+| [CVE-2026-75805](https://avd.aquasec.com/nvd/cve-2026-75805) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via crafted CMP certificate revocation response |
+| [CVE-2026-75806](https://avd.aquasec.com/nvd/cve-2026-75806) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via undersized DTLS record |
+| [CVE-2026-77696](https://avd.aquasec.com/nvd/cve-2026-77696) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Private key recovery via SM2 timing side-channel |
+| [CVE-2026-84784](https://avd.aquasec.com/nvd/cve-2026-84784) | 🟡 **MEDIUM** | `libssl3t64` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via unbounded QUIC connection identifier backlog |
+| [CVE-2026-75804](https://avd.aquasec.com/nvd/cve-2026-75804) | 🟠 **HIGH** | `openssl` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via unenforced QUIC connection flow control |
+| [CVE-2026-84782](https://avd.aquasec.com/nvd/cve-2026-84782) | 🟠 **HIGH** | `openssl` | 3.5.7-1~deb13u3 | openssl: compat-openssl: openssl: Information disclosure via DTLS handshake retransmission |
+| [CVE-2026-42772](https://avd.aquasec.com/nvd/cve-2026-42772) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via inefficient QUIC stream reassembly |
+| [CVE-2026-54872](https://avd.aquasec.com/nvd/cve-2026-54872) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Private key recovery via timing side-channel in generic elliptic curve operations |
+| [CVE-2026-54873](https://avd.aquasec.com/nvd/cve-2026-54873) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via excessive QUIC packet buffer retention |
+| [CVE-2026-54875](https://avd.aquasec.com/nvd/cve-2026-54875) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: openssl: information disclosure via non-constant-time SM2 scalar multiplication on ARM64 and RISC-V |
+| [CVE-2026-72897](https://avd.aquasec.com/nvd/cve-2026-72897) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via out-of-bounds write during TLS context switch |
+| [CVE-2026-75805](https://avd.aquasec.com/nvd/cve-2026-75805) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via crafted CMP certificate revocation response |
+| [CVE-2026-75806](https://avd.aquasec.com/nvd/cve-2026-75806) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via undersized DTLS record |
+| [CVE-2026-77696](https://avd.aquasec.com/nvd/cve-2026-77696) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Private key recovery via SM2 timing side-channel |
+| [CVE-2026-84784](https://avd.aquasec.com/nvd/cve-2026-84784) | 🟡 **MEDIUM** | `openssl` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via unbounded QUIC connection identifier backlog |
+| [CVE-2026-75804](https://avd.aquasec.com/nvd/cve-2026-75804) | 🟠 **HIGH** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via unenforced QUIC connection flow control |
+| [CVE-2026-84782](https://avd.aquasec.com/nvd/cve-2026-84782) | 🟠 **HIGH** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: compat-openssl: openssl: Information disclosure via DTLS handshake retransmission |
+| [CVE-2026-42772](https://avd.aquasec.com/nvd/cve-2026-42772) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via inefficient QUIC stream reassembly |
+| [CVE-2026-54872](https://avd.aquasec.com/nvd/cve-2026-54872) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Private key recovery via timing side-channel in generic elliptic curve operations |
+| [CVE-2026-54873](https://avd.aquasec.com/nvd/cve-2026-54873) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via excessive QUIC packet buffer retention |
+| [CVE-2026-54875](https://avd.aquasec.com/nvd/cve-2026-54875) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: openssl: information disclosure via non-constant-time SM2 scalar multiplication on ARM64 and RISC-V |
+| [CVE-2026-72897](https://avd.aquasec.com/nvd/cve-2026-72897) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via out-of-bounds write during TLS context switch |
+| [CVE-2026-75805](https://avd.aquasec.com/nvd/cve-2026-75805) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: openssl: Denial of Service via crafted CMP certificate revocation response |
+| [CVE-2026-75806](https://avd.aquasec.com/nvd/cve-2026-75806) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via undersized DTLS record |
+| [CVE-2026-77696](https://avd.aquasec.com/nvd/cve-2026-77696) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Private key recovery via SM2 timing side-channel |
+| [CVE-2026-84784](https://avd.aquasec.com/nvd/cve-2026-84784) | 🟡 **MEDIUM** | `openssl-provider-legacy` | 3.5.7-1~deb13u3 | openssl: OpenSSL: Denial of Service via unbounded QUIC connection identifier backlog |
 | [CVE-2026-13221](https://avd.aquasec.com/nvd/cve-2026-13221) | 🔴 **CRITICAL** | `perl` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression processing via large regular expressions |
 | [CVE-2026-42496](https://avd.aquasec.com/nvd/cve-2026-42496) | 🔴 **CRITICAL** | `perl` | 5.40.1-6+deb13u1 | perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access |
 | [CVE-2026-8376](https://avd.aquasec.com/nvd/cve-2026-8376) | 🔴 **CRITICAL** | `perl` | 5.40.1-6+deb13u1 | perl: Perl: Heap buffer overflow when compiling regular expressions on 32-bit builds |
@@ -153,29 +186,57 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-102282](https://avd.aquasec.com/nvd/cve-2026-102282) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation |
 | [CVE-2026-39244](https://avd.aquasec.com/nvd/cve-2026-39244) | 🟠 **HIGH** | `adm-zip` | 0.6.0 | adm-zip: adm-zip: Denial of Service via crafted ZIP file leading to excessive memory allocation |
 | [CVE-2026-77301](https://avd.aquasec.com/nvd/cve-2026-77301) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: adm-zip: Denial of Service via uncontrolled memory allocation |
+| [GHSA-8238-w5pm-2374](https://github.com/advisories/GHSA-8238-w5pm-2374) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: Unhandled error event in async DEFLATE decompression crashes Node.js process (DoS) |
+| [GHSA-rcw4-f5rp-g42v](https://github.com/advisories/GHSA-rcw4-f5rp-g42v) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: Decompression-bomb protection (fix for CVE-2026-39244) can be bypassed by declaring uncompressed size as 0 |
+| [GHSA-c6fg-446q-cg94](https://github.com/advisories/GHSA-c6fg-446q-cg94) | 🟡 **MEDIUM** | `adm-zip` | 0.6.1 | adm-zip: getDataAsync() bypasses the maxOutputLength size guard enforced by the synchronous getData() path |
+| [GHSA-p634-w6r4-rjp2](https://github.com/advisories/GHSA-p634-w6r4-rjp2) | 🟡 **MEDIUM** | `adm-zip` | 0.6.1 | adm-zip: Duplicate ZIP entry names: getEntry() and extractAllTo() resolve to different content |
+| [CVE-2026-102276](https://avd.aquasec.com/nvd/cve-2026-102276) | 🟠 **HIGH** | `brace-expansion` | 5.0.10, 3.0.7, 2.1.5, 1.1.19 | brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns |
+| [CVE-2026-102278](https://avd.aquasec.com/nvd/cve-2026-102278) | 🟠 **HIGH** | `brace-expansion` | 5.0.11, 3.0.8, 2.1.6, 1.1.20 | brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns |
 | [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
 | [CVE-2026-69152](https://avd.aquasec.com/nvd/cve-2026-69152) | 🟠 **HIGH** | `brace-expansion` | 1.1.18, 2.1.4, 3.0.6, 5.0.9 | brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation |
+| [CVE-2026-102277](https://avd.aquasec.com/nvd/cve-2026-102277) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.12, 3.0.9, 2.1.7, 1.1.21 | brace-expansion: brace-expansion: Denial of Service via crafted brace patterns |
+| [CVE-2026-102276](https://avd.aquasec.com/nvd/cve-2026-102276) | 🟠 **HIGH** | `brace-expansion` | 5.0.10, 3.0.7, 2.1.5, 1.1.19 | brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns |
+| [CVE-2026-102278](https://avd.aquasec.com/nvd/cve-2026-102278) | 🟠 **HIGH** | `brace-expansion` | 5.0.11, 3.0.8, 2.1.6, 1.1.20 | brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns |
+| [CVE-2026-102277](https://avd.aquasec.com/nvd/cve-2026-102277) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.12, 3.0.9, 2.1.7, 1.1.21 | brace-expansion: brace-expansion: Denial of Service via crafted brace patterns |
+| [CVE-2026-86472](https://avd.aquasec.com/nvd/cve-2026-86472) | 🟡 **MEDIUM** | `fast-uri` | 2.4.7, 3.1.8, 4.1.5 | fast-uri: fast-uri: Security bypass due to inconsistent host case normalization |
+| [CVE-2026-86818](https://avd.aquasec.com/nvd/cve-2026-86818) | 🟡 **MEDIUM** | `fast-uri` | 4.1.5 | fast-uri: fast-uri: Mailto header injection via percent-encoded field-name desynchronization |
 | [CVE-2026-84363](https://avd.aquasec.com/nvd/cve-2026-84363) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Query parser reads parameters after the URL fragment, causing cache-key and proxy interpretation differentials |
 | [CVE-2026-84364](https://avd.aquasec.com/nvd/cve-2026-84364) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Unbounded dot-notation nesting in `parseBody()` can cause memory exhaustion |
 | [CVE-2026-84365](https://avd.aquasec.com/nvd/cve-2026-84365) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Incomplete fix for CVE-2026-39408: `toSSG()` still writes files outside the output directory |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
-| [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
-| [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
+| [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
+| [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
+| [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
+| [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
 | [CVE-2026-54272](https://avd.aquasec.com/nvd/cve-2026-54272) | 🟡 **MEDIUM** | `ip-address` | 10.2.1 | ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification |
 | [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address: ip-address: Server-Side Request Forgery (SSRF) and trust-boundary bypass |
-| [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
-| [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address is a library for parsing and manipulating IPv4 and IPv6 add ... |
+| [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
+| [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
+| [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
+| [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
+| [GHSA-6h2x-m376-mqjq](https://github.com/advisories/GHSA-6h2x-m376-mqjq) | 🟠 **HIGH** | `joi` | 17.13.7, 18.2.6 | joi: Quadratic regular-expression backtracking in `Joi.string().isoDate()` |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
+| [GHSA-v53p-9fqp-m79j](https://github.com/advisories/GHSA-v53p-9fqp-m79j) | 🟠 **HIGH** | `nodemailer` | 10.0.6 | Nodemailer: Quadratic backtracking in the addressparser free-text fallback allows remote denial of service |
 | [GHSA-6vj9-mwq6-2f5v](https://github.com/advisories/GHSA-6vj9-mwq6-2f5v) | 🟡 **MEDIUM** | `nodemailer` | 10.0.2 | Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure |
+| [GHSA-8vvx-rff5-p5rq](https://github.com/advisories/GHSA-8vvx-rff5-p5rq) | 🟡 **MEDIUM** | `nodemailer` | 10.0.2 | Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS |
+| [GHSA-g57g-f23g-4646](https://github.com/advisories/GHSA-g57g-f23g-4646) | 🟡 **MEDIUM** | `nodemailer` | 10.0.9 | Nodemailer: Quoted local-part can produce malformed envelope recipient through RFC 5322 comment parsing |
 | [CVE-2026-82417](https://avd.aquasec.com/nvd/cve-2026-82417) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via improper validation in stringify function |
 | [CVE-2026-82562](https://avd.aquasec.com/nvd/cve-2026-82562) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via array limit bypass in query string parsing |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
+| [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
 | [CVE-2026-15157](https://avd.aquasec.com/nvd/cve-2026-15157) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: HTTP header injection via unvalidated blob-like body type property |
 | [CVE-2026-16728](https://avd.aquasec.com/nvd/cve-2026-16728) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: Response desynchronization via retry interceptor with mismatched Content-Length |
 | [CVE-2026-16729](https://avd.aquasec.com/nvd/cve-2026-16729) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: Undici: Cookie attribute injection allows bypassing security protections |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
+| [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
+| [CVE-2026-84961](https://avd.aquasec.com/nvd/cve-2026-84961) | 🟠 **HIGH** | `undici` | 7.29.1, 8.10.2 | undici: undici: TLS certificate validation bypass in BalancedPool via dropped connect options |
+| [CVE-2026-18149](https://avd.aquasec.com/nvd/cve-2026-18149) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service due to orphaned response body in retry handler |
+| [CVE-2026-84890](https://avd.aquasec.com/nvd/cve-2026-84890) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service via unbounded decompression of compressed responses |
+| [CVE-2026-84933](https://avd.aquasec.com/nvd/cve-2026-84933) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Cross-user cookie disclosure via Set-Cookie caching |
+| [CVE-2026-85014](https://avd.aquasec.com/nvd/cve-2026-85014) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service via WebSocketStream unclean close |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
 
 
