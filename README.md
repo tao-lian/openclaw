@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-09-30 13:20:01.892141413 +0000 UTC m=+6.346278202
+**Date:** 2026-10-01 14:10:06.520675403 +0000 UTC m=+6.013980878
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -52,6 +52,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-5928](https://avd.aquasec.com/nvd/cve-2026-5928) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u4 | glibc: glibc: Information disclosure or denial of service via ungetwc function with specific wide character encodings |
 | [CVE-2026-5450](https://avd.aquasec.com/nvd/cve-2026-5450) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u4 | glibc: glibc: Heap Buffer Overflow in `scanf` with `%mc` format specifier and large width |
 | [CVE-2026-5928](https://avd.aquasec.com/nvd/cve-2026-5928) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u4 | glibc: glibc: Information disclosure or denial of service via ungetwc function with specific wide character encodings |
+| [CVE-2026-103111](https://avd.aquasec.com/nvd/cve-2026-103111) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u3 | pcre2: pcre2: Out-of-bounds write via crafted regular expression |
 | [CVE-2026-86145](https://avd.aquasec.com/nvd/cve-2026-86145) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write allows arbitrary code execution via crafted regular expressions |
 | [CVE-2026-89157](https://avd.aquasec.com/nvd/cve-2026-89157) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Out-of-bounds write via large pattern input |
 | [CVE-2026-89161](https://avd.aquasec.com/nvd/cve-2026-89161) | 🟠 **HIGH** | `libpcre2-8-0` | 10.46-1~deb13u2 | pcre2: PCRE2: Memory corruption vulnerability in pcre2_jit_match |
@@ -186,6 +187,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-101916](https://avd.aquasec.com/nvd/cve-2026-101916) | 🟠 **HIGH** | `@grpc/grpc-js` | 1.13.6, 1.14.5 | grpc-js: grpc-js: Authentication bypass via improper peer certificate validation |
 | [CVE-2026-102282](https://avd.aquasec.com/nvd/cve-2026-102282) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation |
 | [CVE-2026-39244](https://avd.aquasec.com/nvd/cve-2026-39244) | 🟠 **HIGH** | `adm-zip` | 0.6.0 | adm-zip: adm-zip: Denial of Service via crafted ZIP file leading to excessive memory allocation |
 | [CVE-2026-77301](https://avd.aquasec.com/nvd/cve-2026-77301) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: adm-zip: Denial of Service via uncontrolled memory allocation |
@@ -193,6 +195,18 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [GHSA-rcw4-f5rp-g42v](https://github.com/advisories/GHSA-rcw4-f5rp-g42v) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: Decompression-bomb protection (fix for CVE-2026-39244) can be bypassed by declaring uncompressed size as 0 |
 | [GHSA-c6fg-446q-cg94](https://github.com/advisories/GHSA-c6fg-446q-cg94) | 🟡 **MEDIUM** | `adm-zip` | 0.6.1 | adm-zip: getDataAsync() bypasses the maxOutputLength size guard enforced by the synchronous getData() path |
 | [GHSA-p634-w6r4-rjp2](https://github.com/advisories/GHSA-p634-w6r4-rjp2) | 🟡 **MEDIUM** | `adm-zip` | 0.6.1 | adm-zip: Duplicate ZIP entry names: getEntry() and extractAllTo() resolve to different content |
+| [CVE-2026-101898](https://avd.aquasec.com/nvd/cve-2026-101898) | 🟠 **HIGH** | `axios` | 1.20.0 | axios: axios: Security control bypass via unapplied HTTP/2 proxy and DNS settings |
+| [CVE-2026-101901](https://avd.aquasec.com/nvd/cve-2026-101901) | 🟠 **HIGH** | `axios` | 1.20.0 | axios: Axios: Denial of Service via unhandled error in HTTP/2 session initialization |
+| [CVE-2026-101903](https://avd.aquasec.com/nvd/cve-2026-101903) | 🟠 **HIGH** | `axios` | 1.20.0 | axios: Axios: Denial of Service via malformed data URLs |
+| [CVE-2026-101905](https://avd.aquasec.com/nvd/cve-2026-101905) | 🟠 **HIGH** | `axios` | 1.20.0 | axios: axios: Request socket hijacking via inherited createConnection property |
+| [CVE-2026-101906](https://avd.aquasec.com/nvd/cve-2026-101906) | 🟠 **HIGH** | `axios` | 1.20.0 | axios: axios: Denial of Service via crafted redirect hostname |
+| [CVE-2026-101907](https://avd.aquasec.com/nvd/cve-2026-101907) | 🟠 **HIGH** | `axios` | 1.20.0 | axios: Axios: Server-Side Request Forgery via bypassed redirect restrictions in fetch adapter |
+| [CVE-2026-101909](https://avd.aquasec.com/nvd/cve-2026-101909) | 🟠 **HIGH** | `axios` | 0.34.0, 1.20.0 | axios: axios: Denial of Service via prototype pollution gadget in form serialization |
+| [CVE-2026-101899](https://avd.aquasec.com/nvd/cve-2026-101899) | 🟡 **MEDIUM** | `axios` | 1.20.0 | Axios: CIDR-form NO_PROXY entries are ignored, causing proxy exclusion bypass for internal IP ranges |
+| [CVE-2026-101900](https://avd.aquasec.com/nvd/cve-2026-101900) | 🟡 **MEDIUM** | `axios` | 1.20.0 | axios: Axios: Outbound HTTP header injection via prototype pollution in fetch adapter |
+| [CVE-2026-101902](https://avd.aquasec.com/nvd/cve-2026-101902) | 🟡 **MEDIUM** | `axios` | 0.34.0, 1.20.0 | axios: axios: Unintended HTTP method override via prototype pollution gadget |
+| [CVE-2026-101904](https://avd.aquasec.com/nvd/cve-2026-101904) | 🟡 **MEDIUM** | `axios` | 1.20.0 | axios: Axios: HTTP header injection via inherited prototype properties |
+| [CVE-2026-101908](https://avd.aquasec.com/nvd/cve-2026-101908) | 🟡 **MEDIUM** | `axios` | 1.20.0 | axios: Axios: Outbound HTTP request manipulation via fetch adapter prototype pollution |
 | [CVE-2026-102276](https://avd.aquasec.com/nvd/cve-2026-102276) | 🟠 **HIGH** | `brace-expansion` | 5.0.10, 3.0.7, 2.1.5, 1.1.19 | brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns |
 | [CVE-2026-102278](https://avd.aquasec.com/nvd/cve-2026-102278) | 🟠 **HIGH** | `brace-expansion` | 5.0.11, 3.0.8, 2.1.6, 1.1.20 | brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns |
 | [CVE-2026-14257](https://avd.aquasec.com/nvd/cve-2026-14257) | 🟠 **HIGH** | `brace-expansion` | 5.0.8, 3.0.3, 2.1.3, 1.1.17 | brace-expansion: Brace-expansion: Denial of Service via memory exhaustion in expand() function |
@@ -206,6 +220,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-84363](https://avd.aquasec.com/nvd/cve-2026-84363) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Query parser reads parameters after the URL fragment, causing cache-key and proxy interpretation differentials |
 | [CVE-2026-84364](https://avd.aquasec.com/nvd/cve-2026-84364) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Unbounded dot-notation nesting in `parseBody()` can cause memory exhaustion |
 | [CVE-2026-84365](https://avd.aquasec.com/nvd/cve-2026-84365) | 🟡 **MEDIUM** | `hono` | 4.13.5 | Hono: Incomplete fix for CVE-2026-39408: `toSSG()` still writes files outside the output directory |
+| [CVE-2026-93981](https://avd.aquasec.com/nvd/cve-2026-93981) | 🟡 **MEDIUM** | `hono` | 4.13.7 | hono: hono/jsx: Cross-Site Scripting via Unescaped Strings |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
@@ -219,6 +234,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
 | [GHSA-6h2x-m376-mqjq](https://github.com/advisories/GHSA-6h2x-m376-mqjq) | 🟠 **HIGH** | `joi` | 17.13.7, 18.2.6 | joi: Quadratic regular-expression backtracking in `Joi.string().isoDate()` |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
+| [GHSA-prgh-xp8r-p3m5](https://github.com/advisories/GHSA-prgh-xp8r-p3m5) | 🟠 **HIGH** | `nodemailer` | 10.0.5 | Nodemailer addressparser: O(n^2) on comment-joined addresses enables a remote DoS (reachable via mailparser) |
 | [GHSA-v53p-9fqp-m79j](https://github.com/advisories/GHSA-v53p-9fqp-m79j) | 🟠 **HIGH** | `nodemailer` | 10.0.6 | Nodemailer: Quadratic backtracking in the addressparser free-text fallback allows remote denial of service |
 | [GHSA-6vj9-mwq6-2f5v](https://github.com/advisories/GHSA-6vj9-mwq6-2f5v) | 🟡 **MEDIUM** | `nodemailer` | 10.0.2 | Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure |
 | [GHSA-8vvx-rff5-p5rq](https://github.com/advisories/GHSA-8vvx-rff5-p5rq) | 🟡 **MEDIUM** | `nodemailer` | 10.0.2 | Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS |
