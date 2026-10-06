@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-10-05 15:33:08.159780707 +0000 UTC m=+6.585897026
+**Date:** 2026-10-06 13:54:55.099262064 +0000 UTC m=+6.368500031
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -68,6 +68,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `libperl5.40` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
 | [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
 | [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-19487](https://avd.aquasec.com/nvd/cve-2026-19487) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression matching can lead to wrong access or filtering decisions. |
 | [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
 | [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
 | [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `libperl5.40` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
@@ -130,6 +131,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `perl` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
 | [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
 | [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-19487](https://avd.aquasec.com/nvd/cve-2026-19487) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression matching can lead to wrong access or filtering decisions. |
 | [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
 | [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
 | [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `perl` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
@@ -143,6 +145,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `perl-base` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
 | [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
 | [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-19487](https://avd.aquasec.com/nvd/cve-2026-19487) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression matching can lead to wrong access or filtering decisions. |
 | [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
 | [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
 | [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `perl-base` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
@@ -156,6 +159,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-57433](https://avd.aquasec.com/nvd/cve-2026-57433) | 🟠 **HIGH** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | Storable: Storable: Denial of Service via signed integer overflow in deserialization |
 | [CVE-2025-15649](https://avd.aquasec.com/nvd/cve-2025-15649) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: Denial of Service via malformed DOS date in zip header |
 | [CVE-2026-12087](https://avd.aquasec.com/nvd/cve-2026-12087) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-Socket: perl-Socket: Information Disclosure due to Out-of-Bounds Read |
+| [CVE-2026-19487](https://avd.aquasec.com/nvd/cve-2026-19487) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl: Perl: Incorrect regular expression matching can lead to wrong access or filtering decisions. |
 | [CVE-2026-48959](https://avd.aquasec.com/nvd/cve-2026-48959) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: perl-IO-Compress: CPU exhaustion via per-byte read loop in fastForward |
 | [CVE-2026-48961](https://avd.aquasec.com/nvd/cve-2026-48961) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | perl-IO-Compress: IO::Compress: Denial of Service in zipdetails CLI tool via malformed Info-ZIP Unix Extra Field |
 | [CVE-2026-7010](https://avd.aquasec.com/nvd/cve-2026-7010) | 🟡 **MEDIUM** | `perl-modules-5.40` | 5.40.1-6+deb13u1 | HTTP::Tiny versions before 0.093 for Perl do not validate CRLF in HTTP ... |
@@ -232,16 +236,24 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
 | [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
-| [GHSA-6h2x-m376-mqjq](https://github.com/advisories/GHSA-6h2x-m376-mqjq) | 🟠 **HIGH** | `joi` | 17.13.7, 18.2.6 | joi: Quadratic regular-expression backtracking in `Joi.string().isoDate()` |
+| [CVE-2026-92599](https://avd.aquasec.com/nvd/cve-2026-92599) | 🟠 **HIGH** | `joi` | 17.13.7, 18.2.6 | joi: joi: Denial of Service via `isoDate` validation regular expression |
+| [CVE-2026-90771](https://avd.aquasec.com/nvd/cve-2026-90771) | 🟡 **MEDIUM** | `joi` | 17.13.8, 18.2.9 | joi: joi: Prototype Pollution via custom messages |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
-| [GHSA-prgh-xp8r-p3m5](https://github.com/advisories/GHSA-prgh-xp8r-p3m5) | 🟠 **HIGH** | `nodemailer` | 10.0.5 | Nodemailer addressparser: O(n^2) on comment-joined addresses enables a remote DoS (reachable via mailparser) |
+| [CVE-2026-90776](https://avd.aquasec.com/nvd/cve-2026-90776) | 🟠 **HIGH** | `nodemailer` | 10.0.5 | nodemailer: Nodemailer: Denial of Service via crafted email headers |
 | [GHSA-v53p-9fqp-m79j](https://github.com/advisories/GHSA-v53p-9fqp-m79j) | 🟠 **HIGH** | `nodemailer` | 10.0.6 | Nodemailer: Quadratic backtracking in the addressparser free-text fallback allows remote denial of service |
 | [GHSA-6vj9-mwq6-2f5v](https://github.com/advisories/GHSA-6vj9-mwq6-2f5v) | 🟡 **MEDIUM** | `nodemailer` | 10.0.2 | Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure |
 | [GHSA-8vvx-rff5-p5rq](https://github.com/advisories/GHSA-8vvx-rff5-p5rq) | 🟡 **MEDIUM** | `nodemailer` | 10.0.2 | Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS |
 | [GHSA-g57g-f23g-4646](https://github.com/advisories/GHSA-g57g-f23g-4646) | 🟡 **MEDIUM** | `nodemailer` | 10.0.9 | Nodemailer: Quoted local-part can produce malformed envelope recipient through RFC 5322 comment parsing |
+| [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
+| [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
+| [CVE-2026-90711](https://avd.aquasec.com/nvd/cve-2026-90711) | 🔴 **CRITICAL** | `proxy-addr` | 2.0.8 | proxy-addr is a Node.js module that determines a request's client addr ... |
 | [CVE-2026-82417](https://avd.aquasec.com/nvd/cve-2026-82417) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via improper validation in stringify function |
 | [CVE-2026-82562](https://avd.aquasec.com/nvd/cve-2026-82562) | 🟡 **MEDIUM** | `qs` | 6.16.0 | qs: qs: Denial of Service via array limit bypass in query string parsing |
+| [GHSA-r4xh-jqrq-34v2](https://github.com/advisories/GHSA-r4xh-jqrq-34v2) | 🟡 **MEDIUM** | `smol-toml` | 1.9.0 | smol-toml: Quadratic-time parse() from parseKey rescanning to end of document on each key line |
+| [CVE-2026-93749](https://avd.aquasec.com/nvd/cve-2026-93749) | 🟠 **HIGH** | `source-map-js` | 1.2.2 | source-map-js: source-map-js: Denial of Service via malformed indexed source maps |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
+| [CVE-2026-104848](https://avd.aquasec.com/nvd/cve-2026-104848) | 🔴 **CRITICAL** | `tinypool` | 2.1.1 | Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution |
+| [CVE-2026-104849](https://avd.aquasec.com/nvd/cve-2026-104849) | 🔴 **CRITICAL** | `tinypool` | 2.1.2 | Tinypool: Prototype Pollution Gadget to RCE in run() options |
 | [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
 | [CVE-2026-15157](https://avd.aquasec.com/nvd/cve-2026-15157) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: HTTP header injection via unvalidated blob-like body type property |
 | [CVE-2026-16728](https://avd.aquasec.com/nvd/cve-2026-16728) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: Response desynchronization via retry interceptor with mismatched Content-Length |
@@ -274,6 +286,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [GHSA-wrw7-89jp-8q8g](https://github.com/advisories/GHSA-wrw7-89jp-8q8g) | 🟡 **MEDIUM** | `glib` | 0.20.0 | Unsoundness in `Iterator` and `DoubleEndedIterator` impls for `glib::VariantStrIter` |
+| [GHSA-2mjx-qc3c-rqvc](https://github.com/advisories/GHSA-2mjx-qc3c-rqvc) | 🟡 **MEDIUM** | `rustls` | 0.23.45 | Rustls: TLS 1.3 handshake messages incorrectly accepted across encryption level boundaries |
 
 
 
