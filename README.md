@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-10-06 13:54:55.099262064 +0000 UTC m=+6.368500031
+**Date:** 2026-10-07 14:12:26.2187488 +0000 UTC m=+6.335271046
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.6)`
@@ -192,7 +192,8 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-101916](https://avd.aquasec.com/nvd/cve-2026-101916) | 🟠 **HIGH** | `@grpc/grpc-js` | 1.13.6, 1.14.5 | grpc-js: grpc-js: Authentication bypass via improper peer certificate validation |
-| [CVE-2026-102282](https://avd.aquasec.com/nvd/cve-2026-102282) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation |
+| [CVE-2026-104850](https://avd.aquasec.com/nvd/cve-2026-104850) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.31.0 | MCP TypeScript SDK: OAuth client could send credentials to an authorization server chosen by the MCP server |
+| [CVE-2026-102282](https://avd.aquasec.com/nvd/cve-2026-102282) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: adm-zip: Privilege escalation via unfiltered permission bits in extracted archives |
 | [CVE-2026-39244](https://avd.aquasec.com/nvd/cve-2026-39244) | 🟠 **HIGH** | `adm-zip` | 0.6.0 | adm-zip: adm-zip: Denial of Service via crafted ZIP file leading to excessive memory allocation |
 | [CVE-2026-77301](https://avd.aquasec.com/nvd/cve-2026-77301) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: adm-zip: Denial of Service via uncontrolled memory allocation |
 | [GHSA-8238-w5pm-2374](https://github.com/advisories/GHSA-8238-w5pm-2374) | 🟠 **HIGH** | `adm-zip` | 0.6.1 | adm-zip: Unhandled error event in async DEFLATE decompression crashes Node.js process (DoS) |
