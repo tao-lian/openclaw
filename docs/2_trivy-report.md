@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-10-09 14:08:22.884229052 +0000 UTC m=+63.843895239
+**Date:** 2026-10-10 13:16:59.182625829 +0000 UTC m=+6.034767884
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -241,8 +241,12 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
+| [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
+| [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
+| [CVE-2026-78663](https://avd.aquasec.com/nvd/cve-2026-78663) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: golang: flow control limit bypass via double refund in HTTP/2 server |
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
+| [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
 
@@ -264,8 +268,12 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
+| [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
+| [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
+| [CVE-2026-78663](https://avd.aquasec.com/nvd/cve-2026-78663) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: golang: flow control limit bypass via double refund in HTTP/2 server |
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
+| [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
 
