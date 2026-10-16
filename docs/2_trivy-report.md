@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-10-15 12:27:06.175597541 +0000 UTC m=+6.233261425
+**Date:** 2026-10-16 12:05:40.017398006 +0000 UTC m=+7.395154970
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -11,15 +11,15 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
-| [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | During an upload, curl mishandles HTTP/2 `RST_STREAM` received from th ... |
+| [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
-| [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | During an upload, curl mishandles HTTP/2 `RST_STREAM` received from th ... |
+| [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
-| [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u7 | During an upload, curl mishandles HTTP/2 `RST_STREAM` received from th ... |
+| [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
 
 
@@ -258,8 +258,11 @@
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
+| [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | When "Trailer" headers are sent by a client, the HTTP server internall ... |
+| [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Historically, we have been rather lax about malformed framing-related  ... |
 | [CVE-2026-78663](https://avd.aquasec.com/nvd/cve-2026-78663) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: golang: flow control limit bypass via double refund in HTTP/2 server |
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
+| [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Parsing a multipart form can bypass memory limits and read an arbitrar ... |
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
@@ -285,8 +288,11 @@
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
+| [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | When "Trailer" headers are sent by a client, the HTTP server internall ... |
+| [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Historically, we have been rather lax about malformed framing-related  ... |
 | [CVE-2026-78663](https://avd.aquasec.com/nvd/cve-2026-78663) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: golang: flow control limit bypass via double refund in HTTP/2 server |
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
+| [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Parsing a multipart form can bypass memory limits and read an arbitrar ... |
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
