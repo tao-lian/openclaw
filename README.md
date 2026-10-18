@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-10-17 11:21:49.371178132 +0000 UTC m=+7.505969861
+**Date:** 2026-10-18 11:56:13.878666554 +0000 UTC m=+5.879300161
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -58,6 +58,12 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `libcurl4t64` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
+| [CVE-2026-66046](https://avd.aquasec.com/nvd/cve-2026-66046) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: Expat: Denial of Service via quadratic complexity in attribute processing |
+| [CVE-2026-76956](https://avd.aquasec.com/nvd/cve-2026-76956) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | libexpat: libexpat: Denial of Service via hash flooding attack with crafted XML |
+| [CVE-2026-76957](https://avd.aquasec.com/nvd/cve-2026-76957) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | libexpat: libexpat: Memory corruption vulnerability allows arbitrary code execution or denial of service |
+| [CVE-2026-77214](https://avd.aquasec.com/nvd/cve-2026-77214) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Information disclosure via heap buffer over-read in XML_ParseBuffer |
+| [CVE-2026-93990](https://avd.aquasec.com/nvd/cve-2026-93990) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: Expat: XML Injection via Malformed UTF-16 Input |
+| [CVE-2026-102633](https://avd.aquasec.com/nvd/cve-2026-102633) | 🟡 **MEDIUM** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Denial of Service via integer overflow in expat_realloc |
 
 
 
@@ -301,6 +307,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
 | [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Parsing a multipart form can bypass memory limits and read an arbitrar ... |
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
+| [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | A trusted template author may have previously written a valid template ... |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
 
@@ -331,6 +338,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
 | [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Parsing a multipart form can bypass memory limits and read an arbitrar ... |
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
+| [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | A trusted template author may have previously written a valid template ... |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
 
