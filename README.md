@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-10-20 12:31:55.304222982 +0000 UTC m=+7.318529991
+**Date:** 2026-10-21 12:42:43.442307827 +0000 UTC m=+5.851316216
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -83,6 +83,11 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
+| [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Experimental tasks were not tied to the session that created them |
+| [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation |
+| [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
+| [CVE-2026-111771](https://avd.aquasec.com/nvd/cve-2026-111771) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service |
 | [CVE-2026-83605](https://avd.aquasec.com/nvd/cve-2026-83605) | 🟠 **HIGH** | `@xmldom/xmldom` | 0.9.11, 0.8.14 | xmldom: @xmldom/xmldom: xmldom: Attribute injection allows client-side script execution |
 | [CVE-2026-83607](https://avd.aquasec.com/nvd/cve-2026-83607) | 🟠 **HIGH** | `@xmldom/xmldom` | 0.9.11, 0.8.14 | xmldom: xmldom: Cross-site scripting via unvalidated element name injection |
 | [CVE-2026-83608](https://avd.aquasec.com/nvd/cve-2026-83608) | 🟠 **HIGH** | `@xmldom/xmldom` | 0.8.15, 0.9.12 | xmldom: @xmldom/xmldom: xmldom: XML Markup Injection via DocType Name Bypass |
@@ -116,6 +121,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-76172](https://avd.aquasec.com/nvd/cve-2026-76172) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: URI parsing flaw enables server-side request forgery and redirects |
 | [CVE-2026-84292](https://avd.aquasec.com/nvd/cve-2026-84292) | 🟠 **HIGH** | `fast-uri` | 2.4.6, 3.1.7, 4.1.4 | fast-uri: fast-uri: Authority Injection via Unvalidated Port Serialization |
 | [CVE-2026-86472](https://avd.aquasec.com/nvd/cve-2026-86472) | 🟡 **MEDIUM** | `fast-uri` | 2.4.7, 3.1.8, 4.1.5 | fast-uri: fast-uri: Security bypass due to inconsistent host case normalization |
+| [CVE-2026-111755](https://avd.aquasec.com/nvd/cve-2026-111755) | 🟠 **HIGH** | `follow-redirects` | 1.16.1 | follow-redirects: follow-redirects: Information disclosure via improper regular expression escaping in sensitive header filtering |
+| [CVE-2026-111756](https://avd.aquasec.com/nvd/cve-2026-111756) | 🟠 **HIGH** | `follow-redirects` | 1.16.1 | follow-redirects: follow-redirects: Information disclosure via array-formatted headers during cross-origin redirects |
+| [CVE-2026-111757](https://avd.aquasec.com/nvd/cve-2026-111757) | 🟡 **MEDIUM** | `hono` | 4.13.11 | hono: hono: Information disclosure via malformed percent-encoded paths in serveStatic |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
@@ -132,6 +140,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
+| [CVE-2026-111758](https://avd.aquasec.com/nvd/cve-2026-111758) | 🟠 **HIGH** | `markdown-it` | 14.3.3, 15.0.3 | markdown-it: markdown-it: Denial of Service via unclosed link reference definitions |
 | [CVE-2026-107387](https://avd.aquasec.com/nvd/cve-2026-107387) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: Uncontrolled memory allocation in APEv2 parser |
 | [CVE-2026-107388](https://avd.aquasec.com/nvd/cve-2026-107388) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: ID3v2 tag size not validated before allocation, causing memory exhaustion DoS |
 | [CVE-2026-107389](https://avd.aquasec.com/nvd/cve-2026-107389) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: EBML parser trusts element lengths, allowing memory exhaustion or process abort |
@@ -156,6 +165,12 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-84933](https://avd.aquasec.com/nvd/cve-2026-84933) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Cross-user cookie disclosure via Set-Cookie caching |
 | [CVE-2026-85014](https://avd.aquasec.com/nvd/cve-2026-85014) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service via WebSocketStream unclean close |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
+| [CVE-2026-112942](https://avd.aquasec.com/nvd/cve-2026-112942) | 🟠 **HIGH** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Command injection via improper file path validation |
+| [CVE-2026-112942](https://avd.aquasec.com/nvd/cve-2026-112942) | 🟠 **HIGH** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Command injection via improper file path validation |
+| [CVE-2026-112943](https://avd.aquasec.com/nvd/cve-2026-112943) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Arbitrary code execution via improper argument escaping on Windows |
+| [CVE-2026-112943](https://avd.aquasec.com/nvd/cve-2026-112943) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Arbitrary code execution via improper argument escaping on Windows |
+| [CVE-2026-112944](https://avd.aquasec.com/nvd/cve-2026-112944) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Arbitrary command execution via improper filename handling |
+| [CVE-2026-112944](https://avd.aquasec.com/nvd/cve-2026-112944) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Arbitrary command execution via improper filename handling |
 
 
 
@@ -297,6 +312,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-111943](https://avd.aquasec.com/nvd/cve-2026-111943) | 🟠 **HIGH** | `stdlib` | 1.26.10, 1.27.3 | golang: crypto/x509: Go: crypto/x509: mitigation for security concerns with a specific Certificate Authority |
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
@@ -328,6 +344,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-111943](https://avd.aquasec.com/nvd/cve-2026-111943) | 🟠 **HIGH** | `stdlib` | 1.26.10, 1.27.3 | golang: crypto/x509: Go: crypto/x509: mitigation for security concerns with a specific Certificate Authority |
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
