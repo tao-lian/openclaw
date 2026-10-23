@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-10-22 12:46:24.684851443 +0000 UTC m=+4.886763990
+**Date:** 2026-10-23 12:24:48.646318492 +0000 UTC m=+7.216541024
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -47,7 +47,7 @@
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
-| [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/sdk: Unauthorized cross-session task access via taskStore |
+| [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Experimental tasks were not tied to the session that created them |
 | [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
 | [CVE-2026-111771](https://avd.aquasec.com/nvd/cve-2026-111771) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service |
@@ -81,11 +81,16 @@
 | [CVE-2026-102276](https://avd.aquasec.com/nvd/cve-2026-102276) | 🟠 **HIGH** | `brace-expansion` | 5.0.10, 3.0.7, 2.1.5, 1.1.19 | brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns |
 | [CVE-2026-102278](https://avd.aquasec.com/nvd/cve-2026-102278) | 🟠 **HIGH** | `brace-expansion` | 5.0.11, 3.0.8, 2.1.6, 1.1.20 | brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns |
 | [CVE-2026-102277](https://avd.aquasec.com/nvd/cve-2026-102277) | 🟡 **MEDIUM** | `brace-expansion` | 5.0.12, 3.0.9, 2.1.7, 1.1.21 | brace-expansion: brace-expansion: Denial of Service via crafted brace patterns |
+| [GHSA-cg2g-xh64-v4q7](https://github.com/advisories/GHSA-cg2g-xh64-v4q7) | 🔴 **CRITICAL** | `dompurify` | 3.4.17 | DOMPurify SAFE_FOR_TEMPLATES bypass: split template expressions survive in attached shadow root content on DOM output modes |
+| [GHSA-mrv2-3pqr-j5jr](https://github.com/advisories/GHSA-mrv2-3pqr-j5jr) | 🟠 **HIGH** | `dompurify` | 3.4.17 | DOMPurify IN_PLACE: hook that removes a parent or sibling leaves the detached subtree's event handlers armed (incomplete fix for GHSA-p98j-92pf-mc4p) |
 | [CVE-2026-102673](https://avd.aquasec.com/nvd/cve-2026-102673) | 🟠 **HIGH** | `electron` | 41.10.4, 42.5.2, 43.0.0 | electron: Electron: Sandbox bypass via popups opened from sandboxed iframes |
 | [CVE-2026-102674](https://avd.aquasec.com/nvd/cve-2026-102674) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: Electron: Sandbox bypass via popup window creation |
 | [CVE-2026-102675](https://avd.aquasec.com/nvd/cve-2026-102675) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: Electron: Cross-origin information disclosure via improper CORS enforcement in custom protocol handlers |
 | [CVE-2026-102676](https://avd.aquasec.com/nvd/cve-2026-102676) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: electron: Privilege escalation via unauthorized Node.js integration in web workers |
+| [CVE-2026-113796](https://avd.aquasec.com/nvd/cve-2026-113796) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.6, 44.3.0, 43.7.0, 42.11.3 | Electron: SameSite cookie restrictions are not applied to windows opened from links |
+| [CVE-2026-113798](https://avd.aquasec.com/nvd/cve-2026-113798) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.13, 44.5.0, 43.7.6, 42.11.9 | Electron: Pointer lock permission requests can be attributed to the wrong frame |
 | [CVE-2026-113800](https://avd.aquasec.com/nvd/cve-2026-113800) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.5, 44.3.0, 43.7.0, 42.11.3 | Electron: HID and USB permission checks can be attributed to the wrong origin |
+| [CVE-2026-114121](https://avd.aquasec.com/nvd/cve-2026-114121) | 🟡 **MEDIUM** | `electron` | 42.11.3, 43.7.0, 44.3.0, 45.0.0-alpha.5 | Electron: openExternal permission requests can be attributed to the wrong origin |
 | [CVE-2026-75899](https://avd.aquasec.com/nvd/cve-2026-75899) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Server-Side Request Forgery via repeated hostname percent-decoding |
 | [CVE-2026-75931](https://avd.aquasec.com/nvd/cve-2026-75931) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Host confusion via skipped IDN canonicalization |
 | [CVE-2026-75975](https://avd.aquasec.com/nvd/cve-2026-75975) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Server-side request forgery via malformed IPv6 normalization |
@@ -100,16 +105,20 @@
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
 | [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
+| [CVE-2026-111997](https://avd.aquasec.com/nvd/cve-2026-111997) | 🟡 **MEDIUM** | `ip-address` | 10.7.4 | ip-address: ip-address: Denial of Service via excessive percent characters in IPv6 address input |
 | [CVE-2026-54272](https://avd.aquasec.com/nvd/cve-2026-54272) | 🟡 **MEDIUM** | `ip-address` | 10.2.1 | ip-address: ip-address: Server-Side Request Forgery via IPv4-mapped/NAT64 IPv6 address misclassification |
 | [CVE-2026-69198](https://avd.aquasec.com/nvd/cve-2026-69198) | 🟡 **MEDIUM** | `ip-address` | 10.2.2 | ip-address: ip-address: Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
 | [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
+| [CVE-2026-111997](https://avd.aquasec.com/nvd/cve-2026-111997) | 🟡 **MEDIUM** | `ip-address` | 10.7.4 | ip-address: ip-address: Denial of Service via excessive percent characters in IPv6 address input |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
 | [CVE-2026-101912](https://avd.aquasec.com/nvd/cve-2026-101912) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Access control bypass via cross-family subnet comparison |
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
+| [CVE-2026-111997](https://avd.aquasec.com/nvd/cve-2026-111997) | 🟡 **MEDIUM** | `ip-address` | 10.7.4 | ip-address: ip-address: Denial of Service via excessive percent characters in IPv6 address input |
+| [CVE-2026-111997](https://avd.aquasec.com/nvd/cve-2026-111997) | 🟡 **MEDIUM** | `ip-address` | 10.7.4 | ip-address: ip-address: Denial of Service via excessive percent characters in IPv6 address input |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
 | [CVE-2026-111758](https://avd.aquasec.com/nvd/cve-2026-111758) | 🟠 **HIGH** | `markdown-it` | 14.3.3, 15.0.3 | markdown-it: markdown-it: Denial of Service via unclosed link reference definitions |
 | [CVE-2026-107387](https://avd.aquasec.com/nvd/cve-2026-107387) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: Uncontrolled memory allocation in APEv2 parser |
@@ -292,13 +301,13 @@
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
-| [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | When "Trailer" headers are sent by a client, the HTTP server internall ... |
-| [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Historically, we have been rather lax about malformed framing-related  ... |
+| [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang.org/x/net/http2: golang: net/http: Denial of Service via HTTP/2 trailer header memory exhaustion |
+| [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang.org/x/net/http2: net/http: HTTP response smuggling via malformed HTTP/2 framing headers |
 | [CVE-2026-78663](https://avd.aquasec.com/nvd/cve-2026-78663) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: golang: flow control limit bypass via double refund in HTTP/2 server |
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
-| [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Parsing a multipart form can bypass memory limits and read an arbitrar ... |
+| [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/textproto: mime/multipart: golang: golang: Denial of Service via memory limit bypass in multipart form parsing |
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
-| [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | A trusted template author may have previously written a valid template ... |
+| [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
 
@@ -324,13 +333,13 @@
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
-| [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | When "Trailer" headers are sent by a client, the HTTP server internall ... |
-| [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Historically, we have been rather lax about malformed framing-related  ... |
+| [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang.org/x/net/http2: golang: net/http: Denial of Service via HTTP/2 trailer header memory exhaustion |
+| [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang.org/x/net/http2: net/http: HTTP response smuggling via malformed HTTP/2 framing headers |
 | [CVE-2026-78663](https://avd.aquasec.com/nvd/cve-2026-78663) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: golang: flow control limit bypass via double refund in HTTP/2 server |
 | [CVE-2026-94439](https://avd.aquasec.com/nvd/cve-2026-94439) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: net/http: HTTP request smuggling via improper handling of HTTP/1 CONNECT responses |
-| [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | Parsing a multipart form can bypass memory limits and read an arbitrar ... |
+| [CVE-2026-94440](https://avd.aquasec.com/nvd/cve-2026-94440) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/textproto: mime/multipart: golang: golang: Denial of Service via memory limit bypass in multipart form parsing |
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
-| [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | A trusted template author may have previously written a valid template ... |
+| [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
 
 
