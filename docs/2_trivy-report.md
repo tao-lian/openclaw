@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-10-23 12:24:48.646318492 +0000 UTC m=+7.216541024
+**Date:** 2026-10-24 11:50:38.04753399 +0000 UTC m=+6.005215524
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -13,6 +13,7 @@
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
+| [CVE-2026-111497](https://avd.aquasec.com/nvd/cve-2026-111497) | 🟠 **HIGH** | `libbrotli1` | 1.1.0-2+deb13u1 | brotli: Out-of-Bounds Write in Google Brotli Decoder |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
@@ -46,8 +47,10 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
+| [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
-| [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Experimental tasks were not tied to the session that created them |
+| [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/sdk: Unauthorized cross-session task access via taskStore |
 | [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
 | [CVE-2026-111771](https://avd.aquasec.com/nvd/cve-2026-111771) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service |
@@ -68,6 +71,7 @@
 | [CVE-2026-83619](https://avd.aquasec.com/nvd/cve-2026-83619) | 🟠 **HIGH** | `@xmldom/xmldom` | 0.8.15 | @xmldom/xmldom: xmldom: Denial of Service via crafted XML input |
 | [CVE-2026-83610](https://avd.aquasec.com/nvd/cve-2026-83610) | 🟡 **MEDIUM** | `@xmldom/xmldom` | 0.8.15, 0.9.12 | xmldom: @xmldom/xmldom: xmldom: XML fragment injection via invalid EntityReference serialization |
 | [CVE-2026-83611](https://avd.aquasec.com/nvd/cve-2026-83611) | 🟡 **MEDIUM** | `@xmldom/xmldom` | 0.8.15, 0.9.12 | xmldom: xmldom: Malformed XML end tag parsing leads to content discard and security bypass |
+| [CVE-2026-111181](https://avd.aquasec.com/nvd/cve-2026-111181) | 🟠 **HIGH** | `body-parser` | 2.4.0, 1.20.9 | body-parser: body-parser: Denial of Service via unhandled decompression stream error |
 | [CVE-2026-102276](https://avd.aquasec.com/nvd/cve-2026-102276) | 🟠 **HIGH** | `brace-expansion` | 5.0.10, 3.0.7, 2.1.5, 1.1.19 | brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns |
 | [CVE-2026-102276](https://avd.aquasec.com/nvd/cve-2026-102276) | 🟠 **HIGH** | `brace-expansion` | 5.0.10, 3.0.7, 2.1.5, 1.1.19 | brace-expansion: brace-expansion: Denial of Service via stack exhaustion from crafted brace patterns |
 | [CVE-2026-102278](https://avd.aquasec.com/nvd/cve-2026-102278) | 🟠 **HIGH** | `brace-expansion` | 5.0.11, 3.0.8, 2.1.6, 1.1.20 | brace-expansion: brace-expansion: Denial of Service via uncontrolled recursion in nested brace patterns |
@@ -87,6 +91,7 @@
 | [CVE-2026-102674](https://avd.aquasec.com/nvd/cve-2026-102674) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: Electron: Sandbox bypass via popup window creation |
 | [CVE-2026-102675](https://avd.aquasec.com/nvd/cve-2026-102675) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: Electron: Cross-origin information disclosure via improper CORS enforcement in custom protocol handlers |
 | [CVE-2026-102676](https://avd.aquasec.com/nvd/cve-2026-102676) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: electron: Privilege escalation via unauthorized Node.js integration in web workers |
+| [CVE-2026-115570](https://avd.aquasec.com/nvd/cve-2026-115570) | 🟠 **HIGH** | `electron` | 45.0.0-beta.6, 44.9.1, 43.8.1, 42.11.16 | Electron: Mitigation for compromised eMudhra intermediate certificates |
 | [CVE-2026-113796](https://avd.aquasec.com/nvd/cve-2026-113796) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.6, 44.3.0, 43.7.0, 42.11.3 | Electron: SameSite cookie restrictions are not applied to windows opened from links |
 | [CVE-2026-113798](https://avd.aquasec.com/nvd/cve-2026-113798) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.13, 44.5.0, 43.7.6, 42.11.9 | Electron: Pointer lock permission requests can be attributed to the wrong frame |
 | [CVE-2026-113800](https://avd.aquasec.com/nvd/cve-2026-113800) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.5, 44.3.0, 43.7.0, 42.11.3 | Electron: HID and USB permission checks can be attributed to the wrong origin |
@@ -96,7 +101,11 @@
 | [CVE-2026-75975](https://avd.aquasec.com/nvd/cve-2026-75975) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Server-side request forgery via malformed IPv6 normalization |
 | [CVE-2026-76172](https://avd.aquasec.com/nvd/cve-2026-76172) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: URI parsing flaw enables server-side request forgery and redirects |
 | [CVE-2026-84292](https://avd.aquasec.com/nvd/cve-2026-84292) | 🟠 **HIGH** | `fast-uri` | 2.4.6, 3.1.7, 4.1.4 | fast-uri: fast-uri: Authority Injection via Unvalidated Port Serialization |
+| [CVE-2026-110180](https://avd.aquasec.com/nvd/cve-2026-110180) | 🟡 **MEDIUM** | `fast-uri` | 2.4.8, 3.1.9, 4.2.3 | fast-uri: fast-uri: Security policy bypass via improper host canonicalization |
+| [CVE-2026-110306](https://avd.aquasec.com/nvd/cve-2026-110306) | 🟡 **MEDIUM** | `fast-uri` | 2.4.8, 3.1.9, 4.2.3 | fast-uri: fast-uri: Cross-Site Scripting via improper URI scheme decoding |
 | [CVE-2026-86472](https://avd.aquasec.com/nvd/cve-2026-86472) | 🟡 **MEDIUM** | `fast-uri` | 2.4.7, 3.1.8, 4.1.5 | fast-uri: fast-uri: Security bypass due to inconsistent host case normalization |
+| [CVE-2026-110180](https://avd.aquasec.com/nvd/cve-2026-110180) | 🟡 **MEDIUM** | `fast-uri` | 2.4.8, 3.1.9, 4.2.3 | fast-uri: fast-uri: Security policy bypass via improper host canonicalization |
+| [CVE-2026-110306](https://avd.aquasec.com/nvd/cve-2026-110306) | 🟡 **MEDIUM** | `fast-uri` | 2.4.8, 3.1.9, 4.2.3 | fast-uri: fast-uri: Cross-Site Scripting via improper URI scheme decoding |
 | [CVE-2026-111755](https://avd.aquasec.com/nvd/cve-2026-111755) | 🟠 **HIGH** | `follow-redirects` | 1.16.1 | follow-redirects: follow-redirects: Information disclosure via improper regular expression escaping in sensitive header filtering |
 | [CVE-2026-111756](https://avd.aquasec.com/nvd/cve-2026-111756) | 🟠 **HIGH** | `follow-redirects` | 1.16.1 | follow-redirects: follow-redirects: Information disclosure via array-formatted headers during cross-origin redirects |
 | [CVE-2026-111757](https://avd.aquasec.com/nvd/cve-2026-111757) | 🟡 **MEDIUM** | `hono` | 4.13.11 | hono: hono: Information disclosure via malformed percent-encoded paths in serveStatic |
@@ -125,26 +134,41 @@
 | [CVE-2026-107388](https://avd.aquasec.com/nvd/cve-2026-107388) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: ID3v2 tag size not validated before allocation, causing memory exhaustion DoS |
 | [CVE-2026-107389](https://avd.aquasec.com/nvd/cve-2026-107389) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: EBML parser trusts element lengths, allowing memory exhaustion or process abort |
 | [CVE-2026-107391](https://avd.aquasec.com/nvd/cve-2026-107391) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: MP4 stsd sample-entry size==0 causes a synchronous infinite loop (DoS) — unreleased regression on master |
+| [GHSA-85x2-q946-cp5h](https://github.com/advisories/GHSA-85x2-q946-cp5h) | 🟡 **MEDIUM** | `nodemailer` | 10.1.4 | Nodemailer: A ">" inside a quoted local part ends an angle-addr early in addressparser, delivering to a domain the header does not name |
+| [GHSA-8c8m-p3m8-cjg8](https://github.com/advisories/GHSA-8c8m-p3m8-cjg8) | 🟡 **MEDIUM** | `nodemailer` | 10.1.4 | Nodemailer: A nested comment ends early in addressparser, releasing the rest of the comment as a recipient |
+| [GHSA-m943-m63m-w62w](https://github.com/advisories/GHSA-m943-m63m-w62w) | 🟡 **MEDIUM** | `nodemailer` | 10.1.4 | Nodemailer: A ";" inside a quoted string or comment ends an address group early in addressparser, turning display text into a recipient |
 | [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [GHSA-r4xh-jqrq-34v2](https://github.com/advisories/GHSA-r4xh-jqrq-34v2) | 🟡 **MEDIUM** | `smol-toml` | 1.9.0 | smol-toml: Quadratic-time parse() from parseKey rescanning to end of document on each key line |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
+| [CVE-2026-109869](https://avd.aquasec.com/nvd/cve-2026-109869) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via unhandled stream error on excessive content encodings |
 | [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
+| [CVE-2026-109924](https://avd.aquasec.com/nvd/cve-2026-109924) | 🟡 **MEDIUM** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via memory exhaustion in EventSource client |
 | [CVE-2026-15157](https://avd.aquasec.com/nvd/cve-2026-15157) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: HTTP header injection via unvalidated blob-like body type property |
 | [CVE-2026-16728](https://avd.aquasec.com/nvd/cve-2026-16728) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: undici: Response desynchronization via retry interceptor with mismatched Content-Length |
 | [CVE-2026-16729](https://avd.aquasec.com/nvd/cve-2026-16729) | 🟡 **MEDIUM** | `undici` | 6.28.0, 7.29.0, 8.9.0 | undici: Undici: Cookie attribute injection allows bypassing security protections |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
+| [CVE-2026-109869](https://avd.aquasec.com/nvd/cve-2026-109869) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via unhandled stream error on excessive content encodings |
+| [CVE-2026-109869](https://avd.aquasec.com/nvd/cve-2026-109869) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via unhandled stream error on excessive content encodings |
 | [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
 | [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
+| [CVE-2026-109924](https://avd.aquasec.com/nvd/cve-2026-109924) | 🟡 **MEDIUM** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via memory exhaustion in EventSource client |
+| [CVE-2026-109924](https://avd.aquasec.com/nvd/cve-2026-109924) | 🟡 **MEDIUM** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via memory exhaustion in EventSource client |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
+| [CVE-2026-109869](https://avd.aquasec.com/nvd/cve-2026-109869) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via unhandled stream error on excessive content encodings |
 | [CVE-2026-19534](https://avd.aquasec.com/nvd/cve-2026-19534) | 🟠 **HIGH** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unrequested WebSocket subprotocol |
 | [CVE-2026-84961](https://avd.aquasec.com/nvd/cve-2026-84961) | 🟠 **HIGH** | `undici` | 7.29.1, 8.10.2 | undici: undici: TLS certificate validation bypass in BalancedPool via dropped connect options |
+| [CVE-2026-109841](https://avd.aquasec.com/nvd/cve-2026-109841) | 🟡 **MEDIUM** | `undici` | 7.30.1, 8.12.2 | undici: undici: Subresource Integrity bypass via non-lowercase algorithm tokens |
+| [CVE-2026-109924](https://avd.aquasec.com/nvd/cve-2026-109924) | 🟡 **MEDIUM** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via memory exhaustion in EventSource client |
 | [CVE-2026-18149](https://avd.aquasec.com/nvd/cve-2026-18149) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service due to orphaned response body in retry handler |
 | [CVE-2026-84890](https://avd.aquasec.com/nvd/cve-2026-84890) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service via unbounded decompression of compressed responses |
 | [CVE-2026-84933](https://avd.aquasec.com/nvd/cve-2026-84933) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Cross-user cookie disclosure via Set-Cookie caching |
 | [CVE-2026-85014](https://avd.aquasec.com/nvd/cve-2026-85014) | 🟡 **MEDIUM** | `undici` | 7.29.1, 8.10.2 | undici: undici: Denial of Service via WebSocketStream unclean close |
 | [CVE-2026-85024](https://avd.aquasec.com/nvd/cve-2026-85024) | 🟡 **MEDIUM** | `undici` | 6.28.1, 7.29.1, 8.10.2 | undici: undici: Denial of Service via unhandled error in WebSocket permessage-deflate decompression |
+| [CVE-2026-109869](https://avd.aquasec.com/nvd/cve-2026-109869) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via unhandled stream error on excessive content encodings |
+| [CVE-2026-109841](https://avd.aquasec.com/nvd/cve-2026-109841) | 🟡 **MEDIUM** | `undici` | 7.30.1, 8.12.2 | undici: undici: Subresource Integrity bypass via non-lowercase algorithm tokens |
+| [CVE-2026-109924](https://avd.aquasec.com/nvd/cve-2026-109924) | 🟡 **MEDIUM** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via memory exhaustion in EventSource client |
 | [CVE-2026-112942](https://avd.aquasec.com/nvd/cve-2026-112942) | 🟠 **HIGH** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Command injection via improper file path validation |
 | [CVE-2026-112942](https://avd.aquasec.com/nvd/cve-2026-112942) | 🟠 **HIGH** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Command injection via improper file path validation |
 | [CVE-2026-112943](https://avd.aquasec.com/nvd/cve-2026-112943) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | launch-editor: launch-editor: Arbitrary code execution via improper argument escaping on Windows |
@@ -155,6 +179,8 @@
 | [CVE-2026-112946](https://avd.aquasec.com/nvd/cve-2026-112946) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | vite: Vite: Information disclosure via improper module path handling |
 | [CVE-2026-112947](https://avd.aquasec.com/nvd/cve-2026-112947) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4 | vite: vite: Information disclosure via crafted WebAssembly query parameter |
 | [CVE-2026-112947](https://avd.aquasec.com/nvd/cve-2026-112947) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4 | vite: vite: Information disclosure via crafted WebAssembly query parameter |
+| [CVE-2023-54404](https://avd.aquasec.com/nvd/cve-2023-54404) | 🟠 **HIGH** | `zod` | 4.6.6 | zod: zod: Denial of service via unbounded array validation |
+| [CVE-2023-54404](https://avd.aquasec.com/nvd/cve-2023-54404) | 🟠 **HIGH** | `zod` | 4.6.6 | zod: zod: Denial of service via unbounded array validation |
 
 
 
