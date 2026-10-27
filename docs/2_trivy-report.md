@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-10-26 13:52:56.515710675 +0000 UTC m=+7.702240675
+**Date:** 2026-10-27 12:58:29.161194496 +0000 UTC m=+6.392115781
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -137,8 +137,8 @@
 | [GHSA-85x2-q946-cp5h](https://github.com/advisories/GHSA-85x2-q946-cp5h) | 🟡 **MEDIUM** | `nodemailer` | 10.1.4 | Nodemailer: A ">" inside a quoted local part ends an angle-addr early in addressparser, delivering to a domain the header does not name |
 | [GHSA-8c8m-p3m8-cjg8](https://github.com/advisories/GHSA-8c8m-p3m8-cjg8) | 🟡 **MEDIUM** | `nodemailer` | 10.1.4 | Nodemailer: A nested comment ends early in addressparser, releasing the rest of the comment as a recipient |
 | [GHSA-m943-m63m-w62w](https://github.com/advisories/GHSA-m943-m63m-w62w) | 🟡 **MEDIUM** | `nodemailer` | 10.1.4 | Nodemailer: A ";" inside a quoted string or comment ends an address group early in addressparser, turning display text into a recipient |
-| [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
-| [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
+| [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6, 6.1.5 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
+| [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6, 6.1.5 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [GHSA-r4xh-jqrq-34v2](https://github.com/advisories/GHSA-r4xh-jqrq-34v2) | 🟡 **MEDIUM** | `smol-toml` | 1.9.0 | smol-toml: Quadratic-time parse() from parseKey rescanning to end of document on each key line |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
 | [CVE-2026-109869](https://avd.aquasec.com/nvd/cve-2026-109869) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Denial of Service via unhandled stream error on excessive content encodings |
