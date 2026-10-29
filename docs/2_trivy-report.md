@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-10-28 13:49:13.326898766 +0000 UTC m=+6.734944886
+**Date:** 2026-10-29 13:56:00.039983621 +0000 UTC m=+5.655062803
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -13,7 +13,7 @@
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
-| [CVE-2026-111497](https://avd.aquasec.com/nvd/cve-2026-111497) | 🟠 **HIGH** | `libbrotli1` | 1.1.0-2+deb13u1 | brotli: Out-of-Bounds Write in Google Brotli Decoder |
+| [CVE-2026-111497](https://avd.aquasec.com/nvd/cve-2026-111497) | 🔴 **CRITICAL** | `libbrotli1` | 1.1.0-2+deb13u1 | brotli: Out-of-Bounds Write in Google Brotli Decoder |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
@@ -49,6 +49,7 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
+| [CVE-2026-118663](https://avd.aquasec.com/nvd/cve-2026-118663) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.3 | @hono/node-server: `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
 | [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/sdk: Unauthorized cross-session task access via taskStore |
 | [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation |
@@ -142,6 +143,7 @@
 | [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6, 6.1.5 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6, 6.1.5 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [CVE-2026-110816](https://avd.aquasec.com/nvd/cve-2026-110816) | 🟡 **MEDIUM** | `qs` | 6.16.1 | qs: qs: Denial of Service via unhandled exception during array serialization |
+| [CVE-2026-116795](https://avd.aquasec.com/nvd/cve-2026-116795) | 🟠 **HIGH** | `re2js` | 2.8.7 | RE2JS: Quadratic-time denial of service in re2js lookbehind matching |
 | [GHSA-r4xh-jqrq-34v2](https://github.com/advisories/GHSA-r4xh-jqrq-34v2) | 🟡 **MEDIUM** | `smol-toml` | 1.9.0 | smol-toml: Quadratic-time parse() from parseKey rescanning to end of document on each key line |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
 | [CVE-2026-109383](https://avd.aquasec.com/nvd/cve-2026-109383) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Certificate validation bypass via dropped TLS options in Agent |
@@ -201,8 +203,6 @@
 | [CVE-2026-112946](https://avd.aquasec.com/nvd/cve-2026-112946) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4, 8.1.6, 7.3.7, 6.4.4 | vite: Vite: Information disclosure via improper module path handling |
 | [CVE-2026-112947](https://avd.aquasec.com/nvd/cve-2026-112947) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4 | vite: vite: Information disclosure via crafted WebAssembly query parameter |
 | [CVE-2026-112947](https://avd.aquasec.com/nvd/cve-2026-112947) | 🟡 **MEDIUM** | `vite` | 8.3.3, 8.2.4 | vite: vite: Information disclosure via crafted WebAssembly query parameter |
-| [CVE-2023-54404](https://avd.aquasec.com/nvd/cve-2023-54404) | 🟠 **HIGH** | `zod` | 4.6.6 | zod: zod: Denial of service via unbounded array validation |
-| [CVE-2023-54404](https://avd.aquasec.com/nvd/cve-2023-54404) | 🟠 **HIGH** | `zod` | 4.6.6 | zod: zod: Denial of service via unbounded array validation |
 
 
 
@@ -224,6 +224,7 @@
 | --- | --- | --- | --- | --- |
 | [GHSA-wrw7-89jp-8q8g](https://github.com/advisories/GHSA-wrw7-89jp-8q8g) | 🟡 **MEDIUM** | `glib` | 0.20.0 | Unsoundness in `Iterator` and `DoubleEndedIterator` impls for `glib::VariantStrIter` |
 | [GHSA-c8m5-c952-6cm4](https://github.com/advisories/GHSA-c8m5-c952-6cm4) | 🟡 **MEDIUM** | `rustls` | 0.23.46, 0.24.0-dev.2 | Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs |
+| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
 
 
 
@@ -277,7 +278,10 @@
 **Type:** cargo
 
 
-*No vulnerabilities found.*
+### Vulnerabilities
+| ID | Severity | Package | Fixed Version | Title |
+| --- | --- | --- | --- | --- |
+| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
 
 
 
@@ -311,7 +315,10 @@
 **Type:** cargo
 
 
-*No vulnerabilities found.*
+### Vulnerabilities
+| ID | Severity | Package | Fixed Version | Title |
+| --- | --- | --- | --- | --- |
+| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
 
 
 
