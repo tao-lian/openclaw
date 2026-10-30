@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-10-29 13:56:00.039983621 +0000 UTC m=+5.655062803
+**Date:** 2026-10-30 13:50:42.051287311 +0000 UTC m=+6.946608933
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -262,6 +262,8 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [GHSA-wrw7-89jp-8q8g](https://github.com/advisories/GHSA-wrw7-89jp-8q8g) | 🟡 **MEDIUM** | `glib` | 0.20.0 | Unsoundness in `Iterator` and `DoubleEndedIterator` impls for `glib::VariantStrIter` |
 | [GHSA-c8m5-c952-6cm4](https://github.com/advisories/GHSA-c8m5-c952-6cm4) | 🟡 **MEDIUM** | `rustls` | 0.23.46, 0.24.0-dev.2 | Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 
 
 
@@ -319,6 +321,8 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 
 
 
@@ -356,6 +360,8 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 
 
 
