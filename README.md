@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-10-30 13:50:42.051287311 +0000 UTC m=+6.946608933
+**Date:** 2026-10-31 13:17:31.828206417 +0000 UTC m=+6.672804105
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -146,6 +146,11 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-110306](https://avd.aquasec.com/nvd/cve-2026-110306) | 🟡 **MEDIUM** | `fast-uri` | 2.4.8, 3.1.9, 4.2.3 | fast-uri: fast-uri: Cross-Site Scripting via improper URI scheme decoding |
 | [CVE-2026-111755](https://avd.aquasec.com/nvd/cve-2026-111755) | 🟠 **HIGH** | `follow-redirects` | 1.16.1 | follow-redirects: follow-redirects: Information disclosure via improper regular expression escaping in sensitive header filtering |
 | [CVE-2026-111756](https://avd.aquasec.com/nvd/cve-2026-111756) | 🟠 **HIGH** | `follow-redirects` | 1.16.1 | follow-redirects: follow-redirects: Information disclosure via array-formatted headers during cross-origin redirects |
+| [CVE-2026-116689](https://avd.aquasec.com/nvd/cve-2026-116689) | 🟠 **HIGH** | `follow-redirects` | 1.16.2 | follow-redirects: follow-redirects: Information disclosure via cross-origin redirects |
+| [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
+| [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
+| [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
+| [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
 | [CVE-2026-111757](https://avd.aquasec.com/nvd/cve-2026-111757) | 🟡 **MEDIUM** | `hono` | 4.13.11 | hono: hono: Information disclosure via malformed percent-encoded paths in serveStatic |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
@@ -166,8 +171,17 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-101913](https://avd.aquasec.com/nvd/cve-2026-101913) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security bypass via incomplete IPv6 link-local address validation |
 | [CVE-2026-111997](https://avd.aquasec.com/nvd/cve-2026-111997) | 🟡 **MEDIUM** | `ip-address` | 10.7.4 | ip-address: ip-address: Denial of Service via excessive percent characters in IPv6 address input |
 | [CVE-2026-111997](https://avd.aquasec.com/nvd/cve-2026-111997) | 🟡 **MEDIUM** | `ip-address` | 10.7.4 | ip-address: ip-address: Denial of Service via excessive percent characters in IPv6 address input |
+| [CVE-2026-118772](https://avd.aquasec.com/nvd/cve-2026-118772) | 🟠 **HIGH** | `joi` | 17.13.9, 18.3.1 | joi: joi: Denial of Service via inefficient regular expression in email validation |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
 | [CVE-2026-111758](https://avd.aquasec.com/nvd/cve-2026-111758) | 🟠 **HIGH** | `markdown-it` | 14.3.3, 15.0.3 | markdown-it: markdown-it: Denial of Service via unclosed link reference definitions |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
+| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
 | [CVE-2026-107387](https://avd.aquasec.com/nvd/cve-2026-107387) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: Uncontrolled memory allocation in APEv2 parser |
 | [CVE-2026-107388](https://avd.aquasec.com/nvd/cve-2026-107388) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: ID3v2 tag size not validated before allocation, causing memory exhaustion DoS |
 | [CVE-2026-107389](https://avd.aquasec.com/nvd/cve-2026-107389) | 🟡 **MEDIUM** | `music-metadata` | 11.16.0 | music-metadata: EBML parser trusts element lengths, allowing memory exhaustion or process abort |
@@ -180,7 +194,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6, 6.1.5 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [CVE-2026-104844](https://avd.aquasec.com/nvd/cve-2026-104844) | 🟡 **MEDIUM** | `postcss-selector-parser` | 7.1.6, 6.1.5 | postcss-selector-parser: postcss-selector-parser: Denial of Service via crafted CSS selectors |
 | [CVE-2026-110816](https://avd.aquasec.com/nvd/cve-2026-110816) | 🟡 **MEDIUM** | `qs` | 6.16.1 | qs: qs: Denial of Service via unhandled exception during array serialization |
-| [CVE-2026-116795](https://avd.aquasec.com/nvd/cve-2026-116795) | 🟠 **HIGH** | `re2js` | 2.8.7 | RE2JS: Quadratic-time denial of service in re2js lookbehind matching |
+| [CVE-2026-116795](https://avd.aquasec.com/nvd/cve-2026-116795) | 🟠 **HIGH** | `re2js` | 2.8.7 | re2js: re2js: Denial of service via repeated regular expression matching with lookbehinds |
 | [GHSA-r4xh-jqrq-34v2](https://github.com/advisories/GHSA-r4xh-jqrq-34v2) | 🟡 **MEDIUM** | `smol-toml` | 1.9.0 | smol-toml: Quadratic-time parse() from parseKey rescanning to end of document on each key line |
 | [CVE-2026-73566](https://avd.aquasec.com/nvd/cve-2026-73566) | 🟠 **HIGH** | `tar` | 7.5.21 | tar: node-tar: Denial of Service via crafted long-path tar archive |
 | [CVE-2026-109383](https://avd.aquasec.com/nvd/cve-2026-109383) | 🟠 **HIGH** | `undici` | 6.29.1, 7.30.1, 8.12.2 | undici: undici: Certificate validation bypass via dropped TLS options in Agent |
