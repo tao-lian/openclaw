@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-03 14:50:51.287340816 +0000 UTC m=+6.082922868
+**Date:** 2026-11-04 15:04:53.149647248 +0000 UTC m=+5.655505821
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -238,7 +238,7 @@
 | --- | --- | --- | --- | --- |
 | [GHSA-wrw7-89jp-8q8g](https://github.com/advisories/GHSA-wrw7-89jp-8q8g) | 🟡 **MEDIUM** | `glib` | 0.20.0 | Unsoundness in `Iterator` and `DoubleEndedIterator` impls for `glib::VariantStrIter` |
 | [GHSA-c8m5-c952-6cm4](https://github.com/advisories/GHSA-c8m5-c952-6cm4) | 🟡 **MEDIUM** | `rustls` | 0.23.46, 0.24.0-dev.2 | Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs |
-| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
 | [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 | [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 
@@ -297,7 +297,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
 | [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 | [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 
@@ -336,7 +336,7 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
 | [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 | [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
 
