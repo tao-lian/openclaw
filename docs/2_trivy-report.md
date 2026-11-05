@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-04 15:04:53.149647248 +0000 UTC m=+5.655505821
+**Date:** 2026-11-05 15:10:01.814806758 +0000 UTC m=+8.228237307
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -9,10 +9,12 @@
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
+| [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `apt` | 3.0.4 | On Debian, Ubuntu, and derivative Linux distributions, an on-path atta ... |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
+| [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `libapt-pkg7.0` | 3.0.4 | On Debian, Ubuntu, and derivative Linux distributions, an on-path atta ... |
 | [CVE-2026-111497](https://avd.aquasec.com/nvd/cve-2026-111497) | 🔴 **CRITICAL** | `libbrotli1` | 1.1.0-2+deb13u1 | brotli: Out-of-Bounds Write in Google Brotli Decoder |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
@@ -137,8 +139,6 @@
 | [CVE-2026-118772](https://avd.aquasec.com/nvd/cve-2026-118772) | 🟠 **HIGH** | `joi` | 17.13.9, 18.3.1 | joi: joi: Denial of Service via inefficient regular expression in email validation |
 | [CVE-2026-84375](https://avd.aquasec.com/nvd/cve-2026-84375) | 🟠 **HIGH** | `js-yaml` | 4.3.2, 3.15.2 | js-yaml: js-yaml: Denial of Service vulnerability in YAML parsing |
 | [CVE-2026-111758](https://avd.aquasec.com/nvd/cve-2026-111758) | 🟠 **HIGH** | `markdown-it` | 14.3.3, 15.0.3 | markdown-it: markdown-it: Denial of Service via unclosed link reference definitions |
-| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
-| [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
 | [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
 | [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
 | [CVE-2026-118764](https://avd.aquasec.com/nvd/cve-2026-118764) | 🟡 **MEDIUM** | `minimatch` | 11.0.1 | minimatch: minimatch: Denial of Service via crafted glob pattern expansion |
