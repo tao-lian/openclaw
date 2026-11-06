@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-05 15:10:01.814806758 +0000 UTC m=+8.228237307
+**Date:** 2026-11-06 14:46:45.203956656 +0000 UTC m=+4.772470086
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -51,7 +51,7 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
-| [CVE-2026-118663](https://avd.aquasec.com/nvd/cve-2026-118663) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.3 | @hono/node-server: `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths |
+| [CVE-2026-118663](https://avd.aquasec.com/nvd/cve-2026-118663) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.3 | node-server: node-server: Security middleware bypass via double path decoding in serveStatic |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
 | [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/sdk: Unauthorized cross-session task access via taskStore |
 | [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation |
@@ -61,8 +61,8 @@
 | [CVE-2026-112948](https://avd.aquasec.com/nvd/cve-2026-112948) | 🟡 **MEDIUM** | `@vitest/browser` | 5.0.5 | vitest: vitest: Information disclosure via improper file access restrictions |
 | [CVE-2026-112949](https://avd.aquasec.com/nvd/cve-2026-112949) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | vitest: Vitest: Cross-site scripting via unescaped mock module URL |
 | [CVE-2026-112949](https://avd.aquasec.com/nvd/cve-2026-112949) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | vitest: Vitest: Cross-site scripting via unescaped mock module URL |
-| [CVE-2026-112950](https://avd.aquasec.com/nvd/cve-2026-112950) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | Vitest: Windows backslash traversal bypasses the @vitest/mocker redirect allowlist fix |
-| [CVE-2026-112950](https://avd.aquasec.com/nvd/cve-2026-112950) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | Vitest: Windows backslash traversal bypasses the @vitest/mocker redirect allowlist fix |
+| [CVE-2026-112950](https://avd.aquasec.com/nvd/cve-2026-112950) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | mocker: Vitest mocker: Arbitrary file read via path traversal on Windows |
+| [CVE-2026-112950](https://avd.aquasec.com/nvd/cve-2026-112950) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | mocker: Vitest mocker: Arbitrary file read via path traversal on Windows |
 | [CVE-2026-112948](https://avd.aquasec.com/nvd/cve-2026-112948) | 🟡 **MEDIUM** | `@vitest/ui` | 5.0.5 | vitest: vitest: Information disclosure via improper file access restrictions |
 | [CVE-2026-83605](https://avd.aquasec.com/nvd/cve-2026-83605) | 🟠 **HIGH** | `@xmldom/xmldom` | 0.9.11, 0.8.14 | xmldom: @xmldom/xmldom: xmldom: Attribute injection allows client-side script execution |
 | [CVE-2026-83607](https://avd.aquasec.com/nvd/cve-2026-83607) | 🟠 **HIGH** | `@xmldom/xmldom` | 0.9.11, 0.8.14 | xmldom: xmldom: Cross-site scripting via unvalidated element name injection |
@@ -94,11 +94,11 @@
 | [CVE-2026-102674](https://avd.aquasec.com/nvd/cve-2026-102674) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: Electron: Sandbox bypass via popup window creation |
 | [CVE-2026-102675](https://avd.aquasec.com/nvd/cve-2026-102675) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: Electron: Cross-origin information disclosure via improper CORS enforcement in custom protocol handlers |
 | [CVE-2026-102676](https://avd.aquasec.com/nvd/cve-2026-102676) | 🟠 **HIGH** | `electron` | 41.10.6, 42.9.2, 43.4.1, 44.0.0-beta.5 | electron: electron: Privilege escalation via unauthorized Node.js integration in web workers |
-| [CVE-2026-115570](https://avd.aquasec.com/nvd/cve-2026-115570) | 🟠 **HIGH** | `electron` | 45.0.0-beta.6, 44.9.1, 43.8.1, 42.11.16 | Electron: Mitigation for compromised eMudhra intermediate certificates |
-| [CVE-2026-113796](https://avd.aquasec.com/nvd/cve-2026-113796) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.6, 44.3.0, 43.7.0, 42.11.3 | Electron: SameSite cookie restrictions are not applied to windows opened from links |
-| [CVE-2026-113798](https://avd.aquasec.com/nvd/cve-2026-113798) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.13, 44.5.0, 43.7.6, 42.11.9 | Electron: Pointer lock permission requests can be attributed to the wrong frame |
-| [CVE-2026-113800](https://avd.aquasec.com/nvd/cve-2026-113800) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.5, 44.3.0, 43.7.0, 42.11.3 | Electron: HID and USB permission checks can be attributed to the wrong origin |
-| [CVE-2026-114121](https://avd.aquasec.com/nvd/cve-2026-114121) | 🟡 **MEDIUM** | `electron` | 42.11.3, 43.7.0, 44.3.0, 45.0.0-alpha.5 | Electron: openExternal permission requests can be attributed to the wrong origin |
+| [CVE-2026-115570](https://avd.aquasec.com/nvd/cve-2026-115570) | 🟠 **HIGH** | `electron` | 45.0.0-beta.6, 44.9.1, 43.8.1, 42.11.16 | electron: Electron: TLS server impersonation via compromised intermediate certificates |
+| [CVE-2026-113796](https://avd.aquasec.com/nvd/cve-2026-113796) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.6, 44.3.0, 43.7.0, 42.11.3 | electron: electron: SameSite cookie bypass via incorrect navigation initiator handling |
+| [CVE-2026-113798](https://avd.aquasec.com/nvd/cve-2026-113798) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.13, 44.5.0, 43.7.6, 42.11.9 | electron: Electron: Unauthorized pointer lock permission grant via cross-origin iframes |
+| [CVE-2026-113800](https://avd.aquasec.com/nvd/cve-2026-113800) | 🟡 **MEDIUM** | `electron` | 45.0.0-alpha.5, 44.3.0, 43.7.0, 42.11.3 | electron: electron: Unauthorized device access via incorrect frame origin validation |
+| [CVE-2026-114121](https://avd.aquasec.com/nvd/cve-2026-114121) | 🟡 **MEDIUM** | `electron` | 42.11.3, 43.7.0, 44.3.0, 45.0.0-alpha.5 | electron: Electron: Unauthorized application launch via external protocol URL misattribution |
 | [CVE-2026-75899](https://avd.aquasec.com/nvd/cve-2026-75899) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Server-Side Request Forgery via repeated hostname percent-decoding |
 | [CVE-2026-75931](https://avd.aquasec.com/nvd/cve-2026-75931) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Host confusion via skipped IDN canonicalization |
 | [CVE-2026-75975](https://avd.aquasec.com/nvd/cve-2026-75975) | 🟠 **HIGH** | `fast-uri` | 2.4.5, 3.1.6, 4.1.3 | fast-uri: fast-uri: Server-side request forgery via malformed IPv6 normalization |
@@ -240,7 +240,7 @@
 | [GHSA-c8m5-c952-6cm4](https://github.com/advisories/GHSA-c8m5-c952-6cm4) | 🟡 **MEDIUM** | `rustls` | 0.23.46, 0.24.0-dev.2 | Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
 | [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
-| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip: zip: Integrity verification bypass via unverified authentication tag |
 
 
 
@@ -299,7 +299,7 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
 | [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
-| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip: zip: Integrity verification bypass via unverified authentication tag |
 
 
 
@@ -338,7 +338,7 @@
 | --- | --- | --- | --- | --- |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
 | [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
-| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip: zip: Integrity verification bypass via unverified authentication tag |
 
 
 
