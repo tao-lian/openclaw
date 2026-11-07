@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-11-06 14:46:45.203956656 +0000 UTC m=+4.772470086
+**Date:** 2026-11-07 13:44:26.257062957 +0000 UTC m=+6.076481102
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -46,12 +46,12 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 ### Vulnerabilities
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
-| [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `apt` | 3.0.4 | On Debian, Ubuntu, and derivative Linux distributions, an on-path atta ... |
+| [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `apt` | 3.0.4 | apt: apt: Remote code execution via hard link reuse during package download retries |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `curl` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
-| [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `libapt-pkg7.0` | 3.0.4 | On Debian, Ubuntu, and derivative Linux distributions, an on-path atta ... |
+| [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `libapt-pkg7.0` | 3.0.4 | apt: apt: Remote code execution via hard link reuse during package download retries |
 | [CVE-2026-111497](https://avd.aquasec.com/nvd/cve-2026-111497) | 🔴 **CRITICAL** | `libbrotli1` | 1.1.0-2+deb13u1 | brotli: Out-of-Bounds Write in Google Brotli Decoder |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
@@ -67,6 +67,9 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-77214](https://avd.aquasec.com/nvd/cve-2026-77214) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Information disclosure via heap buffer over-read in XML_ParseBuffer |
 | [CVE-2026-93990](https://avd.aquasec.com/nvd/cve-2026-93990) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: Expat: XML Injection via Malformed UTF-16 Input |
 | [CVE-2026-102633](https://avd.aquasec.com/nvd/cve-2026-102633) | 🟡 **MEDIUM** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Denial of Service via integer overflow in expat_realloc |
+| [CVE-2026-76844](https://avd.aquasec.com/nvd/cve-2026-76844) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | webpack-dev-middleware: webpack-dev-middleware: Information Disclosure via Path Traversal |
+| [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Heap buffer overflow in gz_vacate() allows arbitrary code execution |
+| [CVE-2026-27171](https://avd.aquasec.com/nvd/cve-2026-27171) | 🟡 **MEDIUM** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Denial of Service via infinite loop in CRC32 combine functions |
 
 
 
@@ -89,11 +92,11 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-118663](https://avd.aquasec.com/nvd/cve-2026-118663) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.3 | node-server: node-server: Security middleware bypass via double path decoding in serveStatic |
-| [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
+| [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/client: Model Context Protocol TypeScript SDK: Sensitive information disclosure via cross-origin redirects |
 | [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/sdk: Unauthorized cross-session task access via taskStore |
-| [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation |
-| [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies |
-| [CVE-2026-111771](https://avd.aquasec.com/nvd/cve-2026-111771) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | MCP TypeScript SDK: Server bearer authentication accepted tokens issued for another service |
+| [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/server: Model Context Protocol TypeScript SDK: Denial of service via memory exhaustion from crafted HTTP requests |
+| [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/client: Model Context Protocol TypeScript SDK: Sensitive information disclosure via cross-origin redirects |
+| [CVE-2026-111771](https://avd.aquasec.com/nvd/cve-2026-111771) | 🟡 **MEDIUM** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/server: @modelcontextprotocol/express: @modelcontextprotocol/server-legacy: Model Context Protocol TypeScript SDK: Authentication bypass via missing token audience validation |
 | [CVE-2026-112948](https://avd.aquasec.com/nvd/cve-2026-112948) | 🟡 **MEDIUM** | `@vitest/browser` | 5.0.5 | vitest: vitest: Information disclosure via improper file access restrictions |
 | [CVE-2026-112948](https://avd.aquasec.com/nvd/cve-2026-112948) | 🟡 **MEDIUM** | `@vitest/browser` | 5.0.5 | vitest: vitest: Information disclosure via improper file access restrictions |
 | [CVE-2026-112949](https://avd.aquasec.com/nvd/cve-2026-112949) | 🟡 **MEDIUM** | `@vitest/mocker` | 4.1.12, 5.0.3 | vitest: Vitest: Cross-site scripting via unescaped mock module URL |
@@ -276,7 +279,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [GHSA-wrw7-89jp-8q8g](https://github.com/advisories/GHSA-wrw7-89jp-8q8g) | 🟡 **MEDIUM** | `glib` | 0.20.0 | Unsoundness in `Iterator` and `DoubleEndedIterator` impls for `glib::VariantStrIter` |
 | [GHSA-c8m5-c952-6cm4](https://github.com/advisories/GHSA-c8m5-c952-6cm4) | 🟡 **MEDIUM** | `rustls` | 0.23.46, 0.24.0-dev.2 | Rustls: Session Debug formatting exposes TLS master secrets and resumption PSKs |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
-| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip: zip: Denial of Service via excessive memory allocation in symbolic link extraction |
 | [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip: zip: Integrity verification bypass via unverified authentication tag |
 
 
@@ -335,7 +338,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
-| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip: zip: Denial of Service via excessive memory allocation in symbolic link extraction |
 | [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip: zip: Integrity verification bypass via unverified authentication tag |
 
 
@@ -374,7 +377,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | ID | Severity | Package | Fixed Version | Title |
 | --- | --- | --- | --- | --- |
 | [CVE-2026-115905](https://avd.aquasec.com/nvd/cve-2026-115905) | 🔴 **CRITICAL** | `zip` | 9.0.5 | zip2: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE |
-| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip is a zip library for Rust that supports reading and writing simple ... |
+| [CVE-2026-115909](https://avd.aquasec.com/nvd/cve-2026-115909) | 🟠 **HIGH** | `zip` | 9.0.0 | zip: zip: Denial of Service via excessive memory allocation in symbolic link extraction |
 | [CVE-2026-115906](https://avd.aquasec.com/nvd/cve-2026-115906) | 🟡 **MEDIUM** | `zip` | 9.0.0 | zip: zip: Integrity verification bypass via unverified authentication tag |
 
 
