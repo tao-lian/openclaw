@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-11 14:54:35.391524664 +0000 UTC m=+5.466854322
+**Date:** 2026-11-12 15:45:51.649880129 +0000 UTC m=+6.578374705
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -30,7 +30,7 @@
 | [CVE-2026-77214](https://avd.aquasec.com/nvd/cve-2026-77214) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Information disclosure via heap buffer over-read in XML_ParseBuffer |
 | [CVE-2026-93990](https://avd.aquasec.com/nvd/cve-2026-93990) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: Expat: XML Injection via Malformed UTF-16 Input |
 | [CVE-2026-102633](https://avd.aquasec.com/nvd/cve-2026-102633) | 🟡 **MEDIUM** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Denial of Service via integer overflow in expat_realloc |
-| [CVE-2026-76844](https://avd.aquasec.com/nvd/cve-2026-76844) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | webpack-dev-middleware: webpack-dev-middleware: Information Disclosure via Path Traversal |
+| [CVE-2026-76844](https://avd.aquasec.com/nvd/cve-2026-76844) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib 1.2.11 through 1.3.2 Heap Buffer Overflow via Stale gzwrite Pointer After Failed Write |
 | [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Heap buffer overflow in gz_vacate() allows arbitrary code execution |
 | [CVE-2026-27171](https://avd.aquasec.com/nvd/cve-2026-27171) | 🟡 **MEDIUM** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Denial of Service via infinite loop in CRC32 combine functions |
 
