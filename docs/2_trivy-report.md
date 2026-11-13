@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-12 15:45:51.649880129 +0000 UTC m=+6.578374705
+**Date:** 2026-11-13 15:05:33.628182241 +0000 UTC m=+6.772597564
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -55,6 +55,8 @@
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-109461](https://avd.aquasec.com/nvd/cve-2026-109461) | 🟠 **HIGH** | `@azure/msal-node` | 7.1.0 | MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint |
 | [CVE-2026-118663](https://avd.aquasec.com/nvd/cve-2026-118663) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.3 | node-server: node-server: Security middleware bypass via double path decoding in serveStatic |
+| [CVE-2026-126210](https://avd.aquasec.com/nvd/cve-2026-126210) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.6, 1.19.18 | @hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy |
+| [CVE-2026-126343](https://avd.aquasec.com/nvd/cve-2026-126343) | 🟡 **MEDIUM** | `@hono/node-server` | 2.1.6 | @hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process |
 | [CVE-2026-111769](https://avd.aquasec.com/nvd/cve-2026-111769) | 🟡 **MEDIUM** | `@modelcontextprotocol/client` | 2.3.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/client: Model Context Protocol TypeScript SDK: Sensitive information disclosure via cross-origin redirects |
 | [CVE-2026-111767](https://avd.aquasec.com/nvd/cve-2026-111767) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/sdk: Unauthorized cross-session task access via taskStore |
 | [CVE-2026-111768](https://avd.aquasec.com/nvd/cve-2026-111768) | 🟠 **HIGH** | `@modelcontextprotocol/sdk` | 1.32.0 | @modelcontextprotocol/sdk: @modelcontextprotocol/server: Model Context Protocol TypeScript SDK: Denial of service via memory exhaustion from crafted HTTP requests |
@@ -120,6 +122,10 @@
 | [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
 | [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
 | [CVE-2026-111757](https://avd.aquasec.com/nvd/cve-2026-111757) | 🟡 **MEDIUM** | `hono` | 4.13.11 | hono: hono: Information disclosure via malformed percent-encoded paths in serveStatic |
+| [CVE-2026-126355](https://avd.aquasec.com/nvd/cve-2026-126355) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: `csrf()` does not check requests sent by hyperlink auditing (`text/ping`) |
+| [CVE-2026-126356](https://avd.aquasec.com/nvd/cve-2026-126356) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: `validator('form')` skips validation for `multipart/form-data` requests with extra parameters |
+| [CVE-2026-126357](https://avd.aquasec.com/nvd/cve-2026-126357) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: `mount()` and `app.mount()` can forward a path that bypasses middleware scoped inside the mount prefix |
+| [CVE-2026-126358](https://avd.aquasec.com/nvd/cve-2026-126358) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: RegExpRouter skips wildcard middleware for some route sets and for paths with an encoded line terminator |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
