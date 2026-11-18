@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-11-17 16:40:42.818922935 +0000 UTC m=+6.586925644
+**Date:** 2026-11-18 16:10:16.169912373 +0000 UTC m=+7.335832262
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -433,6 +433,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
+| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟡 **MEDIUM** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 
 
 
@@ -465,6 +466,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
+| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟡 **MEDIUM** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 
 
 
