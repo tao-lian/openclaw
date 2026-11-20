@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-19 16:17:36.762768702 +0000 UTC m=+5.202006465
+**Date:** 2026-11-20 15:54:48.394189084 +0000 UTC m=+6.047842353
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -385,7 +385,6 @@
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
-| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟠 **HIGH** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
 | [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang.org/x/net/http2: golang: net/http: Denial of Service via HTTP/2 trailer header memory exhaustion |
 | [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang.org/x/net/http2: net/http: HTTP response smuggling via malformed HTTP/2 framing headers |
@@ -395,6 +394,7 @@
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
+| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟡 **MEDIUM** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 
 
 
@@ -418,7 +418,6 @@
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
-| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟠 **HIGH** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
 | [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang.org/x/net/http2: golang: net/http: Denial of Service via HTTP/2 trailer header memory exhaustion |
 | [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang.org/x/net/http2: net/http: HTTP response smuggling via malformed HTTP/2 framing headers |
@@ -428,6 +427,7 @@
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
+| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟡 **MEDIUM** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 
 
 
