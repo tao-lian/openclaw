@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-20 15:54:48.394189084 +0000 UTC m=+6.047842353
+**Date:** 2026-11-21 15:05:09.803651009 +0000 UTC m=+6.084389858
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -16,6 +16,32 @@
 | [CVE-2026-8924](https://avd.aquasec.com/nvd/cve-2026-8924) | 🟡 **MEDIUM** | `curl` | 8.14.1-2+deb13u7 | curl: curl: Cookie injection via malicious HTTP server using super cookies |
 | [CVE-2026-109518](https://avd.aquasec.com/nvd/cve-2026-109518) | 🟠 **HIGH** | `libapt-pkg7.0` | 3.0.4 | apt: apt: Remote code execution via hard link reuse during package download retries |
 | [CVE-2026-111497](https://avd.aquasec.com/nvd/cve-2026-111497) | 🔴 **CRITICAL** | `libbrotli1` | 1.1.0-2+deb13u1 | brotli: Out-of-Bounds Write in Google Brotli Decoder |
+| [CVE-2026-18374](https://avd.aquasec.com/nvd/cve-2026-18374) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string |
+| [CVE-2026-19499](https://avd.aquasec.com/nvd/cve-2026-19499) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: Buffer Overflow in strfmon right-justification padding |
+| [CVE-2026-19542](https://avd.aquasec.com/nvd/cve-2026-19542) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: Fix out-of-bounds array write in tdelete |
+| [CVE-2026-5435](https://avd.aquasec.com/nvd/cve-2026-5435) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc: Out-of-bounds write via TSIG record processing |
+| [CVE-2026-6238](https://avd.aquasec.com/nvd/cve-2026-6238) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc: Application crash or uninitialized memory read via crafted DNS response |
+| [CVE-2026-6368](https://avd.aquasec.com/nvd/cve-2026-6368) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc: Process abort due to invalid memory in wordexp |
+| [CVE-2026-6791](https://avd.aquasec.com/nvd/cve-2026-6791) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: Glibc: Denial of Service via stack exhaustion during tilde expansion |
+| [CVE-2026-77117](https://avd.aquasec.com/nvd/cve-2026-77117) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: Non-progress DoS in SHIFT_JISX0213 -&gt |
+| [CVE-2026-80489](https://avd.aquasec.com/nvd/cve-2026-80489) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: Non-progress DoS in EUC_JISX0213 -> UCS-4 conversion state |
+| [CVE-2026-8674](https://avd.aquasec.com/nvd/cve-2026-8674) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc DNS stub resolver: Denial of Service via long search domain in configuration |
+| [CVE-2026-86805](https://avd.aquasec.com/nvd/cve-2026-86805) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc: Privilege escalation and arbitrary code execution via TOCTOU race condition in dynamic loader |
+| [CVE-2026-89092](https://avd.aquasec.com/nvd/cve-2026-89092) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: nscd stack overflow leads to degraded DNS resolution |
+| [CVE-2026-95818](https://avd.aquasec.com/nvd/cve-2026-95818) | 🟡 **MEDIUM** | `libc-bin` | 2.41-12+deb13u5 | glibc: glibc: Local attacker can cause denial of service and information disclosure via stack-based buffer overflow. |
+| [CVE-2026-18374](https://avd.aquasec.com/nvd/cve-2026-18374) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string |
+| [CVE-2026-19499](https://avd.aquasec.com/nvd/cve-2026-19499) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: Buffer Overflow in strfmon right-justification padding |
+| [CVE-2026-19542](https://avd.aquasec.com/nvd/cve-2026-19542) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: Fix out-of-bounds array write in tdelete |
+| [CVE-2026-5435](https://avd.aquasec.com/nvd/cve-2026-5435) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc: Out-of-bounds write via TSIG record processing |
+| [CVE-2026-6238](https://avd.aquasec.com/nvd/cve-2026-6238) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc: Application crash or uninitialized memory read via crafted DNS response |
+| [CVE-2026-6368](https://avd.aquasec.com/nvd/cve-2026-6368) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc: Process abort due to invalid memory in wordexp |
+| [CVE-2026-6791](https://avd.aquasec.com/nvd/cve-2026-6791) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: Glibc: Denial of Service via stack exhaustion during tilde expansion |
+| [CVE-2026-77117](https://avd.aquasec.com/nvd/cve-2026-77117) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: Non-progress DoS in SHIFT_JISX0213 -&gt |
+| [CVE-2026-80489](https://avd.aquasec.com/nvd/cve-2026-80489) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: Non-progress DoS in EUC_JISX0213 -> UCS-4 conversion state |
+| [CVE-2026-8674](https://avd.aquasec.com/nvd/cve-2026-8674) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc DNS stub resolver: Denial of Service via long search domain in configuration |
+| [CVE-2026-86805](https://avd.aquasec.com/nvd/cve-2026-86805) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc: Privilege escalation and arbitrary code execution via TOCTOU race condition in dynamic loader |
+| [CVE-2026-89092](https://avd.aquasec.com/nvd/cve-2026-89092) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: nscd stack overflow leads to degraded DNS resolution |
+| [CVE-2026-95818](https://avd.aquasec.com/nvd/cve-2026-95818) | 🟡 **MEDIUM** | `libc6` | 2.41-12+deb13u5 | glibc: glibc: Local attacker can cause denial of service and information disclosure via stack-based buffer overflow. |
 | [CVE-2026-8286](https://avd.aquasec.com/nvd/cve-2026-8286) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: Insecure connection establishment due to TLS configuration mismatch |
 | [CVE-2026-8927](https://avd.aquasec.com/nvd/cve-2026-8927) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: Information disclosure due to uncleared proxy authentication state |
 | [CVE-2026-92392](https://avd.aquasec.com/nvd/cve-2026-92392) | 🟠 **HIGH** | `libcurl3t64-gnutls` | 8.14.1-2+deb13u7 | curl: curl: HTTP/2 upload Use-After-Free |
@@ -30,6 +56,8 @@
 | [CVE-2026-77214](https://avd.aquasec.com/nvd/cve-2026-77214) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Information disclosure via heap buffer over-read in XML_ParseBuffer |
 | [CVE-2026-93990](https://avd.aquasec.com/nvd/cve-2026-93990) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: Expat: XML Injection via Malformed UTF-16 Input |
 | [CVE-2026-102633](https://avd.aquasec.com/nvd/cve-2026-102633) | 🟡 **MEDIUM** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Denial of Service via integer overflow in expat_realloc |
+| [CVE-2026-58055](https://avd.aquasec.com/nvd/cve-2026-58055) | 🟡 **MEDIUM** | `libnghttp2-14` | 1.64.0-1.1+deb13u2 | nghttp2: nghttp2: HTTP Request/Response Smuggling and Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade requests |
+| [CVE-2026-96512](https://avd.aquasec.com/nvd/cve-2026-96512) | 🟠 **HIGH** | `sudo` | 1.9.16p2-3+deb13u5 | sudo: sudo: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization |
 | [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Heap buffer overflow in gz_vacate() allows arbitrary code execution |
 | [CVE-2026-27171](https://avd.aquasec.com/nvd/cve-2026-27171) | 🟡 **MEDIUM** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Denial of Service via infinite loop in CRC32 combine functions |
 
@@ -119,10 +147,10 @@
 | [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
 | [CVE-2026-118773](https://avd.aquasec.com/nvd/cve-2026-118773) | 🟡 **MEDIUM** | `glob` | 14.0.2 | glob: glob: Denial of Service (DoS) via incomplete traversal cancellation |
 | [CVE-2026-111757](https://avd.aquasec.com/nvd/cve-2026-111757) | 🟡 **MEDIUM** | `hono` | 4.13.11 | hono: hono: Information disclosure via malformed percent-encoded paths in serveStatic |
-| [CVE-2026-126355](https://avd.aquasec.com/nvd/cve-2026-126355) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: `csrf()` does not check requests sent by hyperlink auditing (`text/ping`) |
-| [CVE-2026-126356](https://avd.aquasec.com/nvd/cve-2026-126356) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: `validator('form')` skips validation for `multipart/form-data` requests with extra parameters |
-| [CVE-2026-126357](https://avd.aquasec.com/nvd/cve-2026-126357) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: `mount()` and `app.mount()` can forward a path that bypasses middleware scoped inside the mount prefix |
-| [CVE-2026-126358](https://avd.aquasec.com/nvd/cve-2026-126358) | 🟡 **MEDIUM** | `hono` | 4.13.16 | Hono: RegExpRouter skips wildcard middleware for some route sets and for paths with an encoded line terminator |
+| [CVE-2026-126355](https://avd.aquasec.com/nvd/cve-2026-126355) | 🟡 **MEDIUM** | `hono` | 4.13.16 | hono: hono: Cross-Site Request Forgery protection bypass via hyperlink auditing ping requests |
+| [CVE-2026-126356](https://avd.aquasec.com/nvd/cve-2026-126356) | 🟡 **MEDIUM** | `hono` | 4.13.16 | hono: Hono: Form validation bypass via crafted Content-Type header |
+| [CVE-2026-126357](https://avd.aquasec.com/nvd/cve-2026-126357) | 🟡 **MEDIUM** | `hono` | 4.13.16 | hono: Hono: Authorization bypass via improper path forwarding in mounted routes |
+| [CVE-2026-126358](https://avd.aquasec.com/nvd/cve-2026-126358) | 🟡 **MEDIUM** | `hono` | 4.13.16 | hono: hono: Authorization bypass via wildcard middleware omission in RegExpRouter |
 | [CVE-2026-69192](https://avd.aquasec.com/nvd/cve-2026-69192) | 🟠 **HIGH** | `ip-address` | 10.3.1 | ip-address: ip-address: Inconsistent IP address parsing leads to Server-Side Request Forgery (SSRF) and trust-boundary bypass |
 | [CVE-2026-101910](https://avd.aquasec.com/nvd/cve-2026-101910) | 🟡 **MEDIUM** | `ip-address` | 10.5.1 | ip-address: ip-address: Security boundary bypass via unclassified NAT64 local-use address range |
 | [CVE-2026-101911](https://avd.aquasec.com/nvd/cve-2026-101911) | 🟡 **MEDIUM** | `ip-address` | 10.7.1 | ip-address: ip-address: Denial of Service via unbounded IPv6 address parsing |
@@ -385,6 +413,7 @@
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
+| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟠 **HIGH** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
 | [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang.org/x/net/http2: golang: net/http: Denial of Service via HTTP/2 trailer header memory exhaustion |
 | [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang.org/x/net/http2: net/http: HTTP response smuggling via malformed HTTP/2 framing headers |
@@ -394,7 +423,6 @@
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
-| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟡 **MEDIUM** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 
 
 
@@ -418,6 +446,7 @@
 | [CVE-2026-78667](https://avd.aquasec.com/nvd/cve-2026-78667) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Denial of Service via crafted HTTP Range headers |
 | [CVE-2026-78669](https://avd.aquasec.com/nvd/cve-2026-78669) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames |
 | [CVE-2026-97031](https://avd.aquasec.com/nvd/cve-2026-97031) | 🟠 **HIGH** | `stdlib` | 1.26.9, 1.27.2 | crypto/tls: golang: crypto/tls: Denial of Service via multiple ECH outer extension references |
+| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟠 **HIGH** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 | [CVE-2026-56866](https://avd.aquasec.com/nvd/cve-2026-56866) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang: Cross-user response poisoning via desynchronized HTTP CONNECT connections |
 | [CVE-2026-78659](https://avd.aquasec.com/nvd/cve-2026-78659) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang.org/x/net/http2: golang: net/http: Denial of Service via HTTP/2 trailer header memory exhaustion |
 | [CVE-2026-78660](https://avd.aquasec.com/nvd/cve-2026-78660) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: golang: golang.org/x/net/http2: net/http: HTTP response smuggling via malformed HTTP/2 framing headers |
@@ -427,7 +456,6 @@
 | [CVE-2026-94448](https://avd.aquasec.com/nvd/cve-2026-94448) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: golang: cross-site scripting via consecutive expressions in JavaScript template literals |
 | [CVE-2026-97030](https://avd.aquasec.com/nvd/cve-2026-97030) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | html/template: golang: html/template: Cross-site scripting via improper escaping of yield keyword |
 | [CVE-2026-97032](https://avd.aquasec.com/nvd/cve-2026-97032) | 🟡 **MEDIUM** | `stdlib` | 1.26.9, 1.27.2 | net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via concurrent HPACK encoder modification |
-| [CVE-2026-97054](https://avd.aquasec.com/nvd/cve-2026-97054) | 🟡 **MEDIUM** | `stdlib` | 1.26.11, 1.27.4 | For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ... |
 
 
 
