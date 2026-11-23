@@ -1,5 +1,5 @@
 # Trivy Scan Report
-**Date:** 2026-11-22 15:02:38.542032607 +0000 UTC m=+6.849133768
+**Date:** 2026-11-23 18:58:18.415458502 +0000 UTC m=+6.845910571
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -56,6 +56,78 @@
 | [CVE-2026-77214](https://avd.aquasec.com/nvd/cve-2026-77214) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Information disclosure via heap buffer over-read in XML_ParseBuffer |
 | [CVE-2026-93990](https://avd.aquasec.com/nvd/cve-2026-93990) | 🟠 **HIGH** | `libexpat1` | 2.9.0-1~deb13u1 | expat: Expat: XML Injection via Malformed UTF-16 Input |
 | [CVE-2026-102633](https://avd.aquasec.com/nvd/cve-2026-102633) | 🟡 **MEDIUM** | `libexpat1` | 2.9.0-1~deb13u1 | expat: expat: Denial of Service via integer overflow in expat_realloc |
+| [CVE-2026-107364](https://avd.aquasec.com/nvd/cve-2026-107364) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC DoS based on ASN.1 decoder read overrun |
+| [CVE-2026-112315](https://avd.aquasec.com/nvd/cve-2026-112315) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS in RPCSEC_GSS buffer decode failure |
+| [CVE-2026-112316](https://avd.aquasec.com/nvd/cve-2026-112316) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory leak DoS in xdr_krb5_tl_data() decode failure |
+| [CVE-2026-112317](https://avd.aquasec.com/nvd/cve-2026-112317) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated memory leak DoS in KDB keytab key decryption error path |
+| [CVE-2026-112318](https://avd.aquasec.com/nvd/cve-2026-112318) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated DoS exploiting dereference of null policy name pointers |
+| [CVE-2026-112319](https://avd.aquasec.com/nvd/cve-2026-112319) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory exhaustion DoS via unbounded RPC XDR allocation |
+| [CVE-2026-112320](https://avd.aquasec.com/nvd/cve-2026-112320) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via GSS-RPC auth flavor switching |
+| [CVE-2026-112321](https://avd.aquasec.com/nvd/cve-2026-112321) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via AUTH_GSSAPI_INIT error paths |
+| [CVE-2026-112322](https://avd.aquasec.com/nvd/cve-2026-112322) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated CPU DoS via AUTH_GSSAPI client states cleanup |
+| [CVE-2026-112323](https://avd.aquasec.com/nvd/cve-2026-112323) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory exhaustion via failed AUTH_GSSAPI_INIT requests |
+| [CVE-2026-118380](https://avd.aquasec.com/nvd/cve-2026-118380) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: kadmind: request alteration and protected information disclosure |
+| [CVE-2026-119079](https://avd.aquasec.com/nvd/cve-2026-119079) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated CPU DoS via quadratic ASN.1 SEQUENCE OF decoding |
+| [CVE-2026-71199](https://avd.aquasec.com/nvd/cve-2026-71199) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: Alteration of authentication indicators in CAMMAC container |
+| [CVE-2026-71200](https://avd.aquasec.com/nvd/cve-2026-71200) | 🟠 **HIGH** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC NULL pointer dereference KDC DoS via crafted PKINIT pre-auth request |
+| [CVE-2026-107884](https://avd.aquasec.com/nvd/cve-2026-107884) | 🟡 **MEDIUM** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: Unauthorized key reset of protected principal via kpasswd |
+| [CVE-2026-111423](https://avd.aquasec.com/nvd/cve-2026-111423) | 🟡 **MEDIUM** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: Improper authorization via flawed PAC checksum verification |
+| [CVE-2026-112314](https://avd.aquasec.com/nvd/cve-2026-112314) | 🟡 **MEDIUM** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: MIT krb5 GSS-RPC client memory leak on XID mismatch retries |
+| [CVE-2026-11850](https://avd.aquasec.com/nvd/cve-2026-11850) | 🟡 **MEDIUM** | `libgssapi-krb5-2` | 1.21.3-5+deb13u2 | krb5: krb5: integer underflow in berval2tl_data() leads to heap out-of-bounds read |
+| [CVE-2026-107364](https://avd.aquasec.com/nvd/cve-2026-107364) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC DoS based on ASN.1 decoder read overrun |
+| [CVE-2026-112315](https://avd.aquasec.com/nvd/cve-2026-112315) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS in RPCSEC_GSS buffer decode failure |
+| [CVE-2026-112316](https://avd.aquasec.com/nvd/cve-2026-112316) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory leak DoS in xdr_krb5_tl_data() decode failure |
+| [CVE-2026-112317](https://avd.aquasec.com/nvd/cve-2026-112317) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated memory leak DoS in KDB keytab key decryption error path |
+| [CVE-2026-112318](https://avd.aquasec.com/nvd/cve-2026-112318) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated DoS exploiting dereference of null policy name pointers |
+| [CVE-2026-112319](https://avd.aquasec.com/nvd/cve-2026-112319) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory exhaustion DoS via unbounded RPC XDR allocation |
+| [CVE-2026-112320](https://avd.aquasec.com/nvd/cve-2026-112320) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via GSS-RPC auth flavor switching |
+| [CVE-2026-112321](https://avd.aquasec.com/nvd/cve-2026-112321) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via AUTH_GSSAPI_INIT error paths |
+| [CVE-2026-112322](https://avd.aquasec.com/nvd/cve-2026-112322) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated CPU DoS via AUTH_GSSAPI client states cleanup |
+| [CVE-2026-112323](https://avd.aquasec.com/nvd/cve-2026-112323) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory exhaustion via failed AUTH_GSSAPI_INIT requests |
+| [CVE-2026-118380](https://avd.aquasec.com/nvd/cve-2026-118380) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: kadmind: request alteration and protected information disclosure |
+| [CVE-2026-119079](https://avd.aquasec.com/nvd/cve-2026-119079) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated CPU DoS via quadratic ASN.1 SEQUENCE OF decoding |
+| [CVE-2026-71199](https://avd.aquasec.com/nvd/cve-2026-71199) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: Alteration of authentication indicators in CAMMAC container |
+| [CVE-2026-71200](https://avd.aquasec.com/nvd/cve-2026-71200) | 🟠 **HIGH** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC NULL pointer dereference KDC DoS via crafted PKINIT pre-auth request |
+| [CVE-2026-107884](https://avd.aquasec.com/nvd/cve-2026-107884) | 🟡 **MEDIUM** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: Unauthorized key reset of protected principal via kpasswd |
+| [CVE-2026-111423](https://avd.aquasec.com/nvd/cve-2026-111423) | 🟡 **MEDIUM** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: Improper authorization via flawed PAC checksum verification |
+| [CVE-2026-112314](https://avd.aquasec.com/nvd/cve-2026-112314) | 🟡 **MEDIUM** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 GSS-RPC client memory leak on XID mismatch retries |
+| [CVE-2026-11850](https://avd.aquasec.com/nvd/cve-2026-11850) | 🟡 **MEDIUM** | `libk5crypto3` | 1.21.3-5+deb13u2 | krb5: krb5: integer underflow in berval2tl_data() leads to heap out-of-bounds read |
+| [CVE-2026-107364](https://avd.aquasec.com/nvd/cve-2026-107364) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC DoS based on ASN.1 decoder read overrun |
+| [CVE-2026-112315](https://avd.aquasec.com/nvd/cve-2026-112315) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS in RPCSEC_GSS buffer decode failure |
+| [CVE-2026-112316](https://avd.aquasec.com/nvd/cve-2026-112316) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory leak DoS in xdr_krb5_tl_data() decode failure |
+| [CVE-2026-112317](https://avd.aquasec.com/nvd/cve-2026-112317) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated memory leak DoS in KDB keytab key decryption error path |
+| [CVE-2026-112318](https://avd.aquasec.com/nvd/cve-2026-112318) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated DoS exploiting dereference of null policy name pointers |
+| [CVE-2026-112319](https://avd.aquasec.com/nvd/cve-2026-112319) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory exhaustion DoS via unbounded RPC XDR allocation |
+| [CVE-2026-112320](https://avd.aquasec.com/nvd/cve-2026-112320) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via GSS-RPC auth flavor switching |
+| [CVE-2026-112321](https://avd.aquasec.com/nvd/cve-2026-112321) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via AUTH_GSSAPI_INIT error paths |
+| [CVE-2026-112322](https://avd.aquasec.com/nvd/cve-2026-112322) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated CPU DoS via AUTH_GSSAPI client states cleanup |
+| [CVE-2026-112323](https://avd.aquasec.com/nvd/cve-2026-112323) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory exhaustion via failed AUTH_GSSAPI_INIT requests |
+| [CVE-2026-118380](https://avd.aquasec.com/nvd/cve-2026-118380) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: kadmind: request alteration and protected information disclosure |
+| [CVE-2026-119079](https://avd.aquasec.com/nvd/cve-2026-119079) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated CPU DoS via quadratic ASN.1 SEQUENCE OF decoding |
+| [CVE-2026-71199](https://avd.aquasec.com/nvd/cve-2026-71199) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: Alteration of authentication indicators in CAMMAC container |
+| [CVE-2026-71200](https://avd.aquasec.com/nvd/cve-2026-71200) | 🟠 **HIGH** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC NULL pointer dereference KDC DoS via crafted PKINIT pre-auth request |
+| [CVE-2026-107884](https://avd.aquasec.com/nvd/cve-2026-107884) | 🟡 **MEDIUM** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: Unauthorized key reset of protected principal via kpasswd |
+| [CVE-2026-111423](https://avd.aquasec.com/nvd/cve-2026-111423) | 🟡 **MEDIUM** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: Improper authorization via flawed PAC checksum verification |
+| [CVE-2026-112314](https://avd.aquasec.com/nvd/cve-2026-112314) | 🟡 **MEDIUM** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: MIT krb5 GSS-RPC client memory leak on XID mismatch retries |
+| [CVE-2026-11850](https://avd.aquasec.com/nvd/cve-2026-11850) | 🟡 **MEDIUM** | `libkrb5-3` | 1.21.3-5+deb13u2 | krb5: krb5: integer underflow in berval2tl_data() leads to heap out-of-bounds read |
+| [CVE-2026-107364](https://avd.aquasec.com/nvd/cve-2026-107364) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC DoS based on ASN.1 decoder read overrun |
+| [CVE-2026-112315](https://avd.aquasec.com/nvd/cve-2026-112315) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS in RPCSEC_GSS buffer decode failure |
+| [CVE-2026-112316](https://avd.aquasec.com/nvd/cve-2026-112316) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory leak DoS in xdr_krb5_tl_data() decode failure |
+| [CVE-2026-112317](https://avd.aquasec.com/nvd/cve-2026-112317) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated memory leak DoS in KDB keytab key decryption error path |
+| [CVE-2026-112318](https://avd.aquasec.com/nvd/cve-2026-112318) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated DoS exploiting dereference of null policy name pointers |
+| [CVE-2026-112319](https://avd.aquasec.com/nvd/cve-2026-112319) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind authenticated memory exhaustion DoS via unbounded RPC XDR allocation |
+| [CVE-2026-112320](https://avd.aquasec.com/nvd/cve-2026-112320) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via GSS-RPC auth flavor switching |
+| [CVE-2026-112321](https://avd.aquasec.com/nvd/cve-2026-112321) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory leak DoS via AUTH_GSSAPI_INIT error paths |
+| [CVE-2026-112322](https://avd.aquasec.com/nvd/cve-2026-112322) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated CPU DoS via AUTH_GSSAPI client states cleanup |
+| [CVE-2026-112323](https://avd.aquasec.com/nvd/cve-2026-112323) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 kadmind unauthenticated memory exhaustion via failed AUTH_GSSAPI_INIT requests |
+| [CVE-2026-118380](https://avd.aquasec.com/nvd/cve-2026-118380) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: kadmind: request alteration and protected information disclosure |
+| [CVE-2026-119079](https://avd.aquasec.com/nvd/cve-2026-119079) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 KDC unauthenticated CPU DoS via quadratic ASN.1 SEQUENCE OF decoding |
+| [CVE-2026-71199](https://avd.aquasec.com/nvd/cve-2026-71199) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: Alteration of authentication indicators in CAMMAC container |
+| [CVE-2026-71200](https://avd.aquasec.com/nvd/cve-2026-71200) | 🟠 **HIGH** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: Unauthenticated KDC NULL pointer dereference KDC DoS via crafted PKINIT pre-auth request |
+| [CVE-2026-107884](https://avd.aquasec.com/nvd/cve-2026-107884) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: Unauthorized key reset of protected principal via kpasswd |
+| [CVE-2026-111423](https://avd.aquasec.com/nvd/cve-2026-111423) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: Improper authorization via flawed PAC checksum verification |
+| [CVE-2026-112314](https://avd.aquasec.com/nvd/cve-2026-112314) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 GSS-RPC client memory leak on XID mismatch retries |
+| [CVE-2026-11850](https://avd.aquasec.com/nvd/cve-2026-11850) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: krb5: integer underflow in berval2tl_data() leads to heap out-of-bounds read |
 | [CVE-2026-58055](https://avd.aquasec.com/nvd/cve-2026-58055) | 🟡 **MEDIUM** | `libnghttp2-14` | 1.64.0-1.1+deb13u2 | nghttp2: nghttp2: HTTP Request/Response Smuggling and Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade requests |
 | [CVE-2026-96512](https://avd.aquasec.com/nvd/cve-2026-96512) | 🟠 **HIGH** | `sudo` | 1.9.16p2-3+deb13u5 | sudo: sudo: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization |
 | [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Heap buffer overflow in gz_vacate() allows arbitrary code execution |
