@@ -36,7 +36,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw)
 
 # Trivy Scan Report
-**Date:** 2026-11-24 18:38:25.923795026 +0000 UTC m=+8.480659933
+**Date:** 2026-11-25 17:47:52.994100979 +0000 UTC m=+8.589590221
 
 
 ## Target: `ghcr.io/tao-lian/openclaw:latest (debian 13.7)`
@@ -166,6 +166,7 @@ docker run -it --rm -v ./data:/home/node -p 18789:18789 ghcr.io/tao-lian/opencla
 | [CVE-2026-112314](https://avd.aquasec.com/nvd/cve-2026-112314) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: MIT krb5 GSS-RPC client memory leak on XID mismatch retries |
 | [CVE-2026-11850](https://avd.aquasec.com/nvd/cve-2026-11850) | 🟡 **MEDIUM** | `libkrb5support0` | 1.21.3-5+deb13u2 | krb5: krb5: integer underflow in berval2tl_data() leads to heap out-of-bounds read |
 | [CVE-2026-58055](https://avd.aquasec.com/nvd/cve-2026-58055) | 🟡 **MEDIUM** | `libnghttp2-14` | 1.64.0-1.1+deb13u2 | nghttp2: nghttp2: HTTP Request/Response Smuggling and Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade requests |
+| [CVE-2026-124851](https://avd.aquasec.com/nvd/cve-2026-124851) | 🟠 **HIGH** | `libzstd1` | 1.5.7+dfsg-1+deb13u1 | zstd: Zstandard Information Disclosure via Uninitialized Buffer |
 | [CVE-2026-96512](https://avd.aquasec.com/nvd/cve-2026-96512) | 🟠 **HIGH** | `sudo` | 1.9.16p2-3+deb13u5 | sudo: sudo: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization |
 | [CVE-2026-85091](https://avd.aquasec.com/nvd/cve-2026-85091) | 🟠 **HIGH** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Heap buffer overflow in gz_vacate() allows arbitrary code execution |
 | [CVE-2026-27171](https://avd.aquasec.com/nvd/cve-2026-27171) | 🟡 **MEDIUM** | `zlib1g` | 1:1.3.dfsg+really1.3.1-1+deb13u1 | zlib: zlib: Denial of Service via infinite loop in CRC32 combine functions |
